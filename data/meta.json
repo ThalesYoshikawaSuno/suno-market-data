@@ -82,25 +82,28 @@
       "label": "App Stores",
       "frequencia": "quinzenal",
       "tabela": "tb_apps_empresas",
-      "ultima_atualizacao": null,
-      "proximo_update": null,
-      "status": "pendente"
+      "ultima_atualizacao": "2026-05-14T10:51:45Z",
+      "proximo_update": "2026-05-29T10:51:45Z",
+      "status": "ok",
+      "ultima_atualizacao_br": "14/05/2026 07:51"
     },
     "reputacao_reclame": {
       "label": "Reclame Aqui",
       "frequencia": "quinzenal",
       "tabela": "tb_ra_empresas",
-      "ultima_atualizacao": null,
-      "proximo_update": null,
-      "status": "pendente"
+      "ultima_atualizacao": "2026-05-14T10:51:45Z",
+      "proximo_update": "2026-05-29T10:51:45Z",
+      "status": "ok",
+      "ultima_atualizacao_br": "14/05/2026 07:51"
     },
     "reputacao_glassdoor": {
       "label": "Glassdoor",
       "frequencia": "quinzenal",
       "tabela": "tb_glassdoor_empresas",
-      "ultima_atualizacao": null,
-      "proximo_update": null,
-      "status": "pendente"
+      "ultima_atualizacao": "2026-05-14T10:51:45Z",
+      "proximo_update": "2026-05-29T10:51:45Z",
+      "status": "ok",
+      "ultima_atualizacao_br": "14/05/2026 07:51"
     }
   }
 }

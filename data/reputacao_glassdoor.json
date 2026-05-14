@@ -1,0 +1,681 @@
+[
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "EMPRESA": "Clube do Valor",
+    "NOTA": "4.30",
+    "RECOMENDA_PCT": "80.00",
+    "QUANTIDADE": 114
+  },
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "EMPRESA": "Empiricus",
+    "NOTA": "4.50",
+    "RECOMENDA_PCT": "93.00",
+    "QUANTIDADE": 378
+  },
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "EMPRESA": "Grupo Primo",
+    "NOTA": "3.70",
+    "RECOMENDA_PCT": "68.00",
+    "QUANTIDADE": 101
+  },
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "EMPRESA": "I10",
+    "NOTA": "5.00",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 14
+  },
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "EMPRESA": "Nord",
+    "NOTA": "3.90",
+    "RECOMENDA_PCT": "77.00",
+    "QUANTIDADE": 15
+  },
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "EMPRESA": "Portfel",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "94.00",
+    "QUANTIDADE": 16
+  },
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "EMPRESA": "Suno",
+    "NOTA": "4.10",
+    "RECOMENDA_PCT": "80.00",
+    "QUANTIDADE": 143
+  },
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "EMPRESA": "Varos",
+    "NOTA": "4.80",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 4
+  },
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "EMPRESA": "W1",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "85.00",
+    "QUANTIDADE": 650
+  },
+  {
+    "DT_REFERENCIA": "2026-04-03",
+    "EMPRESA": "Clube do Valor",
+    "NOTA": "4.30",
+    "RECOMENDA_PCT": "81.00",
+    "QUANTIDADE": 112
+  },
+  {
+    "DT_REFERENCIA": "2026-04-03",
+    "EMPRESA": "Empiricus",
+    "NOTA": "4.50",
+    "RECOMENDA_PCT": "93.00",
+    "QUANTIDADE": 378
+  },
+  {
+    "DT_REFERENCIA": "2026-04-03",
+    "EMPRESA": "Grupo Primo",
+    "NOTA": "3.70",
+    "RECOMENDA_PCT": "68.00",
+    "QUANTIDADE": 101
+  },
+  {
+    "DT_REFERENCIA": "2026-04-03",
+    "EMPRESA": "I10",
+    "NOTA": "5.00",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 13
+  },
+  {
+    "DT_REFERENCIA": "2026-04-03",
+    "EMPRESA": "Nord",
+    "NOTA": "3.90",
+    "RECOMENDA_PCT": "77.00",
+    "QUANTIDADE": 13
+  },
+  {
+    "DT_REFERENCIA": "2026-04-03",
+    "EMPRESA": "Portfel",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "94.00",
+    "QUANTIDADE": 16
+  },
+  {
+    "DT_REFERENCIA": "2026-04-03",
+    "EMPRESA": "Suno",
+    "NOTA": "4.10",
+    "RECOMENDA_PCT": "80.00",
+    "QUANTIDADE": 143
+  },
+  {
+    "DT_REFERENCIA": "2026-04-03",
+    "EMPRESA": "Varos",
+    "NOTA": "4.80",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 4
+  },
+  {
+    "DT_REFERENCIA": "2026-04-03",
+    "EMPRESA": "W1",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "85.00",
+    "QUANTIDADE": 643
+  },
+  {
+    "DT_REFERENCIA": "2026-03-20",
+    "EMPRESA": "Clube do Valor",
+    "NOTA": "4.30",
+    "RECOMENDA_PCT": "80.00",
+    "QUANTIDADE": 109
+  },
+  {
+    "DT_REFERENCIA": "2026-03-20",
+    "EMPRESA": "Empiricus",
+    "NOTA": "4.50",
+    "RECOMENDA_PCT": "93.00",
+    "QUANTIDADE": 378
+  },
+  {
+    "DT_REFERENCIA": "2026-03-20",
+    "EMPRESA": "Grupo Primo",
+    "NOTA": "3.70",
+    "RECOMENDA_PCT": "68.00",
+    "QUANTIDADE": 101
+  },
+  {
+    "DT_REFERENCIA": "2026-03-20",
+    "EMPRESA": "I10",
+    "NOTA": "5.00",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 13
+  },
+  {
+    "DT_REFERENCIA": "2026-03-20",
+    "EMPRESA": "Nord",
+    "NOTA": "3.90",
+    "RECOMENDA_PCT": "77.00",
+    "QUANTIDADE": 13
+  },
+  {
+    "DT_REFERENCIA": "2026-03-20",
+    "EMPRESA": "Portfel",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "94.00",
+    "QUANTIDADE": 16
+  },
+  {
+    "DT_REFERENCIA": "2026-03-20",
+    "EMPRESA": "Suno",
+    "NOTA": "4.10",
+    "RECOMENDA_PCT": "80.00",
+    "QUANTIDADE": 142
+  },
+  {
+    "DT_REFERENCIA": "2026-03-20",
+    "EMPRESA": "Varos",
+    "NOTA": "4.80",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 4
+  },
+  {
+    "DT_REFERENCIA": "2026-03-20",
+    "EMPRESA": "W1",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "85.00",
+    "QUANTIDADE": 643
+  },
+  {
+    "DT_REFERENCIA": "2026-03-10",
+    "EMPRESA": "Clube do Valor",
+    "NOTA": "4.30",
+    "RECOMENDA_PCT": "80.00",
+    "QUANTIDADE": 108
+  },
+  {
+    "DT_REFERENCIA": "2026-03-10",
+    "EMPRESA": "Empiricus",
+    "NOTA": "4.50",
+    "RECOMENDA_PCT": "93.00",
+    "QUANTIDADE": 376
+  },
+  {
+    "DT_REFERENCIA": "2026-03-10",
+    "EMPRESA": "Grupo Primo",
+    "NOTA": "3.70",
+    "RECOMENDA_PCT": "68.00",
+    "QUANTIDADE": 101
+  },
+  {
+    "DT_REFERENCIA": "2026-03-10",
+    "EMPRESA": "I10",
+    "NOTA": "5.00",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 13
+  },
+  {
+    "DT_REFERENCIA": "2026-03-10",
+    "EMPRESA": "Nord",
+    "NOTA": "3.90",
+    "RECOMENDA_PCT": "77.00",
+    "QUANTIDADE": 13
+  },
+  {
+    "DT_REFERENCIA": "2026-03-10",
+    "EMPRESA": "Portfel",
+    "NOTA": "5.00",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 4
+  },
+  {
+    "DT_REFERENCIA": "2026-03-10",
+    "EMPRESA": "Suno",
+    "NOTA": "4.10",
+    "RECOMENDA_PCT": "80.00",
+    "QUANTIDADE": 142
+  },
+  {
+    "DT_REFERENCIA": "2026-03-10",
+    "EMPRESA": "Varos",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 6
+  },
+  {
+    "DT_REFERENCIA": "2026-03-10",
+    "EMPRESA": "W1",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "86.00",
+    "QUANTIDADE": 641
+  },
+  {
+    "DT_REFERENCIA": "2026-01-29",
+    "EMPRESA": "Clube do Valor",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "85.00",
+    "QUANTIDADE": 106
+  },
+  {
+    "DT_REFERENCIA": "2026-01-29",
+    "EMPRESA": "Empiricus",
+    "NOTA": "4.50",
+    "RECOMENDA_PCT": "94.00",
+    "QUANTIDADE": 374
+  },
+  {
+    "DT_REFERENCIA": "2026-01-29",
+    "EMPRESA": "Grupo Primo",
+    "NOTA": "3.70",
+    "RECOMENDA_PCT": "68.00",
+    "QUANTIDADE": 101
+  },
+  {
+    "DT_REFERENCIA": "2026-01-29",
+    "EMPRESA": "I10",
+    "NOTA": "5.00",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 11
+  },
+  {
+    "DT_REFERENCIA": "2026-01-29",
+    "EMPRESA": "Nord",
+    "NOTA": "3.90",
+    "RECOMENDA_PCT": "77.00",
+    "QUANTIDADE": 13
+  },
+  {
+    "DT_REFERENCIA": "2026-01-29",
+    "EMPRESA": "Portfel",
+    "NOTA": "5.00",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 4
+  },
+  {
+    "DT_REFERENCIA": "2026-01-29",
+    "EMPRESA": "Suno",
+    "NOTA": "4.10",
+    "RECOMENDA_PCT": "80.00",
+    "QUANTIDADE": 142
+  },
+  {
+    "DT_REFERENCIA": "2026-01-29",
+    "EMPRESA": "Varos",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 6
+  },
+  {
+    "DT_REFERENCIA": "2026-01-29",
+    "EMPRESA": "W1",
+    "NOTA": "4.10",
+    "RECOMENDA_PCT": "78.00",
+    "QUANTIDADE": 636
+  },
+  {
+    "DT_REFERENCIA": "2025-12-25",
+    "EMPRESA": "Clube do Valor",
+    "NOTA": "4.30",
+    "RECOMENDA_PCT": "82.00",
+    "QUANTIDADE": 100
+  },
+  {
+    "DT_REFERENCIA": "2025-12-25",
+    "EMPRESA": "Empiricus",
+    "NOTA": "4.50",
+    "RECOMENDA_PCT": "94.00",
+    "QUANTIDADE": 373
+  },
+  {
+    "DT_REFERENCIA": "2025-12-25",
+    "EMPRESA": "Grupo Primo",
+    "NOTA": "3.80",
+    "RECOMENDA_PCT": "68.00",
+    "QUANTIDADE": 101
+  },
+  {
+    "DT_REFERENCIA": "2025-12-25",
+    "EMPRESA": "I10",
+    "NOTA": "5.00",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 19
+  },
+  {
+    "DT_REFERENCIA": "2025-12-25",
+    "EMPRESA": "Nord",
+    "NOTA": "3.80",
+    "RECOMENDA_PCT": null,
+    "QUANTIDADE": 15
+  },
+  {
+    "DT_REFERENCIA": "2025-12-25",
+    "EMPRESA": "Portfel",
+    "NOTA": "4.60",
+    "RECOMENDA_PCT": "90.00",
+    "QUANTIDADE": 10
+  },
+  {
+    "DT_REFERENCIA": "2025-12-25",
+    "EMPRESA": "Suno",
+    "NOTA": "4.00",
+    "RECOMENDA_PCT": "77.00",
+    "QUANTIDADE": 139
+  },
+  {
+    "DT_REFERENCIA": "2025-12-25",
+    "EMPRESA": "Varos",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 6
+  },
+  {
+    "DT_REFERENCIA": "2025-12-25",
+    "EMPRESA": "W1",
+    "NOTA": "4.10",
+    "RECOMENDA_PCT": "77.00",
+    "QUANTIDADE": 574
+  },
+  {
+    "DT_REFERENCIA": "2025-11-24",
+    "EMPRESA": "Clube do Valor",
+    "NOTA": "4.30",
+    "RECOMENDA_PCT": "85.00",
+    "QUANTIDADE": 95
+  },
+  {
+    "DT_REFERENCIA": "2025-11-24",
+    "EMPRESA": "Empiricus",
+    "NOTA": "4.50",
+    "RECOMENDA_PCT": "94.00",
+    "QUANTIDADE": 374
+  },
+  {
+    "DT_REFERENCIA": "2025-11-24",
+    "EMPRESA": "Grupo Primo",
+    "NOTA": "3.80",
+    "RECOMENDA_PCT": "70.00",
+    "QUANTIDADE": 101
+  },
+  {
+    "DT_REFERENCIA": "2025-11-24",
+    "EMPRESA": "I10",
+    "NOTA": "4.90",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 15
+  },
+  {
+    "DT_REFERENCIA": "2025-11-24",
+    "EMPRESA": "Nord",
+    "NOTA": "3.80",
+    "RECOMENDA_PCT": "79.00",
+    "QUANTIDADE": 15
+  },
+  {
+    "DT_REFERENCIA": "2025-11-24",
+    "EMPRESA": "Portfel",
+    "NOTA": "4.60",
+    "RECOMENDA_PCT": "90.00",
+    "QUANTIDADE": 10
+  },
+  {
+    "DT_REFERENCIA": "2025-11-24",
+    "EMPRESA": "Suno",
+    "NOTA": "3.90",
+    "RECOMENDA_PCT": "73.00",
+    "QUANTIDADE": 135
+  },
+  {
+    "DT_REFERENCIA": "2025-11-24",
+    "EMPRESA": "Varos",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 6
+  },
+  {
+    "DT_REFERENCIA": "2025-11-24",
+    "EMPRESA": "W1",
+    "NOTA": "4.00",
+    "RECOMENDA_PCT": "74.00",
+    "QUANTIDADE": 567
+  },
+  {
+    "DT_REFERENCIA": "2025-10-27",
+    "EMPRESA": "Clube do Valor",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "87.00",
+    "QUANTIDADE": 93
+  },
+  {
+    "DT_REFERENCIA": "2025-10-27",
+    "EMPRESA": "Empiricus",
+    "NOTA": "4.50",
+    "RECOMENDA_PCT": "94.00",
+    "QUANTIDADE": 374
+  },
+  {
+    "DT_REFERENCIA": "2025-10-27",
+    "EMPRESA": "Grupo Primo",
+    "NOTA": "3.70",
+    "RECOMENDA_PCT": "67.00",
+    "QUANTIDADE": 100
+  },
+  {
+    "DT_REFERENCIA": "2025-10-27",
+    "EMPRESA": "I10",
+    "NOTA": "4.90",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 14
+  },
+  {
+    "DT_REFERENCIA": "2025-10-27",
+    "EMPRESA": "Nord",
+    "NOTA": "3.80",
+    "RECOMENDA_PCT": "79.00",
+    "QUANTIDADE": 15
+  },
+  {
+    "DT_REFERENCIA": "2025-10-27",
+    "EMPRESA": "Portfel",
+    "NOTA": "4.60",
+    "RECOMENDA_PCT": "90.00",
+    "QUANTIDADE": 10
+  },
+  {
+    "DT_REFERENCIA": "2025-10-27",
+    "EMPRESA": "Suno",
+    "NOTA": "4.10",
+    "RECOMENDA_PCT": "77.00",
+    "QUANTIDADE": 132
+  },
+  {
+    "DT_REFERENCIA": "2025-10-27",
+    "EMPRESA": "Varos",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 6
+  },
+  {
+    "DT_REFERENCIA": "2025-10-27",
+    "EMPRESA": "W1",
+    "NOTA": "3.90",
+    "RECOMENDA_PCT": "72.00",
+    "QUANTIDADE": 560
+  },
+  {
+    "DT_REFERENCIA": "2025-10-14",
+    "EMPRESA": "Clube do Valor",
+    "NOTA": "4.30",
+    "RECOMENDA_PCT": "85.00",
+    "QUANTIDADE": 92
+  },
+  {
+    "DT_REFERENCIA": "2025-10-14",
+    "EMPRESA": "Empiricus",
+    "NOTA": "4.60",
+    "RECOMENDA_PCT": "94.00",
+    "QUANTIDADE": 373
+  },
+  {
+    "DT_REFERENCIA": "2025-10-14",
+    "EMPRESA": "Grupo Primo",
+    "NOTA": "3.70",
+    "RECOMENDA_PCT": "68.00",
+    "QUANTIDADE": 100
+  },
+  {
+    "DT_REFERENCIA": "2025-10-14",
+    "EMPRESA": "I10",
+    "NOTA": "4.90",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 14
+  },
+  {
+    "DT_REFERENCIA": "2025-10-14",
+    "EMPRESA": "Nord",
+    "NOTA": "3.80",
+    "RECOMENDA_PCT": "77.00",
+    "QUANTIDADE": 15
+  },
+  {
+    "DT_REFERENCIA": "2025-10-14",
+    "EMPRESA": "Portfel",
+    "NOTA": "4.50",
+    "RECOMENDA_PCT": "87.00",
+    "QUANTIDADE": 9
+  },
+  {
+    "DT_REFERENCIA": "2025-10-14",
+    "EMPRESA": "Suno",
+    "NOTA": "4.10",
+    "RECOMENDA_PCT": "76.00",
+    "QUANTIDADE": 131
+  },
+  {
+    "DT_REFERENCIA": "2025-10-14",
+    "EMPRESA": "Varos",
+    "NOTA": "4.80",
+    "RECOMENDA_PCT": null,
+    "QUANTIDADE": 5
+  },
+  {
+    "DT_REFERENCIA": "2025-10-14",
+    "EMPRESA": "W1",
+    "NOTA": "4.00",
+    "RECOMENDA_PCT": "72.00",
+    "QUANTIDADE": 554
+  },
+  {
+    "DT_REFERENCIA": "2025-10-02",
+    "EMPRESA": "Clube do Valor",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "89.00",
+    "QUANTIDADE": 90
+  },
+  {
+    "DT_REFERENCIA": "2025-10-02",
+    "EMPRESA": "Empiricus",
+    "NOTA": "4.60",
+    "RECOMENDA_PCT": "93.00",
+    "QUANTIDADE": 372
+  },
+  {
+    "DT_REFERENCIA": "2025-10-02",
+    "EMPRESA": "Grupo Primo",
+    "NOTA": "3.70",
+    "RECOMENDA_PCT": "68.00",
+    "QUANTIDADE": 100
+  },
+  {
+    "DT_REFERENCIA": "2025-10-02",
+    "EMPRESA": "I10",
+    "NOTA": "4.90",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 14
+  },
+  {
+    "DT_REFERENCIA": "2025-10-02",
+    "EMPRESA": "Nord",
+    "NOTA": "4.00",
+    "RECOMENDA_PCT": "87.00",
+    "QUANTIDADE": 13
+  },
+  {
+    "DT_REFERENCIA": "2025-10-02",
+    "EMPRESA": "Portfel",
+    "NOTA": "4.50",
+    "RECOMENDA_PCT": "87.00",
+    "QUANTIDADE": 9
+  },
+  {
+    "DT_REFERENCIA": "2025-10-02",
+    "EMPRESA": "Suno",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "76.00",
+    "QUANTIDADE": 131
+  },
+  {
+    "DT_REFERENCIA": "2025-10-02",
+    "EMPRESA": "Varos",
+    "NOTA": "4.80",
+    "RECOMENDA_PCT": null,
+    "QUANTIDADE": 5
+  },
+  {
+    "DT_REFERENCIA": "2025-10-02",
+    "EMPRESA": "W1",
+    "NOTA": "4.00",
+    "RECOMENDA_PCT": "72.00",
+    "QUANTIDADE": 551
+  },
+  {
+    "DT_REFERENCIA": "2025-09-29",
+    "EMPRESA": "Clube do Valor",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "89.00",
+    "QUANTIDADE": 90
+  },
+  {
+    "DT_REFERENCIA": "2025-09-29",
+    "EMPRESA": "Empiricus",
+    "NOTA": "4.60",
+    "RECOMENDA_PCT": "93.00",
+    "QUANTIDADE": 372
+  },
+  {
+    "DT_REFERENCIA": "2025-09-29",
+    "EMPRESA": "Grupo Primo",
+    "NOTA": "3.70",
+    "RECOMENDA_PCT": "68.00",
+    "QUANTIDADE": 100
+  },
+  {
+    "DT_REFERENCIA": "2025-09-29",
+    "EMPRESA": "I10",
+    "NOTA": "4.90",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 14
+  },
+  {
+    "DT_REFERENCIA": "2025-09-29",
+    "EMPRESA": "Portfel",
+    "NOTA": "4.50",
+    "RECOMENDA_PCT": "87.00",
+    "QUANTIDADE": 9
+  },
+  {
+    "DT_REFERENCIA": "2025-09-29",
+    "EMPRESA": "Suno",
+    "NOTA": "4.00",
+    "RECOMENDA_PCT": "75.00",
+    "QUANTIDADE": 130
+  },
+  {
+    "DT_REFERENCIA": "2025-09-29",
+    "EMPRESA": "W1",
+    "NOTA": "4.00",
+    "RECOMENDA_PCT": "72.00",
+    "QUANTIDADE": 548
+  }
+]
