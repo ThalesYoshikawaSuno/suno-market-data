@@ -1,0 +1,412 @@
+[
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Me Poupe!",
+    "CANAL_HANDLE": "@mepoupe",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 7730000,
+    "VIEW_COUNT": 608374264,
+    "VIDEO_COUNT": 2298
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "O Primo Rico",
+    "CANAL_HANDLE": "@primorico",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 7590000,
+    "VIEW_COUNT": 567843248,
+    "VIDEO_COUNT": 1619
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Cafe com Ferri",
+    "CANAL_HANDLE": "@podcastcafecomferri",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 6810000,
+    "VIEW_COUNT": 151321282,
+    "VIDEO_COUNT": 1248
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Bruno Perini",
+    "CANAL_HANDLE": "@brunoperini",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 2060000,
+    "VIEW_COUNT": 470170918,
+    "VIDEO_COUNT": 2339
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Investidor Sardinha",
+    "CANAL_HANDLE": "@investidorsardinha",
+    "TIPO": "concorrente",
+    "BU": "Asset,Redes Sociais",
+    "SUBSCRIBERS": 1630000,
+    "VIEW_COUNT": 302825782,
+    "VIDEO_COUNT": 3081
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Economista Sincero",
+    "CANAL_HANDLE": "@economistasincero",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 273084806,
+    "VIDEO_COUNT": 4184
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "BTG Pactual",
+    "CANAL_HANDLE": "@btgpactual",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1250000,
+    "VIEW_COUNT": 217495258,
+    "VIDEO_COUNT": 2816
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Empiricus",
+    "CANAL_HANDLE": "@empiricus",
+    "TIPO": "concorrente",
+    "BU": "Research",
+    "SUBSCRIBERS": 1080000,
+    "VIEW_COUNT": 98238870,
+    "VIDEO_COUNT": 2414
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Tiago Reis (Suno)",
+    "CANAL_HANDLE": "@tiagoreis",
+    "TIPO": "proprio",
+    "BU": "Research,Asset",
+    "SUBSCRIBERS": 812000,
+    "VIEW_COUNT": 116803226,
+    "VIDEO_COUNT": 4380
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "InfoMoney",
+    "CANAL_HANDLE": "@infomoney",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 731000,
+    "VIEW_COUNT": 154203666,
+    "VIDEO_COUNT": 18647
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Suno Research",
+    "CANAL_HANDLE": "@gruposuno",
+    "TIPO": "proprio",
+    "BU": "Research,Asset,Redes Sociais",
+    "SUBSCRIBERS": 516000,
+    "VIEW_COUNT": 107909022,
+    "VIDEO_COUNT": 4664
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "XP Investimentos",
+    "CANAL_HANDLE": "@xp_oficial",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 487000,
+    "VIEW_COUNT": 709823364,
+    "VIDEO_COUNT": 3865
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Suno Baroni",
+    "CANAL_HANDLE": "@professorbaroni",
+    "TIPO": "proprio",
+    "BU": "Asset,Redes Sociais",
+    "SUBSCRIBERS": 348000,
+    "VIEW_COUNT": 42745703,
+    "VIDEO_COUNT": 3225
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Nord Investimentos",
+    "CANAL_HANDLE": "@nordinvestimentos",
+    "TIPO": "concorrente",
+    "BU": "Research,Redes Sociais",
+    "SUBSCRIBERS": 273000,
+    "VIEW_COUNT": 20399983,
+    "VIDEO_COUNT": 1223
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Suno Noticias",
+    "CANAL_HANDLE": "@sunonoticias",
+    "TIPO": "proprio",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 73800,
+    "VIEW_COUNT": 8686826,
+    "VIDEO_COUNT": 3412
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Funds Explorer",
+    "CANAL_HANDLE": "@fundsexplorer",
+    "TIPO": "proprio",
+    "BU": "Asset",
+    "SUBSCRIBERS": 67400,
+    "VIEW_COUNT": 2668383,
+    "VIDEO_COUNT": 647
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Status Invest",
+    "CANAL_HANDLE": "@statusinvest",
+    "TIPO": "proprio",
+    "BU": "Asset",
+    "SUBSCRIBERS": 60100,
+    "VIEW_COUNT": 3031392,
+    "VIDEO_COUNT": 639
+  },
+  {
+    "MES": "2026-04-01",
+    "CANAL_NOME": "Suno Asset",
+    "CANAL_HANDLE": "@sunoasset",
+    "TIPO": "proprio",
+    "BU": "Asset",
+    "SUBSCRIBERS": 8700,
+    "VIEW_COUNT": 4744499,
+    "VIDEO_COUNT": 632
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Me Poupe!",
+    "CANAL_HANDLE": "@mepoupe",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 7730000,
+    "VIEW_COUNT": 610772658,
+    "VIDEO_COUNT": 2349
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "O Primo Rico",
+    "CANAL_HANDLE": "@primorico",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 7610000,
+    "VIEW_COUNT": 572122114,
+    "VIDEO_COUNT": 1644
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Cafe com Ferri",
+    "CANAL_HANDLE": "@podcastcafecomferri",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 6920000,
+    "VIEW_COUNT": 157791736,
+    "VIDEO_COUNT": 1277
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Bruno Perini",
+    "CANAL_HANDLE": "@brunoperini",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 2070000,
+    "VIEW_COUNT": 472585847,
+    "VIDEO_COUNT": 2355
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Investidor Sardinha",
+    "CANAL_HANDLE": "@investidorsardinha",
+    "TIPO": "concorrente",
+    "BU": "Asset,Redes Sociais",
+    "SUBSCRIBERS": 1650000,
+    "VIEW_COUNT": 307988532,
+    "VIDEO_COUNT": 3104
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Economista Sincero",
+    "CANAL_HANDLE": "@economistasincero",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 274862476,
+    "VIDEO_COUNT": 4241
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "BTG Pactual",
+    "CANAL_HANDLE": "@btgpactual",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 220465204,
+    "VIDEO_COUNT": 2844
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Empiricus",
+    "CANAL_HANDLE": "@empiricus",
+    "TIPO": "concorrente",
+    "BU": "Research",
+    "SUBSCRIBERS": 1090000,
+    "VIEW_COUNT": 98446044,
+    "VIDEO_COUNT": 2457
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Tiago Reis (Suno)",
+    "CANAL_HANDLE": "@tiagoreis",
+    "TIPO": "proprio",
+    "BU": "Research,Asset",
+    "SUBSCRIBERS": 816000,
+    "VIEW_COUNT": 117408512,
+    "VIDEO_COUNT": 4383
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "InfoMoney",
+    "CANAL_HANDLE": "@infomoney",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 736000,
+    "VIEW_COUNT": 158544207,
+    "VIDEO_COUNT": 19143
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Suno Research",
+    "CANAL_HANDLE": "@gruposuno",
+    "TIPO": "proprio",
+    "BU": "Research,Asset,Redes Sociais",
+    "SUBSCRIBERS": 518000,
+    "VIEW_COUNT": 108288710,
+    "VIDEO_COUNT": 4700
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "XP Investimentos",
+    "CANAL_HANDLE": "@xp_oficial",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 487000,
+    "VIEW_COUNT": 710318871,
+    "VIDEO_COUNT": 3904
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Suno Baroni",
+    "CANAL_HANDLE": "@professorbaroni",
+    "TIPO": "proprio",
+    "BU": "Asset,Redes Sociais",
+    "SUBSCRIBERS": 349000,
+    "VIEW_COUNT": 43085840,
+    "VIDEO_COUNT": 3266
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Nord Investimentos",
+    "CANAL_HANDLE": "@nordinvestimentos",
+    "TIPO": "concorrente",
+    "BU": "Research,Redes Sociais",
+    "SUBSCRIBERS": 273000,
+    "VIEW_COUNT": 20500577,
+    "VIDEO_COUNT": 1227
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Kinea Investimentos",
+    "CANAL_HANDLE": "@kineainvestimentos",
+    "TIPO": "concorrente",
+    "BU": "Asset",
+    "SUBSCRIBERS": 90800,
+    "VIEW_COUNT": 32503351,
+    "VIDEO_COUNT": 1366
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "TRX Investimentos",
+    "CANAL_HANDLE": "@trxinvestimentos2945",
+    "TIPO": "concorrente",
+    "BU": "Asset",
+    "SUBSCRIBERS": 82500,
+    "VIEW_COUNT": 838416,
+    "VIDEO_COUNT": 142
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Suno Noticias",
+    "CANAL_HANDLE": "@sunonoticias",
+    "TIPO": "proprio",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 73800,
+    "VIEW_COUNT": 8693244,
+    "VIDEO_COUNT": 3412
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Funds Explorer",
+    "CANAL_HANDLE": "@fundsexplorer",
+    "TIPO": "proprio",
+    "BU": "Asset",
+    "SUBSCRIBERS": 67500,
+    "VIEW_COUNT": 2697096,
+    "VIDEO_COUNT": 655
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Status Invest",
+    "CANAL_HANDLE": "@statusinvest",
+    "TIPO": "proprio",
+    "BU": "Asset",
+    "SUBSCRIBERS": 61700,
+    "VIEW_COUNT": 3122160,
+    "VIDEO_COUNT": 644
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "BTG Asset Management",
+    "CANAL_HANDLE": "@btgpactualassetmanagement",
+    "TIPO": "concorrente",
+    "BU": "Asset",
+    "SUBSCRIBERS": 10700,
+    "VIEW_COUNT": 7865664,
+    "VIDEO_COUNT": 538
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "Suno Asset",
+    "CANAL_HANDLE": "@sunoasset",
+    "TIPO": "proprio",
+    "BU": "Asset",
+    "SUBSCRIBERS": 8820,
+    "VIEW_COUNT": 4818275,
+    "VIDEO_COUNT": 638
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "XP Asset Management",
+    "CANAL_HANDLE": "@xpassetmanagement",
+    "TIPO": "concorrente",
+    "BU": "Asset",
+    "SUBSCRIBERS": 8270,
+    "VIEW_COUNT": 255602,
+    "VIDEO_COUNT": 734
+  },
+  {
+    "MES": "2026-05-01",
+    "CANAL_NOME": "RBR Asset Management",
+    "CANAL_HANDLE": "@rbrassetmanagement",
+    "TIPO": "concorrente",
+    "BU": "Asset",
+    "SUBSCRIBERS": 2940,
+    "VIEW_COUNT": 108813,
+    "VIDEO_COUNT": 125
+  }
+]
