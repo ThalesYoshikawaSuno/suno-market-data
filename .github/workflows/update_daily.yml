@@ -5,6 +5,9 @@ on:
     - cron: '0 9 * * *'   # todo dia às 06:00 horário de Brasília (09:00 UTC)
   workflow_dispatch:        # permite rodar manualmente no GitHub
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -42,6 +45,7 @@ jobs:
           git config user.email "data-bot@suno.com.br"
           git config user.name "Suno Data Bot"
           git add data/
+          git pull --rebase origin main
           git diff --staged --quiet && echo "Sem mudanças." || (
             git commit -m "📺 YouTube — $(date +'%d/%m/%Y %H:%M') BRT"
             git push

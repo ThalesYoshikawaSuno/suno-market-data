@@ -5,6 +5,9 @@ on:
     - cron: '0 10 5 * *'  # dia 5 de cada mês às 07:00 BRT (ANBIMA publica até dia 4)
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -40,6 +43,7 @@ jobs:
           git config user.email "data-bot@suno.com.br"
           git config user.name "Suno Data Bot"
           git add data/
+          git pull --rebase origin main
           git diff --staged --quiet && echo "Sem mudanças." || (
             git commit -m "💰 ANBIMA — $(date +'%d/%m/%Y %H:%M') BRT"
             git push
