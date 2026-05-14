@@ -2,8 +2,8 @@ name: 🔄 Atualização Diária — YouTube
 
 on:
   schedule:
-    - cron: '0 9 * * *'   # todo dia às 06:00 horário de Brasília (09:00 UTC)
-  workflow_dispatch:        # permite rodar manualmente no GitHub
+    - cron: '0 9 * * *'
+  workflow_dispatch:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5.6.0
@@ -35,8 +37,6 @@ jobs:
           SNOWFLAKE_SCHEMA:         ${{ secrets.SNOWFLAKE_SCHEMA }}
           SNOWFLAKE_WAREHOUSE:      ${{ secrets.SNOWFLAKE_WAREHOUSE }}
           SNOWFLAKE_ROLE:           ${{ secrets.SNOWFLAKE_ROLE }}
-          SNOWFLAKE_DB_TRENDS:      ${{ secrets.SNOWFLAKE_DB_TRENDS }}
-          SNOWFLAKE_SCHEMA_TRENDS:  ${{ secrets.SNOWFLAKE_SCHEMA_TRENDS }}
         run: |
           python scripts/fetch_snowflake.py --datasets youtube_canais,youtube_videos,youtube_top,youtube_trending
 
@@ -45,9 +45,13 @@ jobs:
           git config user.email "data-bot@suno.com.br"
           git config user.name "Suno Data Bot"
           git add data/
-          git fetch origin main
-          git rebase origin/main
-          git diff --staged --quiet && echo "Sem mudanças." || (
+          if git diff --staged --quiet; then
+            echo "Sem mudanças, nada a commitar."
+          else
+            git stash
+            git pull --rebase origin main
+            git stash pop
+            git add data/
             git commit -m "📺 YouTube — $(date +'%d/%m/%Y %H:%M') BRT"
-            git push --force-with-lease
-          )
+            git push
+          fi

@@ -2,7 +2,7 @@ name: 🔄 Atualização Quinzenal — Reputação
 
 on:
   schedule:
-    - cron: '0 10 1,15 * *'  # dias 1 e 15 de cada mês às 07:00 BRT
+    - cron: '0 10 1,15 * *'
   workflow_dispatch:
 
 env:
@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5.6.0
@@ -43,9 +45,13 @@ jobs:
           git config user.email "data-bot@suno.com.br"
           git config user.name "Suno Data Bot"
           git add data/
-          git fetch origin main
-          git rebase origin/main
-          git diff --staged --quiet && echo "Sem mudanças." || (
+          if git diff --staged --quiet; then
+            echo "Sem mudanças, nada a commitar."
+          else
+            git stash
+            git pull --rebase origin main
+            git stash pop
+            git add data/
             git commit -m "⭐ Reputação — $(date +'%d/%m/%Y %H:%M') BRT"
-            git push --force-with-lease
-          )
+            git push
+          fi
