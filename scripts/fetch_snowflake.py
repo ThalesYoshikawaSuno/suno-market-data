@@ -33,11 +33,11 @@ SF = dict(
     role      = os.environ.get("SNOWFLAKE_ROLE",     "AI_AGENTS"),
 )
 
-SF_TRENDS = dict(
+SF_TRENDS = {
     **SF,
-    database = os.environ.get("SNOWFLAKE_DB_TRENDS",     "AI_WORKSPACE"),
-    schema   = os.environ.get("SNOWFLAKE_SCHEMA_TRENDS", "SANDBOX"),
-)
+    "database": os.environ.get("SNOWFLAKE_DB_TRENDS",     "AI_WORKSPACE"),
+    "schema":   os.environ.get("SNOWFLAKE_SCHEMA_TRENDS", "SANDBOX"),
+}
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def connect(cfg=SF):
