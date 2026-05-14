@@ -201,13 +201,12 @@ def fetch_youtube_interno_historico():
 def fetch_youtube_interno_mensal():
     print("▶️  YouTube Interno — Mensal...")
     rows = run_query("""
-        SELECT CANAL_ID, ANO,
-               CAST(MES AS DATE) AS MES,
+        SELECT CANAL_ID, ANO, MES,
                CAST(DIA AS DATE) AS DIA,
                INSCRITOS
         FROM SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_POR_MES
-        WHERE CAST(MES AS DATE) >= DATEADD('month', -12, CURRENT_DATE())
-        ORDER BY MES DESC, INSCRITOS DESC
+        WHERE ANO >= YEAR(DATEADD('month', -12, CURRENT_DATE()))
+        ORDER BY ANO DESC, MES DESC, INSCRITOS DESC
     """, cfg=SF_YOUTUBE)
     save("youtube_interno_mensal.json", rows); update_meta("youtube_interno_mensal")
 
