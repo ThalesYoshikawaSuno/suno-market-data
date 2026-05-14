@@ -4,19 +4,19 @@
       "label": "Portais Financeiros",
       "frequencia": "semanal",
       "tabela": "tb_trafego_sites_noticias",
-      "ultima_atualizacao": "2026-05-14T10:52:36Z",
-      "proximo_update": "2026-05-21T10:52:36Z",
+      "ultima_atualizacao": "2026-05-14T11:50:36Z",
+      "proximo_update": "2026-05-21T11:50:36Z",
       "status": "ok",
-      "ultima_atualizacao_br": "14/05/2026 07:52"
+      "ultima_atualizacao_br": "14/05/2026 08:50"
     },
     "trafego_noticias": {
       "label": "Suno Portais (FII)",
       "frequencia": "semanal",
       "tabela": "tb_trafego_sites_noticias",
-      "ultima_atualizacao": "2026-05-14T10:52:36Z",
-      "proximo_update": "2026-05-21T10:52:36Z",
+      "ultima_atualizacao": "2026-05-14T11:50:36Z",
+      "proximo_update": "2026-05-21T11:50:36Z",
       "status": "ok",
-      "ultima_atualizacao_br": "14/05/2026 07:52"
+      "ultima_atualizacao_br": "14/05/2026 08:50"
     },
     "anbima_pl": {
       "label": "ANBIMA — Patrimônio Líquido",
@@ -40,10 +40,10 @@
       "label": "Google Trends",
       "frequencia": "semanal",
       "tabela": "TB_MS_GOOGLE_TRENDS",
-      "ultima_atualizacao": "2026-05-14T10:52:36Z",
-      "proximo_update": "2026-05-21T10:52:36Z",
+      "ultima_atualizacao": "2026-05-14T11:50:36Z",
+      "proximo_update": "2026-05-21T11:50:36Z",
       "status": "ok",
-      "ultima_atualizacao_br": "14/05/2026 07:52"
+      "ultima_atualizacao_br": "14/05/2026 08:50"
     },
     "youtube_canais": {
       "label": "YouTube — Canais",
