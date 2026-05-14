@@ -49,37 +49,37 @@
       "label": "YouTube — Canais",
       "frequencia": "diario",
       "tabela": "tb_ms_youtube_channel_stats_daily",
-      "ultima_atualizacao": "2026-05-14T10:49:42Z",
-      "proximo_update": "2026-05-15T10:49:42Z",
+      "ultima_atualizacao": "2026-05-14T17:56:30Z",
+      "proximo_update": "2026-05-15T17:56:30Z",
       "status": "ok",
-      "ultima_atualizacao_br": "14/05/2026 07:49"
+      "ultima_atualizacao_br": "14/05/2026 14:56"
     },
     "youtube_videos": {
       "label": "YouTube — Vídeos Recentes",
       "frequencia": "diario",
       "tabela": "tb_ms_youtube_video_recent",
-      "ultima_atualizacao": "2026-05-14T10:49:42Z",
-      "proximo_update": "2026-05-15T10:49:42Z",
+      "ultima_atualizacao": "2026-05-14T17:56:30Z",
+      "proximo_update": "2026-05-15T17:56:30Z",
       "status": "ok",
-      "ultima_atualizacao_br": "14/05/2026 07:49"
+      "ultima_atualizacao_br": "14/05/2026 14:56"
     },
     "youtube_top": {
       "label": "YouTube — Top Vídeos",
       "frequencia": "diario",
       "tabela": "tb_ms_youtube_video_top_viewed",
-      "ultima_atualizacao": "2026-05-14T10:49:42Z",
-      "proximo_update": "2026-05-15T10:49:42Z",
+      "ultima_atualizacao": "2026-05-14T17:56:30Z",
+      "proximo_update": "2026-05-15T17:56:30Z",
       "status": "ok",
-      "ultima_atualizacao_br": "14/05/2026 07:49"
+      "ultima_atualizacao_br": "14/05/2026 14:56"
     },
     "youtube_trending": {
       "label": "YouTube — Trending BR",
       "frequencia": "diario",
       "tabela": "tb_ms_youtube_trending_br",
-      "ultima_atualizacao": "2026-05-14T10:49:42Z",
-      "proximo_update": "2026-05-15T10:49:42Z",
+      "ultima_atualizacao": "2026-05-14T17:56:30Z",
+      "proximo_update": "2026-05-15T17:56:30Z",
       "status": "ok",
-      "ultima_atualizacao_br": "14/05/2026 07:49"
+      "ultima_atualizacao_br": "14/05/2026 14:56"
     },
     "reputacao_apps": {
       "label": "App Stores",
