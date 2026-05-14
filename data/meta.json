@@ -43,17 +43,11 @@
     "youtube_canais": {
       "label": "YouTube — Market Share Diário (24 canais)",
       "frequencia": "diario",
-<<<<<<< Updated upstream
-      "tabela": "tb_ms_youtube_channel_stats_daily",
+      "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_MARKET_SHARE_DAILY",
       "ultima_atualizacao": "2026-05-14T17:56:30Z",
       "proximo_update": "2026-05-15T17:56:30Z",
       "status": "ok",
       "ultima_atualizacao_br": "14/05/2026 14:56"
-=======
-      "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_MARKET_SHARE_DAILY",
-      "ultima_atualizacao": null,
-      "proximo_update": null,
-      "status": "pendente"
     },
     "youtube_mensal": {
       "label": "YouTube — Market Share Mensal",
@@ -62,54 +56,33 @@
       "ultima_atualizacao": null,
       "proximo_update": null,
       "status": "pendente"
->>>>>>> Stashed changes
     },
     "youtube_videos": {
       "label": "YouTube — Vídeos Recentes",
       "frequencia": "diario",
-<<<<<<< Updated upstream
-      "tabela": "tb_ms_youtube_video_recent",
+      "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_VIDEO_RECENT",
       "ultima_atualizacao": "2026-05-14T17:56:30Z",
       "proximo_update": "2026-05-15T17:56:30Z",
       "status": "ok",
       "ultima_atualizacao_br": "14/05/2026 14:56"
-=======
-      "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_VIDEO_RECENT",
-      "ultima_atualizacao": null,
-      "proximo_update": null,
-      "status": "pendente"
->>>>>>> Stashed changes
     },
     "youtube_top": {
       "label": "YouTube — Top Viewed (30d)",
       "frequencia": "diario",
-<<<<<<< Updated upstream
-      "tabela": "tb_ms_youtube_video_top_viewed",
+      "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_VIDEO_TOP_VIEWED",
       "ultima_atualizacao": "2026-05-14T17:56:30Z",
       "proximo_update": "2026-05-15T17:56:30Z",
       "status": "ok",
       "ultima_atualizacao_br": "14/05/2026 14:56"
-=======
-      "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_VIDEO_TOP_VIEWED",
-      "ultima_atualizacao": null,
-      "proximo_update": null,
-      "status": "pendente"
->>>>>>> Stashed changes
     },
     "youtube_trending": {
       "label": "YouTube — Trending BR (finanças)",
       "frequencia": "diario",
-<<<<<<< Updated upstream
-      "tabela": "tb_ms_youtube_trending_br",
+      "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_TRENDING_FINANCE_BR",
       "ultima_atualizacao": "2026-05-14T17:56:30Z",
       "proximo_update": "2026-05-15T17:56:30Z",
       "status": "ok",
       "ultima_atualizacao_br": "14/05/2026 14:56"
-=======
-      "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_TRENDING_FINANCE_BR",
-      "ultima_atualizacao": null,
-      "proximo_update": null,
-      "status": "pendente"
     },
     "youtube_interno_historico": {
       "label": "YouTube Interno — Histórico Diário",
@@ -134,7 +107,6 @@
       "ultima_atualizacao": null,
       "proximo_update": null,
       "status": "pendente"
->>>>>>> Stashed changes
     },
     "reputacao_apps": {
       "label": "App Stores",
@@ -179,7 +151,7 @@
       "obs": "Aguardando script 124"
     },
     "consultoria_cvm": {
-      "label": "Consultoria CVM (estático)",
+      "label": "Consultoria CVM",
       "frequencia": "mensal",
       "tabela": "—",
       "ultima_atualizacao": null,
@@ -188,7 +160,7 @@
       "obs": "Dados hardcoded no HTML"
     },
     "anbima_influencers": {
-      "label": "ANBIMA Influenciadores (estático)",
+      "label": "ANBIMA Influenciadores",
       "frequencia": "mensal",
       "tabela": "—",
       "ultima_atualizacao": null,
@@ -197,7 +169,7 @@
       "obs": "Dados hardcoded no HTML"
     },
     "research_buscas": {
-      "label": "Research Buscas (estático)",
+      "label": "Research — Buscas",
       "frequencia": "semanal",
       "tabela": "—",
       "ultima_atualizacao": null,
