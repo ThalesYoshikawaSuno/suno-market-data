@@ -116,6 +116,7 @@ def fetch_youtube_canais():
                SUBSCRIBERS, VIEW_COUNT, VIDEO_COUNT,
                SHARE_SUBSCRIBERS_PCT, SHARE_VIEWS_PCT, DELTA_SUBSCRIBERS_DOD
         FROM SERVING_LAYER.MARKET_SHARE.VW_YT_MARKET_SHARE_DAILY
+        WHERE DT_SNAPSHOT >= DATEADD('month', -12, CURRENT_DATE())
         ORDER BY DT_SNAPSHOT DESC, SUBSCRIBERS DESC
     """, cfg=SF_SERVING)
     save("youtube_canais.json", rows); update_meta("youtube_canais")
@@ -130,6 +131,7 @@ def fetch_youtube_mensal():
                SUBSCRIBERS, VIEW_COUNT, VIDEO_COUNT,
                DELTA_SUBSCRIBERS_MOM, SHARE_SUBSCRIBERS_PCT
         FROM SERVING_LAYER.MARKET_SHARE.VW_YT_MARKET_SHARE_MONTHLY
+        WHERE MES_REFERENCIA >= DATEADD('month', -12, CURRENT_DATE())
         ORDER BY MES_REFERENCIA DESC, SUBSCRIBERS DESC
     """, cfg=SF_SERVING)
     save("youtube_mensal.json", rows); update_meta("youtube_mensal")
@@ -189,6 +191,7 @@ def fetch_youtube_interno_historico():
         SELECT TO_CHAR(DIA_DESEMPENHO,'YYYY-MM-DD') AS DIA_DESEMPENHO,
                NOME, INSCRITOS, SALDO_INSCRITOS
         FROM SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_HISTORICO
+        WHERE DIA_DESEMPENHO >= DATEADD('month', -12, CURRENT_DATE())
         ORDER BY DIA_DESEMPENHO DESC, INSCRITOS DESC
     """, cfg=SF_YOUTUBE)
     save("youtube_interno_historico.json", rows); update_meta("youtube_interno_historico")
@@ -213,6 +216,7 @@ def fetch_youtube_interno_videos():
                CREATORCONTENTTYPE, VIEWS, LIKES, DISLIKES, SHARES, COMMENTS,
                TIME_WATCHED, SUBSCRIBERSGAINED, SUBSCRIBERSLOST
         FROM SERVING_LAYER.YOUTUBE.VIDEOS_METRICS_INFO
+        WHERE DATE >= DATEADD('month', -12, CURRENT_DATE())
         ORDER BY DATE DESC, VIEWS DESC
         LIMIT 5000
     """, cfg=SF_YOUTUBE)
@@ -246,6 +250,7 @@ def fetch_midia_asset():
                BU, CAMPANHA, ORCADO, VALOR_PLANEJADO, ORCADO_BU,
                CUSTO_REALIZADO, DESVIO, PCT_REALIZADO
         FROM AI_WORKSPACE.SANDBOX.MS_VW_MIDIA_ASSET
+        WHERE DATA >= DATEADD('month', -12, CURRENT_DATE())
         ORDER BY DATA, CAMPANHA
     """, cfg=SF_TRENDS)
     save("midia_asset.json", rows); update_meta("midia_asset")
@@ -268,6 +273,7 @@ def fetch_vendas_comercial():
             ASSINATURA_TIPO_DESC, MESES_DA_COMPRA
         FROM AI_WORKSPACE.SANDBOX.MS_VW_VENDAS_LIQUIDAS_COMERCIAL
         WHERE CLASSIFICACAO_DEVOLUCAO IN ('Completo','Devolução')
+          AND DATA_PAGAMENTO >= DATEADD('month', -12, CURRENT_DATE())
         ORDER BY DATA_PAGAMENTO DESC
     """, cfg=SF_TRENDS)
     save("vendas_comercial.json", rows); update_meta("vendas_comercial")
