@@ -188,11 +188,11 @@ def fetch_youtube_trending():
 def fetch_youtube_interno_historico():
     print("▶️  YouTube Interno — Histórico diário...")
     rows = run_query("""
-        SELECT TO_CHAR(DIA_DESEMPENHO,'YYYY-MM-DD') AS DIA_DESEMPENHO,
-               NOME, INSCRITOS, SALDO_INSCRITOS
+        SELECT CAST(DIA_DESEMPENHO AS VARCHAR) AS DIA_DESEMPENHO,
+               CHANNEL_NAME, SUBSCRIBERS, NET_SUBSCRIBERS
         FROM SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_HISTORICO
         WHERE DIA_DESEMPENHO >= DATEADD('month', -12, CURRENT_DATE())
-        ORDER BY DIA_DESEMPENHO DESC, INSCRITOS DESC
+        ORDER BY DIA_DESEMPENHO DESC, SUBSCRIBERS DESC
     """, cfg=SF_YOUTUBE)
     save("youtube_interno_historico.json", rows); update_meta("youtube_interno_historico")
 
@@ -200,9 +200,9 @@ def fetch_youtube_interno_historico():
 def fetch_youtube_interno_mensal():
     print("▶️  YouTube Interno — Mensal...")
     rows = run_query("""
-        SELECT TO_CHAR(MES,'YYYY-MM-DD') AS MES, NOME, INSCRITOS
+        SELECT CAST(MES AS VARCHAR) AS MES, CHANNEL_NAME, SUBSCRIBERS
         FROM SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_POR_MES
-        ORDER BY MES DESC, INSCRITOS DESC
+        ORDER BY MES DESC, SUBSCRIBERS DESC
     """, cfg=SF_YOUTUBE)
     save("youtube_interno_mensal.json", rows); update_meta("youtube_interno_mensal")
 
@@ -210,9 +210,9 @@ def fetch_youtube_interno_mensal():
 def fetch_youtube_interno_videos():
     print("▶️  YouTube Interno — Métricas de vídeos...")
     rows = run_query("""
-        SELECT TO_CHAR(DATE,'YYYY-MM-DD') AS DATE,
+        SELECT CAST(DATE AS VARCHAR) AS DATE,
                VIDEO_ID, CHANNEL_ID, CHANNEL_NAME, VIDEO_TITLE,
-               TO_CHAR(DATA_PUBLICACAO,'YYYY-MM-DD') AS DATA_PUBLICACAO,
+               CAST(DATA_PUBLICACAO AS VARCHAR) AS DATA_PUBLICACAO,
                CREATORCONTENTTYPE, VIEWS, LIKES, DISLIKES, SHARES, COMMENTS,
                TIME_WATCHED, SUBSCRIBERSGAINED, SUBSCRIBERSLOST
         FROM SERVING_LAYER.YOUTUBE.VIDEOS_METRICS_INFO
@@ -277,6 +277,24 @@ def fetch_vendas_comercial():
         ORDER BY DATA_PAGAMENTO DESC
     """, cfg=SF_TRENDS)
     save("vendas_comercial.json", rows); update_meta("vendas_comercial")
+
+
+@dataset("youtube_interno_diag")
+def fetch_youtube_interno_diag():
+    print("🔍 Diagnóstico colunas views internas...")
+    for view, cfg_name in [
+        ("SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_HISTORICO", "SF_YOUTUBE"),
+        ("SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_POR_MES", "SF_YOUTUBE"),
+        ("SERVING_LAYER.YOUTUBE.VIDEOS_METRICS_INFO", "SF_YOUTUBE"),
+    ]:
+        try:
+            rows = run_query(f"SELECT * FROM {view} LIMIT 1", cfg=SF_YOUTUBE)
+            if rows:
+                print(f"  {view}: {list(rows[0].keys())}")
+            else:
+                print(f"  {view}: sem dados")
+        except Exception as e:
+            print(f"  {view}: ERRO — {e}")
 
 # ── Main ───────────────────────────────────────────────────────────────────
 def main():
