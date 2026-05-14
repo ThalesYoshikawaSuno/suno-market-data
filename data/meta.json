@@ -20,17 +20,19 @@
       "label": "ANBIMA — Patrimônio Líquido",
       "frequencia": "mensal",
       "tabela": "tb_anbima_pl_raw",
-      "ultima_atualizacao": null,
-      "proximo_update": null,
-      "status": "pendente"
+      "ultima_atualizacao": "2026-05-14T10:51:04Z",
+      "proximo_update": "2026-06-13T10:51:04Z",
+      "status": "ok",
+      "ultima_atualizacao_br": "14/05/2026 07:51"
     },
     "anbima_cap": {
       "label": "ANBIMA — Captação",
       "frequencia": "mensal",
       "tabela": "tb_anbima_captacao_raw",
-      "ultima_atualizacao": null,
-      "proximo_update": null,
-      "status": "pendente"
+      "ultima_atualizacao": "2026-05-14T10:51:04Z",
+      "proximo_update": "2026-06-13T10:51:04Z",
+      "status": "ok",
+      "ultima_atualizacao_br": "14/05/2026 07:51"
     },
     "google_trends": {
       "label": "Google Trends",
