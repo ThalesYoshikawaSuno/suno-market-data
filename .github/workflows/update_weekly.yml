@@ -45,8 +45,9 @@ jobs:
           git config user.email "data-bot@suno.com.br"
           git config user.name "Suno Data Bot"
           git add data/
-          git pull --rebase origin main
+          git fetch origin main
+          git rebase origin/main
           git diff --staged --quiet && echo "Sem mudanças." || (
             git commit -m "📡 Portais + Trends — $(date +'%d/%m/%Y %H:%M') BRT"
-            git push
+            git push --force-with-lease
           )
