@@ -1,0 +1,48 @@
+name: 🔄 Atualização Diária — YouTube
+
+on:
+  schedule:
+    - cron: '0 9 * * *'   # todo dia às 06:00 horário de Brasília (09:00 UTC)
+  workflow_dispatch:        # permite rodar manualmente no GitHub
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: pip install snowflake-connector-python
+
+      - name: Buscar dados do Snowflake
+        env:
+          SNOWFLAKE_ACCOUNT:        ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USERNAME:       ${{ secrets.SNOWFLAKE_USERNAME }}
+          SNOWFLAKE_PASSWORD:       ${{ secrets.SNOWFLAKE_PASSWORD }}
+          SNOWFLAKE_DATABASE:       ${{ secrets.SNOWFLAKE_DATABASE }}
+          SNOWFLAKE_SCHEMA:         ${{ secrets.SNOWFLAKE_SCHEMA }}
+          SNOWFLAKE_WAREHOUSE:      ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+          SNOWFLAKE_ROLE:           ${{ secrets.SNOWFLAKE_ROLE }}
+          SNOWFLAKE_DB_TRENDS:      ${{ secrets.SNOWFLAKE_DB_TRENDS }}
+          SNOWFLAKE_SCHEMA_TRENDS:  ${{ secrets.SNOWFLAKE_SCHEMA_TRENDS }}
+        run: |
+          python scripts/fetch_snowflake.py --datasets youtube_canais,youtube_videos,youtube_top,youtube_trending
+
+      - name: Commit e push dos dados
+        run: |
+          git config user.email "data-bot@suno.com.br"
+          git config user.name "Suno Data Bot"
+          git add data/
+          git diff --staged --quiet && echo "Sem mudanças." || (
+            git commit -m "📺 YouTube — $(date +'%d/%m/%Y %H:%M') BRT"
+            git push
+          )

@@ -1,0 +1,48 @@
+name: 🔄 Atualização Semanal — Portais & Google Trends
+
+on:
+  schedule:
+    - cron: '0 10 * * 1'  # toda segunda-feira às 07:00 BRT (10:00 UTC)
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: pip install snowflake-connector-python
+
+      - name: Buscar dados do Snowflake
+        env:
+          SNOWFLAKE_ACCOUNT:        ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USERNAME:       ${{ secrets.SNOWFLAKE_USERNAME }}
+          SNOWFLAKE_PASSWORD:       ${{ secrets.SNOWFLAKE_PASSWORD }}
+          SNOWFLAKE_DATABASE:       ${{ secrets.SNOWFLAKE_DATABASE }}
+          SNOWFLAKE_SCHEMA:         ${{ secrets.SNOWFLAKE_SCHEMA }}
+          SNOWFLAKE_WAREHOUSE:      ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+          SNOWFLAKE_ROLE:           ${{ secrets.SNOWFLAKE_ROLE }}
+          SNOWFLAKE_DB_TRENDS:      ${{ secrets.SNOWFLAKE_DB_TRENDS }}
+          SNOWFLAKE_SCHEMA_TRENDS:  ${{ secrets.SNOWFLAKE_SCHEMA_TRENDS }}
+        run: |
+          python scripts/fetch_snowflake.py --datasets portais,noticias,google_trends
+
+      - name: Commit e push dos dados
+        run: |
+          git config user.email "data-bot@suno.com.br"
+          git config user.name "Suno Data Bot"
+          git add data/
+          git diff --staged --quiet && echo "Sem mudanças." || (
+            git commit -m "📡 Portais + Trends — $(date +'%d/%m/%Y %H:%M') BRT"
+            git push
+          )

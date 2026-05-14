@@ -1,0 +1,46 @@
+name: 🔄 Atualização Mensal — ANBIMA
+
+on:
+  schedule:
+    - cron: '0 10 5 * *'  # dia 5 de cada mês às 07:00 BRT (ANBIMA publica até dia 4)
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: pip install snowflake-connector-python
+
+      - name: Buscar dados do Snowflake
+        env:
+          SNOWFLAKE_ACCOUNT:        ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USERNAME:       ${{ secrets.SNOWFLAKE_USERNAME }}
+          SNOWFLAKE_PASSWORD:       ${{ secrets.SNOWFLAKE_PASSWORD }}
+          SNOWFLAKE_DATABASE:       ${{ secrets.SNOWFLAKE_DATABASE }}
+          SNOWFLAKE_SCHEMA:         ${{ secrets.SNOWFLAKE_SCHEMA }}
+          SNOWFLAKE_WAREHOUSE:      ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+          SNOWFLAKE_ROLE:           ${{ secrets.SNOWFLAKE_ROLE }}
+        run: |
+          python scripts/fetch_snowflake.py --datasets anbima_pl,anbima_cap
+
+      - name: Commit e push dos dados
+        run: |
+          git config user.email "data-bot@suno.com.br"
+          git config user.name "Suno Data Bot"
+          git add data/
+          git diff --staged --quiet && echo "Sem mudanças." || (
+            git commit -m "💰 ANBIMA — $(date +'%d/%m/%Y %H:%M') BRT"
+            git push
+          )

@@ -1,0 +1,100 @@
+{
+  "datasets": {
+    "trafego_portais": {
+      "label": "Portais Financeiros",
+      "frequencia": "semanal",
+      "tabela": "tb_trafego_sites_noticias",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente"
+    },
+    "trafego_noticias": {
+      "label": "Suno Portais (FII)",
+      "frequencia": "semanal",
+      "tabela": "tb_trafego_sites_noticias",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente"
+    },
+    "anbima_pl": {
+      "label": "ANBIMA — Patrimônio Líquido",
+      "frequencia": "mensal",
+      "tabela": "tb_anbima_pl_raw",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente"
+    },
+    "anbima_cap": {
+      "label": "ANBIMA — Captação",
+      "frequencia": "mensal",
+      "tabela": "tb_anbima_captacao_raw",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente"
+    },
+    "google_trends": {
+      "label": "Google Trends",
+      "frequencia": "semanal",
+      "tabela": "TB_MS_GOOGLE_TRENDS",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente"
+    },
+    "youtube_canais": {
+      "label": "YouTube — Canais",
+      "frequencia": "diario",
+      "tabela": "tb_ms_youtube_channel_stats_daily",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente"
+    },
+    "youtube_videos": {
+      "label": "YouTube — Vídeos Recentes",
+      "frequencia": "diario",
+      "tabela": "tb_ms_youtube_video_recent",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente"
+    },
+    "youtube_top": {
+      "label": "YouTube — Top Vídeos",
+      "frequencia": "diario",
+      "tabela": "tb_ms_youtube_video_top_viewed",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente"
+    },
+    "youtube_trending": {
+      "label": "YouTube — Trending BR",
+      "frequencia": "diario",
+      "tabela": "tb_ms_youtube_trending_br",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente"
+    },
+    "reputacao_apps": {
+      "label": "App Stores",
+      "frequencia": "quinzenal",
+      "tabela": "tb_apps_empresas",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente"
+    },
+    "reputacao_reclame": {
+      "label": "Reclame Aqui",
+      "frequencia": "quinzenal",
+      "tabela": "tb_ra_empresas",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente"
+    },
+    "reputacao_glassdoor": {
+      "label": "Glassdoor",
+      "frequencia": "quinzenal",
+      "tabela": "tb_glassdoor_empresas",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente"
+    }
+  }
+}
