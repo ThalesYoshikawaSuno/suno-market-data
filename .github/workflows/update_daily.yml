@@ -38,7 +38,7 @@ jobs:
           SNOWFLAKE_WAREHOUSE:      ${{ secrets.SNOWFLAKE_WAREHOUSE }}
           SNOWFLAKE_ROLE:           ${{ secrets.SNOWFLAKE_ROLE }}
         run: |
-          python scripts/fetch_snowflake.py --datasets youtube_canais,youtube_videos,youtube_top,youtube_trending
+          python scripts/fetch_snowflake.py --datasets youtube_canais,youtube_mensal,youtube_videos,youtube_top,youtube_trending,youtube_interno_historico,youtube_interno_mensal,youtube_interno_videos,midia_asset,vendas_comercial
 
       - name: Commit e push dos dados
         run: |
@@ -52,6 +52,6 @@ jobs:
             git pull --rebase origin main
             git stash pop
             git add data/
-            git commit -m "📺 YouTube — $(date +'%d/%m/%Y %H:%M') BRT"
+            git commit -m "📺 YouTube + Mídia + Vendas — $(date +'%d/%m/%Y %H:%M') BRT"
             git push
           fi
