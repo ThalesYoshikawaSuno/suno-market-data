@@ -188,11 +188,12 @@ def fetch_youtube_trending():
 def fetch_youtube_interno_historico():
     print("▶️  YouTube Interno — Histórico diário...")
     rows = run_query("""
-        SELECT CAST(DIA_DESEMPENHO AS VARCHAR) AS DIA_DESEMPENHO,
-               CHANNEL_NAME, SUBSCRIBERS, NET_SUBSCRIBERS
+        SELECT NOME, INSCRITOS, VISUALIZACOES_TOTAIS,
+               CAST(DIA_DESEMPENHO AS DATE) AS DIA_DESEMPENHO,
+               SALDO_INSCRITOS
         FROM SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_HISTORICO
-        WHERE DIA_DESEMPENHO >= DATEADD('month', -12, CURRENT_DATE())
-        ORDER BY DIA_DESEMPENHO DESC, SUBSCRIBERS DESC
+        WHERE CAST(DIA_DESEMPENHO AS DATE) >= DATEADD('month', -12, CURRENT_DATE())
+        ORDER BY DIA_DESEMPENHO DESC, INSCRITOS DESC
     """, cfg=SF_YOUTUBE)
     save("youtube_interno_historico.json", rows); update_meta("youtube_interno_historico")
 
@@ -200,9 +201,13 @@ def fetch_youtube_interno_historico():
 def fetch_youtube_interno_mensal():
     print("▶️  YouTube Interno — Mensal...")
     rows = run_query("""
-        SELECT CAST(MES AS VARCHAR) AS MES, CHANNEL_NAME, SUBSCRIBERS
+        SELECT CANAL_ID, ANO,
+               CAST(MES AS DATE) AS MES,
+               CAST(DIA AS DATE) AS DIA,
+               INSCRITOS
         FROM SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_POR_MES
-        ORDER BY MES DESC, SUBSCRIBERS DESC
+        WHERE CAST(MES AS DATE) >= DATEADD('month', -12, CURRENT_DATE())
+        ORDER BY MES DESC, INSCRITOS DESC
     """, cfg=SF_YOUTUBE)
     save("youtube_interno_mensal.json", rows); update_meta("youtube_interno_mensal")
 
