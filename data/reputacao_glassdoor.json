@@ -1,5 +1,68 @@
 [
   {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Clube do Valor",
+    "NOTA": "4.30",
+    "RECOMENDA_PCT": "81.00",
+    "QUANTIDADE": 116
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Empiricus",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "93.00",
+    "QUANTIDADE": 380
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Grupo Primo",
+    "NOTA": "3.70",
+    "RECOMENDA_PCT": "68.00",
+    "QUANTIDADE": 101
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "I10",
+    "NOTA": "5.00",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 14
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Nord",
+    "NOTA": "3.90",
+    "RECOMENDA_PCT": "77.00",
+    "QUANTIDADE": 13
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Portfel",
+    "NOTA": "4.40",
+    "RECOMENDA_PCT": "94.00",
+    "QUANTIDADE": 16
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Suno",
+    "NOTA": "4.10",
+    "RECOMENDA_PCT": "80.00",
+    "QUANTIDADE": 143
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Varos",
+    "NOTA": "4.80",
+    "RECOMENDA_PCT": "100.00",
+    "QUANTIDADE": 4
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "W1",
+    "NOTA": "4.30",
+    "RECOMENDA_PCT": "84.00",
+    "QUANTIDADE": 649
+  },
+  {
     "DT_REFERENCIA": "2026-04-20",
     "EMPRESA": "Clube do Valor",
     "NOTA": "4.30",

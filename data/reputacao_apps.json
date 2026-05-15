@@ -1,5 +1,85 @@
 [
   {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "AGF",
+    "NOTA_GOOGLE": "4.70",
+    "AVALIACOES_GOOGLE": 6060,
+    "NOTA_IOS": "4.60",
+    "AVALIACOES_IOS": 4800
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Empiricus",
+    "NOTA_GOOGLE": "4.40",
+    "AVALIACOES_GOOGLE": 8750,
+    "NOTA_IOS": "4.70",
+    "AVALIACOES_IOS": 2000
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Finclass",
+    "NOTA_GOOGLE": "4.80",
+    "AVALIACOES_GOOGLE": 10900,
+    "NOTA_IOS": "4.80",
+    "AVALIACOES_IOS": 11000
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "HUB3",
+    "NOTA_GOOGLE": "4.70",
+    "AVALIACOES_GOOGLE": 12600,
+    "NOTA_IOS": "4.70",
+    "AVALIACOES_IOS": 2800
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "I10",
+    "NOTA_GOOGLE": "4.90",
+    "AVALIACOES_GOOGLE": 35100,
+    "NOTA_IOS": "4.90",
+    "AVALIACOES_IOS": 11000
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Kinvo",
+    "NOTA_GOOGLE": "4.00",
+    "AVALIACOES_GOOGLE": 22300,
+    "NOTA_IOS": "4.60",
+    "AVALIACOES_IOS": 19000
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Nord",
+    "NOTA_GOOGLE": "4.20",
+    "AVALIACOES_GOOGLE": 76,
+    "NOTA_IOS": null,
+    "AVALIACOES_IOS": null
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Status Invest",
+    "NOTA_GOOGLE": "4.30",
+    "AVALIACOES_GOOGLE": 5480,
+    "NOTA_IOS": "4.40",
+    "AVALIACOES_IOS": 2000
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Suno",
+    "NOTA_GOOGLE": "3.30",
+    "AVALIACOES_GOOGLE": 1300,
+    "NOTA_IOS": "3.40",
+    "AVALIACOES_IOS": 569
+  },
+  {
+    "DT_REFERENCIA": "2026-05-05",
+    "EMPRESA": "Trademap",
+    "NOTA_GOOGLE": "4.00",
+    "AVALIACOES_GOOGLE": 63100,
+    "NOTA_IOS": "4.70",
+    "AVALIACOES_IOS": 67000
+  },
+  {
     "DT_REFERENCIA": "2026-04-16",
     "EMPRESA": "AGF",
     "NOTA_GOOGLE": "4.80",
