@@ -47,73 +47,73 @@
       "label": "YouTube — Market Share Diário (24 canais)",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_MARKET_SHARE_DAILY",
-      "ultima_atualizacao": "2026-05-16T12:06:37Z",
-      "proximo_update": "2026-05-17T12:06:37Z",
+      "ultima_atualizacao": "2026-05-17T12:06:30Z",
+      "proximo_update": "2026-05-18T12:06:30Z",
       "status": "ok",
-      "ultima_atualizacao_br": "16/05/2026 09:06"
+      "ultima_atualizacao_br": "17/05/2026 09:06"
     },
     "youtube_mensal": {
       "label": "YouTube — Market Share Mensal",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_MARKET_SHARE_MONTHLY",
-      "ultima_atualizacao": "2026-05-16T12:06:37Z",
-      "proximo_update": "2026-05-17T12:06:37Z",
+      "ultima_atualizacao": "2026-05-17T12:06:30Z",
+      "proximo_update": "2026-05-18T12:06:30Z",
       "status": "ok",
-      "ultima_atualizacao_br": "16/05/2026 09:06"
+      "ultima_atualizacao_br": "17/05/2026 09:06"
     },
     "youtube_videos": {
       "label": "YouTube — Vídeos Recentes",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_VIDEO_RECENT",
-      "ultima_atualizacao": "2026-05-16T12:06:37Z",
-      "proximo_update": "2026-05-17T12:06:37Z",
+      "ultima_atualizacao": "2026-05-17T12:06:30Z",
+      "proximo_update": "2026-05-18T12:06:30Z",
       "status": "ok",
-      "ultima_atualizacao_br": "16/05/2026 09:06"
+      "ultima_atualizacao_br": "17/05/2026 09:06"
     },
     "youtube_top": {
       "label": "YouTube — Top Viewed (30d)",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_VIDEO_TOP_VIEWED",
-      "ultima_atualizacao": "2026-05-16T12:06:37Z",
-      "proximo_update": "2026-05-17T12:06:37Z",
+      "ultima_atualizacao": "2026-05-17T12:06:30Z",
+      "proximo_update": "2026-05-18T12:06:30Z",
       "status": "ok",
-      "ultima_atualizacao_br": "16/05/2026 09:06"
+      "ultima_atualizacao_br": "17/05/2026 09:06"
     },
     "youtube_trending": {
       "label": "YouTube — Trending BR (finanças)",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_TRENDING_FINANCE_BR",
-      "ultima_atualizacao": "2026-05-16T12:06:37Z",
-      "proximo_update": "2026-05-17T12:06:37Z",
+      "ultima_atualizacao": "2026-05-17T12:06:30Z",
+      "proximo_update": "2026-05-18T12:06:30Z",
       "status": "ok",
-      "ultima_atualizacao_br": "16/05/2026 09:06"
+      "ultima_atualizacao_br": "17/05/2026 09:06"
     },
     "youtube_interno_historico": {
       "label": "YouTube Interno — Histórico Diário",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_HISTORICO",
-      "ultima_atualizacao": "2026-05-16T12:06:37Z",
-      "proximo_update": "2026-05-17T12:06:37Z",
+      "ultima_atualizacao": "2026-05-17T12:06:30Z",
+      "proximo_update": "2026-05-18T12:06:30Z",
       "status": "ok",
-      "ultima_atualizacao_br": "16/05/2026 09:06"
+      "ultima_atualizacao_br": "17/05/2026 09:06"
     },
     "youtube_interno_mensal": {
       "label": "YouTube Interno — Mensal",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_POR_MES",
-      "ultima_atualizacao": "2026-05-16T12:06:37Z",
-      "proximo_update": "2026-05-17T12:06:37Z",
+      "ultima_atualizacao": "2026-05-17T12:06:30Z",
+      "proximo_update": "2026-05-18T12:06:30Z",
       "status": "ok",
-      "ultima_atualizacao_br": "16/05/2026 09:06"
+      "ultima_atualizacao_br": "17/05/2026 09:06"
     },
     "youtube_interno_videos": {
       "label": "YouTube Interno — Métricas Vídeos",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.YOUTUBE.VIDEOS_METRICS_INFO",
-      "ultima_atualizacao": "2026-05-16T12:06:37Z",
-      "proximo_update": "2026-05-17T12:06:37Z",
+      "ultima_atualizacao": "2026-05-17T12:06:30Z",
+      "proximo_update": "2026-05-18T12:06:30Z",
       "status": "ok",
-      "ultima_atualizacao_br": "16/05/2026 09:06"
+      "ultima_atualizacao_br": "17/05/2026 09:06"
     },
     "reputacao_apps": {
       "label": "App Stores",
@@ -146,21 +146,21 @@
       "label": "Mídia Paga Asset (Meta + Google Ads)",
       "frequencia": "diario",
       "tabela": "AI_WORKSPACE.SANDBOX.MS_VW_MIDIA_ASSET",
-      "ultima_atualizacao": "2026-05-16T12:06:37Z",
-      "proximo_update": "2026-05-17T12:06:37Z",
+      "ultima_atualizacao": "2026-05-17T12:06:30Z",
+      "proximo_update": "2026-05-18T12:06:30Z",
       "status": "ok",
       "obs": "Aguardando script 123",
-      "ultima_atualizacao_br": "16/05/2026 09:06"
+      "ultima_atualizacao_br": "17/05/2026 09:06"
     },
     "vendas_comercial": {
       "label": "Vendas Líquidas Comercial",
       "frequencia": "diario",
       "tabela": "AI_WORKSPACE.SANDBOX.MS_VW_VENDAS_LIQUIDAS_COMERCIAL",
-      "ultima_atualizacao": "2026-05-16T12:06:37Z",
-      "proximo_update": "2026-05-17T12:06:37Z",
+      "ultima_atualizacao": "2026-05-17T12:06:30Z",
+      "proximo_update": "2026-05-18T12:06:30Z",
       "status": "ok",
       "obs": "Aguardando script 124",
-      "ultima_atualizacao_br": "16/05/2026 09:06"
+      "ultima_atualizacao_br": "17/05/2026 09:06"
     },
     "consultoria_cvm": {
       "label": "Consultoria CVM",
