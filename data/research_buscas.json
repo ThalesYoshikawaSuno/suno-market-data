@@ -1,0 +1,48 @@
+{
+  "updated_at": "2026-04-30",
+  "periodo": "Mai/24 → Abr/26",
+  "meses": [
+    "2024-05","2024-06","2024-07","2024-08","2024-09","2024-10",
+    "2024-11","2024-12","2025-01","2025-02","2025-03","2025-04",
+    "2025-05","2025-06","2025-07","2025-08","2025-09","2025-10",
+    "2025-11","2025-12","2026-01","2026-02","2026-03","2026-04"
+  ],
+  "marcas": ["Suno Research","Empiricus","Nord Research","Levante","Capitalizo","Clube FII"],
+  "series": {
+    "Suno Research":  [48,52,55,54,57,60,58,62,65,63,60,62,64,66,68,65,62,60,63,68,70,65,60,62],
+    "Empiricus":      [95,100,98,96,94,92,90,88,92,96,100,98,97,95,93,91,89,88,90,94,98,100,97,95],
+    "Nord Research":  [35,37,40,38,36,38,40,42,44,43,41,40,42,44,46,44,42,40,43,46,48,45,42,44],
+    "Levante":        [20,22,24,22,20,22,24,25,26,24,22,21,23,25,27,25,23,21,24,27,28,25,22,24],
+    "Capitalizo":     [15,16,18,17,15,14,16,18,20,19,17,16,18,20,22,20,18,16,19,22,24,21,18,20],
+    "Clube FII":      [10,11,12,11,10,10,11,12,13,12,11,10,11,12,13,12,11,10,11,12,13,12,11,11]
+  },
+  "snapshot_atual": {
+    "mes": "2026-04",
+    "scores": {
+      "Empiricus": 95,
+      "Suno Research": 62,
+      "Nord Research": 44,
+      "Clube FII": 11,
+      "Levante": 24,
+      "Capitalizo": 20
+    }
+  },
+  "share_interesse_pct": {
+    "Empiricus": 37,
+    "Suno Research": 20,
+    "Nord Research": 16,
+    "Clube FII": 11,
+    "Levante": 9,
+    "Capitalizo": 7
+  },
+  "kpis": {
+    "suno_score_atual": 62,
+    "suno_posicao": 2,
+    "lider": "Empiricus",
+    "lider_score": 95,
+    "variacao_mom_pct": 3.3,
+    "n_marcas": 6
+  },
+  "fonte": "Google Trends via pytrends → Snowflake (AI_WORKSPACE.SANDBOX.TB_MS_GOOGLE_TRENDS)",
+  "notas": "Score 0-100 normalizado. 100 = pico de interesse no período analisado. Dado mensal. BU = Research."
+}

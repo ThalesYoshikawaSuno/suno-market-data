@@ -1,0 +1,33 @@
+{
+  "updated_at": "2025-06-30",
+  "semestre": "1S2025",
+  "proxima_atualizacao": "2S2025",
+  "fonte": "ANBIMA FInfluence — Ranking semestral de influenciadores de finanças",
+  "kpis": {
+    "total_influencers": 803,
+    "total_seguidores_m": 287.8,
+    "total_interacoes_semestre_b": 1.18,
+    "lider_youtube": "Café com Ferri",
+    "lider_youtube_subs": "2,1M",
+    "lider_youtube_eng": "28.4k"
+  },
+  "youtube_top10": [
+    { "rank": 1,  "nome": "Café com Ferri",       "tipo": "PF", "seguidores_m": 2.1, "eng_medio_k": 28.4, "certificacao": "CFP" },
+    { "rank": 2,  "nome": "Investidor Sardinha",   "tipo": "PF", "seguidores_m": 1.8, "eng_medio_k": 24.1, "certificacao": "CGA" },
+    { "rank": 3,  "nome": "O Primo Rico",          "tipo": "PF", "seguidores_m": 6.8, "eng_medio_k": 22.0, "certificacao": null  },
+    { "rank": 4,  "nome": "Bruno Perini",          "tipo": "PF", "seguidores_m": 1.6, "eng_medio_k": 18.4, "certificacao": "CEA" },
+    { "rank": 5,  "nome": "Economista Sincero",    "tipo": "PF", "seguidores_m": 1.2, "eng_medio_k": 16.2, "certificacao": null  },
+    { "rank": 6,  "nome": "Me Poupe!",             "tipo": "PF", "seguidores_m": 5.4, "eng_medio_k": 14.8, "certificacao": null  },
+    { "rank": 7,  "nome": "InfoMoney",             "tipo": "PJ", "seguidores_m": 2.6, "eng_medio_k": 12.6, "certificacao": null  },
+    { "rank": 8,  "nome": "Primo Cast",            "tipo": "PJ", "seguidores_m": 0.9, "eng_medio_k": 11.2, "certificacao": null  },
+    { "rank": 9,  "nome": "CNN Economia",          "tipo": "PJ", "seguidores_m": 1.1, "eng_medio_k": 10.4, "certificacao": null  },
+    { "rank": 10, "nome": "XP Investimentos",      "tipo": "PJ", "seguidores_m": 0.7, "eng_medio_k":  9.8, "certificacao": null  }
+  ],
+  "engajamento_por_plataforma": [
+    { "plataforma": "YouTube",      "eng_medio_k": 11.6, "cor": "#6366F1" },
+    { "plataforma": "Instagram",    "eng_medio_k":  4.2, "cor": "#EC4899" },
+    { "plataforma": "Facebook",     "eng_medio_k":  2.8, "cor": "#3B82F6" },
+    { "plataforma": "X (Twitter)",  "eng_medio_k":  1.9, "cor": "#84CC16" }
+  ],
+  "notas": "Ranking YouTube ordenado por engajamento médio por post (k). PF = Pessoa Física. PJ = Pessoa Jurídica. Certificações ANBIMA: CFP, CGA, CEA. Dado semestral — próxima atualização: 2S2025."
+}
