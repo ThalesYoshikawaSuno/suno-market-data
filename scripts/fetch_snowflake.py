@@ -300,6 +300,88 @@ def fetch_youtube_interno_diag():
         except Exception as e:
             print(f"  {view}: ERRO — {e}")
 
+# ── Vendas por Hora (SunoCode) ─────────────────────────────────────────────
+@dataset("vendas_hora")
+def fetch_vendas_hora():
+    print("⏰ Vendas por Hora (SunoCode V2)...")
+    rows = run_query("""
+        SELECT
+            TO_CHAR(PEDIDO_DATA, 'YYYY-MM-DD') AS PEDIDO_DATA,
+            HORA,
+            PRODUTO_AREA_V2,
+            CANAL,
+            CAMPANHA,
+            FORMATO,
+            ORIGEM,
+            VARIACAO,
+            PUBLICO,
+            CRIATIVO,
+            DEPARTAMENTO,
+            STATUS_PEDIDO,
+            RECEITA,
+            PEDIDO_ID,
+            AUDITORIA_PRODUTO_TITULO,
+            CAMPAIGN_ID,
+            UTM_CAMPANHA,
+            UTM_TERMO
+        FROM AI_WORKSPACE.SANDBOX.VW_VENDAS_POR_HORA_SUNOCODE_V2
+        WHERE PEDIDO_DATA >= DATEADD('day', -90, CURRENT_DATE())
+        ORDER BY PEDIDO_DATA DESC, HORA
+    """, cfg=SF_TRENDS)
+    save("vendas_hora.json", rows)
+    update_meta("vendas_hora")
+
+@dataset("vendas_hora_diag")
+def fetch_vendas_hora_diag():
+    print("🔍 Diagnóstico VW_VENDAS_POR_HORA_SUNOCODE_V2...")
+    try:
+        rows = run_query("SELECT * FROM AI_WORKSPACE.SANDBOX.VW_VENDAS_POR_HORA_SUNOCODE_V2 LIMIT 1", cfg=SF_TRENDS)
+        if rows: print(f"  Colunas: {list(rows[0].keys())}")
+        else: print("  Sem dados")
+    except Exception as e: print(f"  ERRO: {e}")
+
+# ── Mídia — Planejado vs Realizado ─────────────────────────────────────────
+@dataset("midia_orcamento")
+def fetch_midia_orcamento():
+    print("📊 Mídia — Planejado vs Realizado...")
+    rows = run_query("""
+        SELECT
+            TO_CHAR(DATA, 'YYYY-MM-DD') AS DATA,
+            BU,
+            CAMPANHA,
+            ORCADO,
+            GERENCIAL
+        FROM AI_WORKSPACE.SANDBOX.VW_MIDIA_PLANEJADO_VS_REALIZADO
+        WHERE DATA >= DATEADD('month', -13, CURRENT_DATE())
+        ORDER BY DATA, BU, CAMPANHA
+    """, cfg=SF_TRENDS)
+    save("midia_orcamento.json", rows)
+    update_meta("midia_orcamento")
+
+@dataset("midia_realizado_fonte")
+def fetch_midia_realizado_fonte():
+    print("📢 Mídia Realizado por Fonte (SOURCE)...")
+    rows = run_query("""
+        SELECT
+            TO_CHAR(DATA, 'YYYY-MM-DD') AS DATA,
+            SOURCE,
+            CUSTO_REALIZADO
+        FROM AI_WORKSPACE.SANDBOX.VW_MIDIA_REALIZADO
+        WHERE DATA >= DATEADD('month', -13, CURRENT_DATE())
+        ORDER BY DATA, SOURCE
+    """, cfg=SF_TRENDS)
+    save("midia_realizado_fonte.json", rows)
+
+@dataset("midia_orcamento_diag")
+def fetch_midia_orcamento_diag():
+    print("🔍 Diagnóstico views Mídia Orçamento...")
+    for view in ["VW_MIDIA_PLANEJADO_VS_REALIZADO", "VW_MIDIA_REALIZADO"]:
+        try:
+            rows = run_query(f"SELECT * FROM AI_WORKSPACE.SANDBOX.{view} LIMIT 1", cfg=SF_TRENDS)
+            if rows: print(f"  {view}: {list(rows[0].keys())}")
+            else: print(f"  {view}: sem dados")
+        except Exception as e: print(f"  {view}: ERRO — {e}")
+
 # ── Main ───────────────────────────────────────────────────────────────────
 def main():
     parser = argparse.ArgumentParser()

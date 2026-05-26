@@ -201,6 +201,24 @@
       "proximo_update": null,
       "status": "futuro",
       "obs": "Seção futura"
+    },
+    "vendas_hora": {
+      "label": "Vendas por Hora — SunoCode",
+      "frequencia": "diario",
+      "tabela": "AI_WORKSPACE.SANDBOX.VW_VENDAS_POR_HORA_SUNOCODE_V2",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente",
+      "obs": "Aguardando primeira carga"
+    },
+    "midia_orcamento": {
+      "label": "Mídia — Planejado vs Realizado",
+      "frequencia": "diario",
+      "tabela": "VW_MIDIA_PLANEJADO_VS_REALIZADO + VW_MIDIA_REALIZADO",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente",
+      "obs": "Aguardando primeira carga"
     }
   }
 }
