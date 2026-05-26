@@ -1,0 +1,103 @@
+name: 📊 ANBIMA Ranking de Gestores → Snowflake (Mensal)
+
+# A ANBIMA publica o ranking por volta do dia 10–15 de cada mês,
+# referente ao mês anterior. O workflow roda no dia 15 às 10h BRT (13h UTC).
+# Também pode ser disparado manualmente via workflow_dispatch.
+
+on:
+  schedule:
+    - cron: '0 13 15 * *'   # dia 15 de cada mês às 13:00 UTC (10:00 BRT)
+  workflow_dispatch:
+    inputs:
+      url:
+        description: >
+          URL direta do arquivo Excel no site da ANBIMA.
+          Acesse https://data.anbima.com.br/publicacoes/ranking-de-gestores-de-fundos-de-investimento,
+          clique em Download e cole o link aqui.
+          Se vazio, o script tenta descobrir automaticamente.
+        required: false
+        type: string
+      ano_mes:
+        description: >
+          Mês de referência no formato AAAAMM (ex: 202507).
+          Deixe vazio para detectar automaticamente pelo nome do arquivo.
+        required: false
+        type: string
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  anbima-ranking:
+    name: ETL ANBIMA Ranking → Snowflake
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5.6.0
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: pip install snowflake-connector-python requests pandas openpyxl xlrd
+
+      # ── Carga ANBIMA → Snowflake ─────────────────────────────────────────
+      - name: Baixar Excel e carregar no Snowflake
+        env:
+          SNOWFLAKE_ACCOUNT:   ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USERNAME:  ${{ secrets.SNOWFLAKE_USERNAME }}
+          SNOWFLAKE_PASSWORD:  ${{ secrets.SNOWFLAKE_PASSWORD }}
+          SNOWFLAKE_DATABASE:  ${{ secrets.SNOWFLAKE_DATABASE }}
+          SNOWFLAKE_SCHEMA:    ${{ secrets.SNOWFLAKE_SCHEMA }}
+          SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+          SNOWFLAKE_ROLE:      ${{ secrets.SNOWFLAKE_ROLE }}
+        run: |
+          ARGS=""
+
+          if [ -n "${{ inputs.url }}" ]; then
+            ARGS="$ARGS --url '${{ inputs.url }}'"
+          fi
+
+          if [ -n "${{ inputs.ano_mes }}" ]; then
+            ARGS="$ARGS --ano-mes ${{ inputs.ano_mes }}"
+          fi
+
+          echo "Rodando: python scripts/anbima_ranking_to_snowflake.py $ARGS"
+          eval python scripts/anbima_ranking_to_snowflake.py $ARGS
+
+      # ── Exporta de volta para data/ (atualiza os JSON do dashboard) ──────
+      - name: Exportar anbima_pl e anbima_cap do Snowflake para JSON
+        env:
+          SNOWFLAKE_ACCOUNT:   ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USERNAME:  ${{ secrets.SNOWFLAKE_USERNAME }}
+          SNOWFLAKE_PASSWORD:  ${{ secrets.SNOWFLAKE_PASSWORD }}
+          SNOWFLAKE_DATABASE:  ${{ secrets.SNOWFLAKE_DATABASE }}
+          SNOWFLAKE_SCHEMA:    ${{ secrets.SNOWFLAKE_SCHEMA }}
+          SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+          SNOWFLAKE_ROLE:      ${{ secrets.SNOWFLAKE_ROLE }}
+          SNOWFLAKE_DB_TRENDS:     ${{ secrets.SNOWFLAKE_DB_TRENDS }}
+          SNOWFLAKE_SCHEMA_TRENDS: ${{ secrets.SNOWFLAKE_SCHEMA_TRENDS }}
+        run: |
+          python scripts/fetch_snowflake.py --datasets anbima_pl,anbima_cap
+
+      # ── Commit e push dos JSON atualizados ────────────────────────────────
+      - name: Commit e push dos dados
+        run: |
+          git config user.email "data-bot@suno.com.br"
+          git config user.name "Suno Data Bot"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Sem mudanças nos JSON, nada a commitar."
+          else
+            git stash
+            git pull --rebase origin main
+            git stash pop
+            git add data/
+            git commit -m "📊 ANBIMA Ranking — $(date +'%m/%Y') — $(date +'%d/%m/%Y %H:%M') BRT"
+            git push
+          fi
