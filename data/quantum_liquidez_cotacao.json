@@ -1,17 +1,35 @@
 [
   {
-    "CODIGO": "HSAF11",
-    "CNPJ": "35360687000150",
-    "NOME_DO_ATIVO": "HSI ATIVOS FINANCEIROS RESP LIMITADA FII - HSAF11",
+    "CODIGO": "HSML11",
+    "CNPJ": "32892018000131",
+    "NOME_DO_ATIVO": "HSI MALLS RESP LIMITADA FII - HSML11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "AJFI11",
-    "CNPJ": "51472985000199",
-    "NOME_DO_ATIVO": "AJ MALLS RESP LIMITADA FII - AJFI11",
+    "CODIGO": "VISC11",
+    "CNPJ": "17554274000125",
+    "NOME_DO_ATIVO": "VINCI SHOPPING CENTERS RESP LIMITADA FII - VISC11",
+    "DATA": "2026-05-25",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "RECR11",
+    "CNPJ": "28152272000126",
+    "NOME_DO_ATIVO": "REC RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - RECR11",
+    "DATA": "2026-05-25",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "HGRE11",
+    "CNPJ": "09072017000129",
+    "NOME_DO_ATIVO": "PÁTRIA ESCRITÓRIOS RESP LIMITADA FII - HGRE11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
@@ -36,24 +54,6 @@
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "VRTA11",
-    "CNPJ": "11664201000100",
-    "NOME_DO_ATIVO": "FATOR VERITÀ FII - VRTA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "ALZR11",
-    "CNPJ": "28737771000185",
-    "NOME_DO_ATIVO": "ALIANZA TRUST RENDA IMOBILIÁRIA RESP LIMITADA FII - ALZR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
     "CODIGO": "SNEL11",
     "CNPJ": "43741171000184",
     "NOME_DO_ATIVO": "SUNO ENERGIAS LIMPAS IS RESP LIMITADA FII - SNEL11",
@@ -63,54 +63,9 @@
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "FZDA11",
-    "CNPJ": "44625694000128",
-    "NOME_DO_ATIVO": "TANE FZDA FIAGRO FII - FZDA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VRTM11",
-    "CNPJ": "51870412000113",
-    "NOME_DO_ATIVO": "FATOR VERITÀ MULTIESTRATÉGIA FII - VRTM11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
     "CODIGO": "HGRU11",
     "CNPJ": "29641226000153",
     "NOME_DO_ATIVO": "PÁTRIA RENDA URBANA RESP LIMITADA FII - HGRU11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "WHGR11",
-    "CNPJ": "41256643000188",
-    "NOME_DO_ATIVO": "WHG REAL ESTATE RESP LIMITADA FII - WHGR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "FYTO11",
-    "CNPJ": "18085673000157",
-    "NOME_DO_ATIVO": "FYTO RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - FYTO11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HSLG11",
-    "CNPJ": "32903621000171",
-    "NOME_DO_ATIVO": "HSI LOGÍSTICA RESP LIMITADA FII - HSLG11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
@@ -144,441 +99,9 @@
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "ARRI11",
-    "CNPJ": "32006821000121",
-    "NOME_DO_ATIVO": "OPEN K ATIVOS E RECEBIVEIS IMOBILIARIOS FII - ARRI11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "AZIN11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "AZ QUEST INFRA YIELD II FIP INFRAESTRUTURA - AZIN11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HSML11",
-    "CNPJ": "32892018000131",
-    "NOME_DO_ATIVO": "HSI MALLS RESP LIMITADA FII - HSML11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "GAME11",
-    "CNPJ": "41269052000145",
-    "NOME_DO_ATIVO": "GUARDIAN MULTIESTRATÉGIA IMOBILIÁRIA I RESP LIMITADA FII - GAME11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "AZPL11",
-    "CNPJ": "51890054000100",
-    "NOME_DO_ATIVO": "AZ QUEST PANORAMA LOGÍSTICA RESP LIMITADA FII - AZPL11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HTMX11",
-    "CNPJ": "08706065000169",
-    "NOME_DO_ATIVO": "HOTEL MAXINVEST RESP LIMITADA FII - HTMX11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VINO11",
-    "CNPJ": "12516185000170",
-    "NOME_DO_ATIVO": "VINCI OFFICES RESP LIMITADA FII - VINO11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HGCR11",
-    "CNPJ": "11160521000122",
-    "NOME_DO_ATIVO": "PÁTRIA RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - HGCR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "RZTR11",
-    "CNPJ": "36501128000186",
-    "NOME_DO_ATIVO": "RIZA TERRAX FII - RZTR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "DEVA11",
-    "CNPJ": "37087810000137",
-    "NOME_DO_ATIVO": "DEVANT RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - DEVA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "EGAF11",
-    "CNPJ": "41224330000148",
-    "NOME_DO_ATIVO": "ECOAGRO I RESP LIMITADA FIAGRO FII - EGAF11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "FATN11",
-    "CNPJ": "30567216000102",
-    "NOME_DO_ATIVO": "BRC RENDA CORPORATIVA RESP LIMITADA FII - FATN11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "CPTS11",
-    "CNPJ": "18979895000113",
-    "NOME_DO_ATIVO": "CAPITÂNIA SECURITIES II RESP LIMITADA FII - CPTS11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "AGRX11",
-    "CNPJ": "43951911000107",
-    "NOME_DO_ATIVO": "EXES ARAGUAIA FIAGRO FII - AGRX11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "AIEC11",
-    "CNPJ": "35765826000126",
-    "NOME_DO_ATIVO": "ARCH EDIFÍCIOS CORPORATIVOS RESP LIMITADA FII - AIEC11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "FGAA11",
-    "CNPJ": "42405905000191",
-    "NOME_DO_ATIVO": "FG/AGRO RESP LIMITADA FIAGRO FII - FGAA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VILG11",
-    "CNPJ": "24853044000122",
-    "NOME_DO_ATIVO": "VINCI LOGÍSTICA RESP LIMITADA FII - VILG11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "XPCA11",
-    "CNPJ": "41269527000101",
-    "NOME_DO_ATIVO": "XP CRÉDITO AGRÍCOLA FIAGRO FII - XPCA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "FIIB11",
-    "CNPJ": "14217108000145",
-    "NOME_DO_ATIVO": "INDUSTRIAL DO BRASIL RESP LIMITADA FII - FIIB11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
     "CODIGO": "HGLG11",
     "CNPJ": "11728688000147",
     "NOME_DO_ATIVO": "PÁTRIA LOG RESP LIMITADA FII - HGLG11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "FTCA11",
-    "CNPJ": "42537438000153",
-    "NOME_DO_ATIVO": "FYTO RECEBÍVEIS DO AGRONEGÓCIO RESP LIMITADA FIAGRO FII - FTCA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VISC11",
-    "CNPJ": "17554274000125",
-    "NOME_DO_ATIVO": "VINCI SHOPPING CENTERS RESP LIMITADA FII - VISC11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "RCRB11",
-    "CNPJ": "03683056000186",
-    "NOME_DO_ATIVO": "RIO BRAVO RENDA CORPORATIVA RESP LIMITADA FII - RCRB11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "RECR11",
-    "CNPJ": "28152272000126",
-    "NOME_DO_ATIVO": "REC RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - RECR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VIUR11",
-    "CNPJ": "36445587000190",
-    "NOME_DO_ATIVO": "VINCI IMÓVEIS URBANOS RESP LIMITADA FII - VIUR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HGRE11",
-    "CNPJ": "09072017000129",
-    "NOME_DO_ATIVO": "PÁTRIA ESCRITÓRIOS RESP LIMITADA FII - HGRE11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "RECT11",
-    "CNPJ": "32274163000159",
-    "NOME_DO_ATIVO": "REC RENDA IMOBILIÁRIA RESP LIMITADA FII - RECT11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "JSAF11",
-    "CNPJ": "42085661000107",
-    "NOME_DO_ATIVO": "JS ATIVOS RESP LIMITADA FII - JSAF11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "IRIM11",
-    "CNPJ": "41076564000195",
-    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "GRUL11",
-    "CNPJ": "54483412000159",
-    "NOME_DO_ATIVO": "ICATU VANGUARDA GRU LOGÍSTICO RESP LIMITADA FII - GRUL11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TOPP11",
-    "CNPJ": "56805391000176",
-    "NOME_DO_ATIVO": "RBR TOP OFFICES RESP LIMITADA FII - TOPP11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TRBL11",
-    "CNPJ": "16671412000193",
-    "NOME_DO_ATIVO": "TELLUS RIO BRAVO RENDA LOGÍSTICA RESP LIMITADA FII - TRBL11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "XPSF11",
-    "CNPJ": "30983020000190",
-    "NOME_DO_ATIVO": "XP SELECTION FUNDO DE FUNDOS FII - XPSF11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "ITRI11",
-    "CNPJ": "52270671000176",
-    "NOME_DO_ATIVO": "ITAÚ TOTAL RETURN RESP LIMITADA FII - ITRI11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TRXF11",
-    "CNPJ": "28548288000152",
-    "NOME_DO_ATIVO": "TRX REAL ESTATE RESP LIMITADA FII - TRXF11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "ZAGH11",
-    "CNPJ": "45188066000195",
-    "NOME_DO_ATIVO": "ZAGROS MULTIESTRATÉGIA RESP LIMITADA FII - ZAGH11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "JGPX11",
-    "CNPJ": "42888292000190",
-    "NOME_DO_ATIVO": "JGP CRÉDITO RESP LIMITADA FIAGRO FII - JGPX11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "GTWR11",
-    "CNPJ": "23740527000158",
-    "NOME_DO_ATIVO": "GREEN TOWERS RESP LIMITADA FII - GTWR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "XPML11",
-    "CNPJ": "28757546000100",
-    "NOME_DO_ATIVO": "XP MALLS FII - XPML11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TVRI11",
-    "CNPJ": "14410722000129",
-    "NOME_DO_ATIVO": "TIVIO RENDA IMOBILIÁRIA RESP LIMITADA FII - TVRI11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "GZIT11",
-    "CNPJ": "15447108000102",
-    "NOME_DO_ATIVO": "GAZIT MALLS RESP LIMITADA FII - GZIT11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "URPR11",
-    "CNPJ": "34508872000187",
-    "NOME_DO_ATIVO": "URCA PRIME RENDA FII - URPR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HABT11",
-    "CNPJ": "30578417000105",
-    "NOME_DO_ATIVO": "HABITAT RECEBÍVEIS PULVERIZADOS RESP LIMITADA FII - HABT11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VCJR11",
-    "CNPJ": "32400250000105",
-    "NOME_DO_ATIVO": "VECTIS JUROS REAL RESP LIMITADA FII - VCJR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HCTR11",
-    "CNPJ": "30248180000196",
-    "NOME_DO_ATIVO": "HECTARE CE RESP LIMITADA FII - HCTR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "JSCR11",
-    "CNPJ": "54866214000174",
-    "NOME_DO_ATIVO": "JS RECEBÍVEIS IMOBILIÁRIOS FII - JSCR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "JSRE11",
-    "CNPJ": "13371132000171",
-    "NOME_DO_ATIVO": "JS REAL ESTATE MULTIGESTÃO RESP LIMITADA FII - JSRE11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "JURO11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "SPARTA INFRA - JURO11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TEPP11",
-    "CNPJ": "26681370000125",
-    "NOME_DO_ATIVO": "TELLUS PROPERTIES RESP LIMITADA FII - TEPP11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
@@ -594,99 +117,9 @@
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "BBGO11",
-    "CNPJ": "42592257000120",
-    "NOME_DO_ATIVO": "BB CRÉDITO RESP LIMITADA FIAGRO FII - BBGO11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
     "CODIGO": "GARE11",
     "CNPJ": "37295919000160",
     "NOME_DO_ATIVO": "GUARDIAN REAL ESTATE RESP LIMITADA FII - GARE11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "IAAG11",
-    "CNPJ": "42692399000169",
-    "NOME_DO_ATIVO": "INTER AMERRA RESP LIMITADA FIAGRO - IAAG11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "XPCI11",
-    "CNPJ": "28516301000191",
-    "NOME_DO_ATIVO": "XP CRÉDITO IMOBILIÁRIO FII - XPCI11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SPXS11",
-    "CNPJ": "43010543000100",
-    "NOME_DO_ATIVO": "SPX REAL ESTATE MULTIESTRATÉGIA RESP LIMITADA FII - SPXS11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "IBBP11",
-    "CNPJ": "52551605000174",
-    "NOME_DO_ATIVO": "INVISTA BRAZILIAN BUSINESS PARK FII - IBBP11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "GCRA11",
-    "CNPJ": "37037297000170",
-    "NOME_DO_ATIVO": "GALAPAGOS RECEBÍVEIS DO AGRONEGÓCIO RESP LIMITADA FIAGRO FII - GCRA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "BBIG11",
-    "CNPJ": "54375187000137",
-    "NOME_DO_ATIVO": "BB PREMIUM MALLS RESP LIMITADA FII - BBIG11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "XPID11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "XP INFRA - XPID11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "RBVA11",
-    "CNPJ": "15576907000170",
-    "NOME_DO_ATIVO": "RIO BRAVO RENDA VAREJO RESP LIMITADA FII - RBVA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "ICRI11",
-    "CNPJ": "51294441000184",
-    "NOME_DO_ATIVO": "ITAÚ CRÉDITO IMOBILIÁRIO IPCA RESP LIMITADA FII - ICRI11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
@@ -702,54 +135,9 @@
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "IFRA11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "ITAU FIC INFRA - IFRA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "INFB11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "DRYS FIC INFRA RENDA FIXA - INFB11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "XPIE11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "XP INFRA II - XPIE11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "XPIN11",
-    "CNPJ": "28516325000140",
-    "NOME_DO_ATIVO": "INVISTA INDUSTRIAL FII - XPIN11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
     "CODIGO": "XPLG11",
     "CNPJ": "26502794000185",
     "NOME_DO_ATIVO": "XP LOG RESP LIMITADA FII - XPLG11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "GCRI11",
-    "CNPJ": "38293897000161",
-    "NOME_DO_ATIVO": "GALAPAGOS RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - GCRI11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
@@ -765,297 +153,54 @@
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "498173",
-    "CNPJ": "30317464000197",
-    "NOME_DO_ATIVO": "XP INFRA II FIP INFRAESTRUTURA - XPIE11",
+    "CODIGO": "XPML11",
+    "CNPJ": "28757546000100",
+    "NOME_DO_ATIVO": "XP MALLS FII - XPML11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "BRCR11",
-    "CNPJ": "08924783000101",
-    "NOME_DO_ATIVO": "BTG PACTUAL CORPORATE OFFICE FUND RESP LIMITADA FII - BRCR11",
+    "CODIGO": "TRXF11",
+    "CNPJ": "28548288000152",
+    "NOME_DO_ATIVO": "TRX REAL ESTATE RESP LIMITADA FII - TRXF11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "BROF11",
-    "CNPJ": "48978859000104",
-    "NOME_DO_ATIVO": "BRPR CORPORATE OFFICES RESP LIMITADA FII - BROF11",
+    "CODIGO": "GZIT11",
+    "CNPJ": "15447108000102",
+    "NOME_DO_ATIVO": "GAZIT MALLS RESP LIMITADA FII - GZIT11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "BTAL11",
-    "CNPJ": "36642244000115",
-    "NOME_DO_ATIVO": "BTG PACTUAL LOGÍSTICA RESP LIMITADA FIAGRO - BTAL11",
+    "CODIGO": "HCTR11",
+    "CNPJ": "30248180000196",
+    "NOME_DO_ATIVO": "HECTARE CE RESP LIMITADA FII - HCTR11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "KNOX11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "KNOX DEBT - KNOX11",
+    "CODIGO": "JSRE11",
+    "CNPJ": "13371132000171",
+    "NOME_DO_ATIVO": "JS REAL ESTATE MULTIGESTÃO RESP LIMITADA FII - JSRE11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "KNRI11",
-    "CNPJ": "12005956000165",
-    "NOME_DO_ATIVO": "KINEA RENDA IMOBILIÁRIA RESP LIMITADA FII - KNRI11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KNSC11",
-    "CNPJ": "35864448000138",
-    "NOME_DO_ATIVO": "KINEA SECURITIES RESP LIMITADA FII - KNSC11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "BTCI11",
-    "CNPJ": "09552812000114",
-    "NOME_DO_ATIVO": "BTG PACTUAL CRÉDITO IMOBILIÁRIO FUNDO DE CRI RESP LIMITADA FII - BTCI11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "BTHF11",
-    "CNPJ": "45188176000157",
-    "NOME_DO_ATIVO": "BTG PACTUAL REAL ESTATE HEDGE FUND RESP LIMITADA FII - BTHF11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "BTLG11",
-    "CNPJ": "11839593000109",
-    "NOME_DO_ATIVO": "BTG PACTUAL LOGÍSTICA RESP LIMITADA FII - BTLG11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "PCIP11",
-    "CNPJ": "28729197000113",
-    "NOME_DO_ATIVO": "PATRIA CRÉDITO IMOBILIÁRIO ÍNDICE DE PREÇOS RESP LIMITADA FII - PCIP11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KNIP11",
-    "CNPJ": "24960430000113",
-    "NOME_DO_ATIVO": "KINEA ÍNDICES DE PREÇOS RESP LIMITADA FII - KNIP11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "57484496",
-    "CNPJ": "51484496000157",
-    "NOME_DO_ATIVO": "AZ QUEST INFRA YIELD II FIP INFRAESTRUTURA - AZIN11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "PLCA11",
-    "CNPJ": "41272747000186",
-    "NOME_DO_ATIVO": "PÁTRIA CRÉDITO RESP LIMITADA FIAGRO FII - PLCA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "PMIS11",
-    "CNPJ": "51868778000158",
-    "NOME_DO_ATIVO": "PARAMIS HEDGE FUND RESP LIMITADA FII - PMIS11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "PMLL11",
-    "CNPJ": "26499833000132",
-    "NOME_DO_ATIVO": "PÁTRIA MALLS RESP LIMITADA FII - PMLL11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "PORD11",
-    "CNPJ": "17156502000109",
-    "NOME_DO_ATIVO": "POLO CRÉDITO IMOBILIÁRIO RESP LIMITADA FII - PORD11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "PSEC11",
-    "CNPJ": "35507457000171",
-    "NOME_DO_ATIVO": "PATRIA SECURITIES RESP LIMITADA FII - PSEC11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KNUQ11",
-    "CNPJ": "42754362000118",
-    "NOME_DO_ATIVO": "KINEA UNIQUE HY CDI RESP LIMITADA FII - KNUQ11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KORE11",
-    "CNPJ": "52219978000142",
-    "NOME_DO_ATIVO": "KINEA OPORTUNIDADES REAL ESTATE RESP LIMITADA FII - KORE11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "LIFE11",
-    "CNPJ": "39753295000102",
-    "NOME_DO_ATIVO": "LIFE CAPITAL PARTNERS FII - LIFE11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "BLMG11",
-    "CNPJ": "34081637000171",
-    "NOME_DO_ATIVO": "BLUEMACAW RESP LIMITADA FII - BLMG11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "OIAG11",
-    "CNPJ": "41218352000103",
-    "NOME_DO_ATIVO": "OURINVEST INNOVATION RESP LIMITADA FIAGRO FII - OIAG11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "OUJP11",
-    "CNPJ": "26091656000150",
-    "NOME_DO_ATIVO": "OURINVEST JPP RESP LIMITADA FII - OUJP11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "BCIA11",
-    "CNPJ": "20216935000117",
-    "NOME_DO_ATIVO": "BRADESCO CARTEIRA IMOBILIÁRIA ATIVA FII - BCIA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "BCRI11",
-    "CNPJ": "22219335000138",
-    "NOME_DO_ATIVO": "BANESTES RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - BCRI11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "BDIF11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "BTG PACTUAL DÍVIDA INFRA - BDIF11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KCRE11",
-    "CNPJ": "42502802000140",
-    "NOME_DO_ATIVO": "KINEA CREDITAS RESP LIMITADA FII - KCRE11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KDIF11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "KINEA INFRA - KDIF11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KFOF11",
-    "CNPJ": "30091444000140",
-    "NOME_DO_ATIVO": "KINEA RESP LIMITADA FII - KFOF11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "BIDB11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "INTER INFRA - BIDB11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "BIME11",
-    "CNPJ": "41081356000184",
-    "NOME_DO_ATIVO": "BRIO MULTIESTRATÉGIA RESP LIMITADA FII - BIME11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HGBS11",
-    "CNPJ": "08431747000106",
-    "NOME_DO_ATIVO": "HEDGE BRASIL SHOPPING RESP LIMITADA FII - HGBS11",
+    "CODIGO": "CPTS11",
+    "CNPJ": "18979895000113",
+    "NOME_DO_ATIVO": "CAPITÂNIA SECURITIES II RESP LIMITADA FII - CPTS11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
@@ -1071,36 +216,9 @@
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "KIVO11",
-    "CNPJ": "42273325000198",
-    "NOME_DO_ATIVO": "KILIMA VOLKANO RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - KIVO11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
     "CODIGO": "KNCA11",
     "CNPJ": "41745701000137",
     "NOME_DO_ATIVO": "KINEA CRÉDITO AGRO RESP LIMITADA FIAGRO FII - KNCA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "BODB11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "BOCAINA INFRA - BODB11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "BPML11",
-    "CNPJ": "33046142000149",
-    "NOME_DO_ATIVO": "BTG PACTUAL SHOPPINGS RESP LIMITADA FII - BPML11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
@@ -1143,198 +261,63 @@
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "RZAT11",
-    "CNPJ": "28267696000136",
-    "NOME_DO_ATIVO": "RIZA ARCTIUM REAL ESTATE RESP LIMITADA FII - RZAT11",
+    "CODIGO": "KNIP11",
+    "CNPJ": "24960430000113",
+    "NOME_DO_ATIVO": "KINEA ÍNDICES DE PREÇOS RESP LIMITADA FII - KNIP11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "DCRA11",
-    "CNPJ": "42888360000111",
-    "NOME_DO_ATIVO": "DEVANT RESP LIMITADA FIAGRO FII - DCRA11",
+    "CODIGO": "BRCR11",
+    "CNPJ": "08924783000101",
+    "NOME_DO_ATIVO": "BTG PACTUAL CORPORATE OFFICE FUND RESP LIMITADA FII - BRCR11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "RINV11",
-    "CNPJ": "44625612000145",
-    "NOME_DO_ATIVO": "REAL INVESTOR RESP LIMITADA FII - RINV11",
+    "CODIGO": "KNRI11",
+    "CNPJ": "12005956000165",
+    "NOME_DO_ATIVO": "KINEA RENDA IMOBILIÁRIA RESP LIMITADA FII - KNRI11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "RPRI11",
-    "CNPJ": "42502842000191",
-    "NOME_DO_ATIVO": "RBR PREMIUM RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - RPRI11",
+    "CODIGO": "KNSC11",
+    "CNPJ": "35864448000138",
+    "NOME_DO_ATIVO": "KINEA SECURITIES RESP LIMITADA FII - KNSC11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "RURA11",
-    "CNPJ": "42479593000160",
-    "NOME_DO_ATIVO": "ITAÚ ASSET RURAL RESP LIMITADA FIAGRO FII - RURA11",
+    "CODIGO": "BTHF11",
+    "CNPJ": "45188176000157",
+    "NOME_DO_ATIVO": "BTG PACTUAL REAL ESTATE HEDGE FUND RESP LIMITADA FII - BTHF11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "RZAG11",
-    "CNPJ": "40413979000144",
-    "NOME_DO_ATIVO": "RIZA AGRO FIAGRO FII - RZAG11",
+    "CODIGO": "BTLG11",
+    "CNPJ": "11839593000109",
+    "NOME_DO_ATIVO": "BTG PACTUAL LOGÍSTICA RESP LIMITADA FII - BTLG11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "RBRL11",
-    "CNPJ": "35705463000133",
-    "NOME_DO_ATIVO": "PATRIA LOGÍSTICA II FII - RBRL11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "AAZQ11",
-    "CNPJ": "44625826000111",
-    "NOME_DO_ATIVO": "AZ QUEST SOLE FIAGRO - AAZQ11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HFOF11",
-    "CNPJ": "18307582000119",
-    "NOME_DO_ATIVO": "HEDGE TOP FOFII 3 RESP LIMITADA FII - HFOF11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "RZAK11",
-    "CNPJ": "36642219000131",
-    "NOME_DO_ATIVO": "RIZA AKIN RESP LIMITADA FII - RZAK11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "RBRP11",
-    "CNPJ": "21408063000151",
-    "NOME_DO_ATIVO": "PÁTRIA PROPERTIES RESP LIMITADA FII - RBRP11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "576591",
-    "CNPJ": "36642570000122",
-    "NOME_DO_ATIVO": "KNOX DEBT RESP LIMITADA FIP INFRAESTRUTURA - KNOX11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "RBRR11",
-    "CNPJ": "29467977000103",
-    "NOME_DO_ATIVO": "RBR RENDIMENTO HIGH GRADE RESP LIMITADA FII - RBRR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "CPSH11",
-    "CNPJ": "47896665000199",
-    "NOME_DO_ATIVO": "CAPITÂNIA SHOPPINGS RESP LIMITADA FII - CPSH11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VGIR11",
-    "CNPJ": "29852732000191",
-    "NOME_DO_ATIVO": "VALORA CRI CDI RESP LIMITADA FII - VGIR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "CPTI11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "CAPITÂNIA INFRA - CPTI11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VGRI11",
-    "CNPJ": "53656482000107",
-    "NOME_DO_ATIVO": "VALORA RENDA IMOBILIÁRIA RESP LIMITADA FII - VGRI11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "CPTR11",
-    "CNPJ": "42537579000176",
-    "NOME_DO_ATIVO": "CAPITÂNIA AGRO STRATEGIES RESP LIMITADA FIAGRO FII - CPTR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "AFHI11",
-    "CNPJ": "36642293000158",
-    "NOME_DO_ATIVO": "AF INVEST CRI RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - AFHI11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "RBRX11",
-    "CNPJ": "41088458000121",
-    "NOME_DO_ATIVO": "PÁTRIA PLUS REAL ESTATE RESP LIMITADA FII MULTIESTRATÉGIA - RBRX11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "RBRY11",
-    "CNPJ": "30166700000111",
-    "NOME_DO_ATIVO": "RBR CRÉDITO IMOBILIÁRIO ESTRUTURADO RESP LIMITADA FII - RBRY11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "CRAA11",
-    "CNPJ": "48903610000121",
-    "NOME_DO_ATIVO": "SPARTA RESP LIMITADA FIAGRO FII - CRAA11",
+    "CODIGO": "KNUQ11",
+    "CNPJ": "42754362000118",
+    "NOME_DO_ATIVO": "KINEA UNIQUE HY CDI RESP LIMITADA FII - KNUQ11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
@@ -1350,54 +333,9 @@
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "MANA11",
-    "CNPJ": "42888583000189",
-    "NOME_DO_ATIVO": "MANATÍ CAPITAL HEDGE FUND RESP LIMITADA FII - MANA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "MCCI11",
-    "CNPJ": "23648935000184",
-    "NOME_DO_ATIVO": "MAUÁ CAPITAL RECEBÍVEIS IMOBILIÁRIOS RESP LIMITA FII - MCCI11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "MCRE11",
-    "CNPJ": "36655973000106",
-    "NOME_DO_ATIVO": "MAUÁ CAPITAL REAL ESTATE RESP LIMITADA FII - MCRE11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "MFII11",
-    "CNPJ": "16915968000188",
-    "NOME_DO_ATIVO": "MÉRITO DESENVOLVIMENTO IMOBILIÁRIO I FII - MFII11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
     "CODIGO": "MXRF11",
     "CNPJ": "97521225000125",
     "NOME_DO_ATIVO": "MAXI RENDA RESP LIMITADA FII - MXRF11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "OGIN11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "ÓRAMA INFRA FIC INFRA RENDA FIXA - OGIN11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
@@ -1413,102 +351,30 @@
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "RBFM11",
-    "CNPJ": "17329029000114",
-    "NOME_DO_ATIVO": "RIO BRAVO MULTIESTRATÉGIA RESP LIMITADA FII - RBFM11",
+    "CODIGO": "HFOF11",
+    "CNPJ": "18307582000119",
+    "NOME_DO_ATIVO": "HEDGE TOP FOFII 3 RESP LIMITADA FII - HFOF11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "CACR11",
-    "CNPJ": "32065364000146",
-    "NOME_DO_ATIVO": "CARTESIA RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - CACR11",
+    "CODIGO": "HGBS11",
+    "CNPJ": "08431747000106",
+    "NOME_DO_ATIVO": "HEDGE BRASIL SHOPPING RESP LIMITADA FII - HGBS11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "CCME11",
-    "CNPJ": "43010844000126",
-    "NOME_DO_ATIVO": "CANUMA CAPITAL RESP LIMITADA FII MULTIESTRATÉGIA - CCME11",
+    "CODIGO": "RZTR11",
+    "CNPJ": "36501128000186",
+    "NOME_DO_ATIVO": "RIZA TERRAX FII - RZTR11",
     "DATA": "2026-05-25",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "CDII11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "SPARTA INFRA CDI FIC FI INFRA RENDA FIXA CP - CDII11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "CLIN11",
-    "CNPJ": "49005348000160",
-    "NOME_DO_ATIVO": "CLAVE ÍNDICES DE PREÇOS RESP LIMITADA FII - CLIN11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VCRA11",
-    "CNPJ": "42502827000143",
-    "NOME_DO_ATIVO": "VECTIS DATAGRO CRÉDITO AGRONEGÓCIO RESP LIMITADA FIAGRO FII - VCRA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VGHF11",
-    "CNPJ": "36771692000119",
-    "NOME_DO_ATIVO": "VALORA HEDGE FUND RESP LIMITADA FII - VGHF11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VGIA11",
-    "CNPJ": "41081088000109",
-    "NOME_DO_ATIVO": "VALORA CRA FIAGRO FII - VGIA11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VGIP11",
-    "CNPJ": "34197811000146",
-    "NOME_DO_ATIVO": "VALORA CRI ÍNDICE DE PREÇO RESP LIMITADA FII - VGIP11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "CYCR11",
-    "CNPJ": "36501233000115",
-    "NOME_DO_ATIVO": "CYRELA CRÉDITO RESP LIMITADA FII - CYCR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "631027",
-    "CNPJ": "34633510000118",
-    "NOME_DO_ATIVO": "ITAÚ RESP LIMITADA FIF CIC FI INFRA RENDA FIXA CRÉDITO PRIVADO - IFRA11",
-    "DATA": "2026-05-25",
-    "COTA": 96.4505622,
-    "PL": 1494216643.42,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
