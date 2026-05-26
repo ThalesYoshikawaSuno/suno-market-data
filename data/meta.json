@@ -4,19 +4,19 @@
       "label": "Portais Financeiros",
       "frequencia": "semanal",
       "tabela": "TB_TRAFEGO_SITES_NOTICIAS (portais)",
-      "ultima_atualizacao": "2026-05-18T17:48:41Z",
-      "proximo_update": "2026-05-25T17:48:41Z",
+      "ultima_atualizacao": "2026-05-26T02:59:28Z",
+      "proximo_update": "2026-06-02T02:59:28Z",
       "status": "ok",
-      "ultima_atualizacao_br": "18/05/2026 14:48"
+      "ultima_atualizacao_br": "25/05/2026 23:59"
     },
     "trafego_noticias": {
       "label": "Suno Portais (FII)",
       "frequencia": "semanal",
       "tabela": "TB_TRAFEGO_SITES_NOTICIAS (noticias)",
-      "ultima_atualizacao": "2026-05-18T17:48:41Z",
-      "proximo_update": "2026-05-25T17:48:41Z",
+      "ultima_atualizacao": "2026-05-26T02:59:28Z",
+      "proximo_update": "2026-06-02T02:59:28Z",
       "status": "ok",
-      "ultima_atualizacao_br": "18/05/2026 14:48"
+      "ultima_atualizacao_br": "25/05/2026 23:59"
     },
     "anbima_pl": {
       "label": "ANBIMA — PL",
@@ -42,82 +42,82 @@
       "label": "Google Trends",
       "frequencia": "semanal",
       "tabela": "AI_WORKSPACE.SANDBOX.TB_MS_GOOGLE_TRENDS",
-      "ultima_atualizacao": "2026-05-18T17:48:41Z",
-      "proximo_update": "2026-05-25T17:48:41Z",
+      "ultima_atualizacao": "2026-05-26T02:59:28Z",
+      "proximo_update": "2026-06-02T02:59:28Z",
       "status": "ok",
-      "ultima_atualizacao_br": "18/05/2026 14:48"
+      "ultima_atualizacao_br": "25/05/2026 23:59"
     },
     "youtube_canais": {
       "label": "YouTube — Market Share Diário (24 canais)",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_MARKET_SHARE_DAILY",
-      "ultima_atualizacao": "2026-05-24T12:13:26Z",
-      "proximo_update": "2026-05-25T12:13:26Z",
+      "ultima_atualizacao": "2026-05-26T03:04:45Z",
+      "proximo_update": "2026-05-27T03:04:45Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/05/2026 09:13"
+      "ultima_atualizacao_br": "26/05/2026 00:04"
     },
     "youtube_mensal": {
       "label": "YouTube — Market Share Mensal",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_MARKET_SHARE_MONTHLY",
-      "ultima_atualizacao": "2026-05-24T12:13:26Z",
-      "proximo_update": "2026-05-25T12:13:26Z",
+      "ultima_atualizacao": "2026-05-26T03:04:45Z",
+      "proximo_update": "2026-05-27T03:04:45Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/05/2026 09:13"
+      "ultima_atualizacao_br": "26/05/2026 00:04"
     },
     "youtube_videos": {
       "label": "YouTube — Vídeos Recentes",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_VIDEO_RECENT",
-      "ultima_atualizacao": "2026-05-24T12:13:26Z",
-      "proximo_update": "2026-05-25T12:13:26Z",
+      "ultima_atualizacao": "2026-05-26T03:04:45Z",
+      "proximo_update": "2026-05-27T03:04:45Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/05/2026 09:13"
+      "ultima_atualizacao_br": "26/05/2026 00:04"
     },
     "youtube_top": {
       "label": "YouTube — Top Viewed (30d)",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_VIDEO_TOP_VIEWED",
-      "ultima_atualizacao": "2026-05-24T12:13:26Z",
-      "proximo_update": "2026-05-25T12:13:26Z",
+      "ultima_atualizacao": "2026-05-26T03:04:45Z",
+      "proximo_update": "2026-05-27T03:04:45Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/05/2026 09:13"
+      "ultima_atualizacao_br": "26/05/2026 00:04"
     },
     "youtube_trending": {
       "label": "YouTube — Trending BR (finanças)",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_TRENDING_FINANCE_BR",
-      "ultima_atualizacao": "2026-05-24T12:13:26Z",
-      "proximo_update": "2026-05-25T12:13:26Z",
+      "ultima_atualizacao": "2026-05-26T03:04:45Z",
+      "proximo_update": "2026-05-27T03:04:45Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/05/2026 09:13"
+      "ultima_atualizacao_br": "26/05/2026 00:04"
     },
     "youtube_interno_historico": {
       "label": "YouTube Interno — Histórico Diário",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_HISTORICO",
-      "ultima_atualizacao": "2026-05-24T12:13:26Z",
-      "proximo_update": "2026-05-25T12:13:26Z",
+      "ultima_atualizacao": "2026-05-26T03:04:45Z",
+      "proximo_update": "2026-05-27T03:04:45Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/05/2026 09:13"
+      "ultima_atualizacao_br": "26/05/2026 00:04"
     },
     "youtube_interno_mensal": {
       "label": "YouTube Interno — Mensal",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_POR_MES",
-      "ultima_atualizacao": "2026-05-24T12:13:26Z",
-      "proximo_update": "2026-05-25T12:13:26Z",
+      "ultima_atualizacao": "2026-05-26T03:04:45Z",
+      "proximo_update": "2026-05-27T03:04:45Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/05/2026 09:13"
+      "ultima_atualizacao_br": "26/05/2026 00:04"
     },
     "youtube_interno_videos": {
       "label": "YouTube Interno — Métricas Vídeos",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.YOUTUBE.VIDEOS_METRICS_INFO",
-      "ultima_atualizacao": "2026-05-24T12:13:26Z",
-      "proximo_update": "2026-05-25T12:13:26Z",
+      "ultima_atualizacao": "2026-05-26T03:04:45Z",
+      "proximo_update": "2026-05-27T03:04:45Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/05/2026 09:13"
+      "ultima_atualizacao_br": "26/05/2026 00:04"
     },
     "reputacao_apps": {
       "label": "App Stores",
@@ -150,21 +150,21 @@
       "label": "Mídia Paga Asset (Meta + Google Ads)",
       "frequencia": "diario",
       "tabela": "AI_WORKSPACE.SANDBOX.MS_VW_MIDIA_ASSET",
-      "ultima_atualizacao": "2026-05-24T12:13:26Z",
-      "proximo_update": "2026-05-25T12:13:26Z",
+      "ultima_atualizacao": "2026-05-26T03:04:45Z",
+      "proximo_update": "2026-05-27T03:04:45Z",
       "status": "ok",
       "obs": "Aguardando script 123",
-      "ultima_atualizacao_br": "24/05/2026 09:13"
+      "ultima_atualizacao_br": "26/05/2026 00:04"
     },
     "vendas_comercial": {
       "label": "Vendas Líquidas Comercial",
       "frequencia": "diario",
       "tabela": "AI_WORKSPACE.SANDBOX.MS_VW_VENDAS_LIQUIDAS_COMERCIAL",
-      "ultima_atualizacao": "2026-05-24T12:13:26Z",
-      "proximo_update": "2026-05-25T12:13:26Z",
+      "ultima_atualizacao": "2026-05-26T03:04:45Z",
+      "proximo_update": "2026-05-27T03:04:45Z",
       "status": "ok",
       "obs": "Aguardando script 124",
-      "ultima_atualizacao_br": "24/05/2026 09:13"
+      "ultima_atualizacao_br": "26/05/2026 00:04"
     },
     "consultoria_cvm": {
       "label": "Consultoria CVM",
