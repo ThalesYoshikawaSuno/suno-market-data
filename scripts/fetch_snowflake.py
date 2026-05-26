@@ -300,14 +300,13 @@ def fetch_youtube_interno_diag():
         except Exception as e:
             print(f"  {view}: ERRO — {e}")
 
-# ── Vendas por Hora (SunoCode) ─────────────────────────────────────────────
-@dataset("vendas_hora")
-def fetch_vendas_hora():
-    print("⏰ Vendas por Hora (SunoCode V2)...")
+# ── Vendas SunoCode — Diário ────────────────────────────────────────────────
+@dataset("vendas_diario")
+def fetch_vendas_diario():
+    print("📅 Vendas SunoCode — Diário (V2)...")
     rows = run_query("""
         SELECT
             TO_CHAR(PEDIDO_DATA, 'YYYY-MM-DD') AS PEDIDO_DATA,
-            HORA,
             PRODUTO_AREA_V2,
             CANAL,
             CAMPANHA,
@@ -326,13 +325,13 @@ def fetch_vendas_hora():
             UTM_TERMO
         FROM AI_WORKSPACE.SANDBOX.VW_VENDAS_POR_HORA_SUNOCODE_V2
         WHERE PEDIDO_DATA >= DATEADD('day', -90, CURRENT_DATE())
-        ORDER BY PEDIDO_DATA DESC, HORA
+        ORDER BY PEDIDO_DATA DESC
     """, cfg=SF_TRENDS)
-    save("vendas_hora.json", rows)
-    update_meta("vendas_hora")
+    save("vendas_diario.json", rows)
+    update_meta("vendas_diario")
 
-@dataset("vendas_hora_diag")
-def fetch_vendas_hora_diag():
+@dataset("vendas_diario_diag")
+def fetch_vendas_diario_diag():
     print("🔍 Diagnóstico VW_VENDAS_POR_HORA_SUNOCODE_V2...")
     try:
         rows = run_query("SELECT * FROM AI_WORKSPACE.SANDBOX.VW_VENDAS_POR_HORA_SUNOCODE_V2 LIMIT 1", cfg=SF_TRENDS)

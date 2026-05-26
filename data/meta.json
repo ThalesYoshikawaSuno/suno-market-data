@@ -202,8 +202,8 @@
       "status": "futuro",
       "obs": "Seção futura"
     },
-    "vendas_hora": {
-      "label": "Vendas por Hora — SunoCode",
+    "vendas_diario": {
+      "label": "Vendas SunoCode — Diário",
       "frequencia": "diario",
       "tabela": "AI_WORKSPACE.SANDBOX.VW_VENDAS_POR_HORA_SUNOCODE_V2",
       "ultima_atualizacao": null,
