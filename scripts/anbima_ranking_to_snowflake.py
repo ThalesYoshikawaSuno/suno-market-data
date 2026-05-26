@@ -46,6 +46,7 @@ import argparse
 import tempfile
 from datetime import date
 from pathlib import Path
+from urllib.parse import unquote
 
 import requests
 import pandas as pd
@@ -111,7 +112,11 @@ def discover_download_url() -> str:
     for endpoint in candidates:
         try:
             log.debug(f"  Tentando: {endpoint}")
-            resp = requests.get(endpoint, headers=HTTP_HEADERS, timeout=30)
+            try:
+                resp = requests.get(endpoint, headers=HTTP_HEADERS, timeout=30, verify=True)
+            except requests.exceptions.SSLError:
+                requests.packages.urllib3.disable_warnings()
+                resp = requests.get(endpoint, headers=HTTP_HEADERS, timeout=30, verify=False)
             if resp.status_code != 200:
                 continue
             data = resp.json()
@@ -190,7 +195,14 @@ def _is_excel_url(url: str) -> bool:
 def download_excel(url: str) -> Path:
     """Baixa o Excel para um arquivo temporário e retorna o caminho."""
     log.info(f"Baixando arquivo: {url}")
-    resp = requests.get(url, headers=HTTP_HEADERS, timeout=180, stream=True)
+    # verify=False necessário em ambientes corporativos com proxy SSL interceptor.
+    # Em produção (DAG), configure REQUESTS_CA_BUNDLE ou passe --ssl-no-verify.
+    try:
+        resp = requests.get(url, headers=HTTP_HEADERS, timeout=180, stream=True, verify=True)
+    except requests.exceptions.SSLError:
+        log.warning("SSL verification falhou — tentando com verify=False (ambiente corporativo)")
+        requests.packages.urllib3.disable_warnings()
+        resp = requests.get(url, headers=HTTP_HEADERS, timeout=180, stream=True, verify=False)
     resp.raise_for_status()
 
     # Detecta extensão
@@ -214,12 +226,12 @@ def download_excel(url: str) -> Path:
 # ── Extração de data de referência ────────────────────────────────────────────
 def extract_ref_date(filepath: Path, url: str = "") -> date:
     """
-    Extrai o mês de referência do nome do arquivo.
+    Extrai o mês de referência do nome do arquivo ou URL.
     Ex: "Ranking de Gestao - 202507_valor.xls" → 2025-07-01
+    Usa findall para testar todos os matches (o hash da URL pode conter dígitos espúrios).
     """
-    for source in [filepath.name, url, str(filepath)]:
-        m = re.search(r"(\d{4})(\d{2})", source)
-        if m:
+    for source in [filepath.name, unquote(url), str(filepath)]:
+        for m in re.finditer(r"(\d{4})(\d{2})", source):
             y, mo = int(m.group(1)), int(m.group(2))
             if 2000 <= y <= 2100 and 1 <= mo <= 12:
                 log.info(f"Data de referência: {mo:02d}/{y}")
@@ -334,7 +346,9 @@ def parse_pl_sheet(
         hl = h.lower()
         if hl in ["gestor", "gestores", "nome", "instituição", "instituicao"]:
             gestor_col = ci
-        elif h and hl not in ["nan", "", "#", "r$", "%", "posição", "posicao", "rank", "ranking"]:
+        elif h and hl not in ["nan", "", "#", "r$", "%", "posição", "posicao",
+                               "rank", "ranking", "ordem", "posição/variação",
+                               "posicao/variacao", "var.", "variação", "variacao"]:
             value_cols[ci] = h
 
     if gestor_col is None:
@@ -479,9 +493,11 @@ def parse_excel(
 
     # ── PL (3 abas) ──────────────────────────────────────────────────────────
     pl_rows: list[dict] = []
-    pl_rows += parse_pl_sheet(filepath, ["pag. 2", "pag2", "pl por classe", "pl classe", "classe"], "CLASSE",    sheets)
-    pl_rows += parse_pl_sheet(filepath, ["pag. 3", "pag3", "pl por segmento", "segmento"],           "SEGMENTO", sheets)
-    pl_rows += parse_pl_sheet(filepath, ["pag. 4", "pag4", "pl por estrut",   "estrutur"],           "ESTRUTURA", sheets)
+    # Nota: ANBIMA renomeou "PL por Classe" para "PL por Categoria" em 2024.
+    # Os padrões cobrem ambos os nomes.
+    pl_rows += parse_pl_sheet(filepath, ["pag. 2", "pag2", "pl por classe", "pl classe", "pl por categoria", "por categoria", "classe", "categoria"], "CLASSE",    sheets)
+    pl_rows += parse_pl_sheet(filepath, ["pag. 3", "pag3", "pl por segmento", "segmento"],                                                             "SEGMENTO", sheets)
+    pl_rows += parse_pl_sheet(filepath, ["pag. 4", "pag4", "pl por estrut",   "estrutur"],                                                             "ESTRUTURA", sheets)
 
     for r in pl_rows:
         r["DT_REFERENCIA"]    = dt_str
@@ -636,11 +652,11 @@ def main() -> None:
 
     # ── 4. Dry run ───────────────────────────────────────────────────────────
     if args.dry_run:
-        log.info("[DRY RUN] Nada será gravado no Snowflake.")
-        print("\n── Primeiras 5 linhas PL ──────────────────────────────────────")
-        print(json.dumps(pl_rows[:5], indent=2, ensure_ascii=False, default=str))
-        print("\n── Primeiras 5 linhas Captação ────────────────────────────────")
-        print(json.dumps(cap_rows[:5], indent=2, ensure_ascii=False, default=str))
+        log.info("[DRY RUN] Nada sera gravado no Snowflake.")
+        print("\n--- Primeiras 5 linhas PL ---")
+        print(json.dumps(pl_rows[:5], indent=2, ensure_ascii=True, default=str))
+        print("\n--- Primeiras 5 linhas Captacao ---")
+        print(json.dumps(cap_rows[:5], indent=2, ensure_ascii=True, default=str))
         return
 
     # ── 5. Carregar no Snowflake ─────────────────────────────────────────────
