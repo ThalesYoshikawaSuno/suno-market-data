@@ -109,10 +109,10 @@ def fetch_quantum_liquidez_cotacao():
             f.CODIGO,
             f.CNPJ,
             f.NOME_DO_ATIVO,
-            TO_CHAR(f.DATA, 'YYYY-MM-DD') AS DATA,
-            f.COTA,
-            f.PATRIMONIO_LIQUIDO          AS PL,
-            'LIQUIDO'                     AS TIPO_FUNDO
+            TO_CHAR(f.DATA, 'YYYY-MM-DD')        AS DATA,
+            f.COTA_NAO_AJUSTADOS                 AS COTA,
+            f.PATRIMONIO_LIQUIDO                 AS PL,
+            'LIQUIDO'                            AS TIPO_FUNDO
         FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS f
         WHERE f.DATA = (SELECT MAX(DATA) FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS)
         UNION ALL
@@ -120,10 +120,10 @@ def fetch_quantum_liquidez_cotacao():
             f.CODIGO,
             f.CNPJ,
             f.NOME_DO_ATIVO,
-            TO_CHAR(f.DATA, 'YYYY-MM-DD') AS DATA,
-            f.COTA,
-            f.PATRIMONIO_LIQUIDO          AS PL,
-            'ESTRUTURADO'                 AS TIPO_FUNDO
+            TO_CHAR(f.DATA, 'YYYY-MM-DD')        AS DATA,
+            f.COTA_NAO_AJUSTADOS                 AS COTA,
+            f.PATRIMONIO_LIQUIDO                 AS PL,
+            'ESTRUTURADO'                        AS TIPO_FUNDO
         FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS f
         WHERE f.DATA = (SELECT MAX(DATA) FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS)
         ORDER BY PL DESC
@@ -138,7 +138,7 @@ def fetch_quantum_historico():
             CODIGO,
             NOME_DO_ATIVO,
             TO_CHAR(DATA, 'YYYY-MM-DD') AS DATA,
-            COTA,
+            COTA_NAO_AJUSTADOS           AS COTA,
             PATRIMONIO_LIQUIDO           AS PL,
             'LIQUIDO'                    AS TIPO_FUNDO
         FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS
@@ -148,7 +148,7 @@ def fetch_quantum_historico():
             CODIGO,
             NOME_DO_ATIVO,
             TO_CHAR(DATA, 'YYYY-MM-DD') AS DATA,
-            COTA,
+            COTA_NAO_AJUSTADOS           AS COTA,
             PATRIMONIO_LIQUIDO           AS PL,
             'ESTRUTURADO'                AS TIPO_FUNDO
         FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS
