@@ -67,7 +67,7 @@ STRAPI_URL = "https://data-strapi.prd.anbima.com.br"
 PL_TABLE   = "TB_ANBIMA_PL_RAW"
 CAP_TABLE  = "TB_ANBIMA_CAPTACAO_RAW"
 
-TIPO_INSTITUICAO = "GESTORES"
+TIPO_INSTITUICAO = "IFINANCEIRAS"  # padrão histórico — garante consistência com dados de março
 
 HTTP_HEADERS = {
     "User-Agent": (
@@ -467,7 +467,7 @@ def parse_captacao_sheet(filepath: Path, sheets: list[str]) -> list[dict]:
             rows.append({
                 "GESTOR":        gestor.upper(),
                 "JANELA":        janela,
-                "TIPO_VISAO":    "CLASSE",
+                "TIPO_VISAO":    "CATEGORIA",   # padrão histórico — garante consistência
                 "COLUNA_ORIGEM": col_name,
                 "VALOR":         val,
             })
@@ -495,7 +495,7 @@ def parse_excel(
     pl_rows: list[dict] = []
     # Nota: ANBIMA renomeou "PL por Classe" para "PL por Categoria" em 2024.
     # Os padrões cobrem ambos os nomes.
-    pl_rows += parse_pl_sheet(filepath, ["pag. 2", "pag2", "pl por classe", "pl classe", "pl por categoria", "por categoria", "classe", "categoria"], "CLASSE",    sheets)
+    pl_rows += parse_pl_sheet(filepath, ["pag. 2", "pag2", "pl por classe", "pl classe", "pl por categoria", "por categoria", "classe", "categoria"], "CATEGORIA", sheets)
     pl_rows += parse_pl_sheet(filepath, ["pag. 3", "pag3", "pl por segmento", "segmento"],                                                             "SEGMENTO", sheets)
     pl_rows += parse_pl_sheet(filepath, ["pag. 4", "pag4", "pl por estrut",   "estrutur"],                                                             "ESTRUTURA", sheets)
 
