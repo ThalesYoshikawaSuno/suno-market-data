@@ -219,6 +219,33 @@
       "proximo_update": null,
       "status": "pendente",
       "obs": "Aguardando primeira carga"
+    },
+    "quantum_liquidez_cotacao": {
+      "label": "Quantum — Liquidez e Cotação (D-1)",
+      "frequencia": "diario",
+      "tabela": "REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS + MERCADO_FUNDOS_ESTRUTURADOS",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente",
+      "obs": "Aguardando primeira carga — requer SNOWFLAKE_DB_ASSET=REFINED_ASSET"
+    },
+    "quantum_historico": {
+      "label": "Quantum — Histórico de Preço e Liquidez",
+      "frequencia": "diario",
+      "tabela": "REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS + MERCADO_FUNDOS_ESTRUTURADOS",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente",
+      "obs": "Últimos 13 meses — série histórica diária"
+    },
+    "quantum_marketshare": {
+      "label": "Quantum — Market Share Liquidez (D-1)",
+      "frequencia": "diario",
+      "tabela": "REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS + MERCADO_FUNDOS_ESTRUTURADOS",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente",
+      "obs": "PL relativo ao total do mercado — top 50 fundos"
     }
   }
 }

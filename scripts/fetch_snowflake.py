@@ -31,9 +31,10 @@ SF = dict(
     role      = os.environ.get("SNOWFLAKE_ROLE",     "AI_AGENTS"),
 )
 
-SF_TRENDS = {**SF, "database": os.environ.get("SNOWFLAKE_DB_TRENDS","AI_WORKSPACE"), "schema": os.environ.get("SNOWFLAKE_SCHEMA_TRENDS","SANDBOX")}
+SF_TRENDS  = {**SF, "database": os.environ.get("SNOWFLAKE_DB_TRENDS","AI_WORKSPACE"), "schema": os.environ.get("SNOWFLAKE_SCHEMA_TRENDS","SANDBOX")}
 SF_SERVING = {**SF, "database": "SERVING_LAYER", "schema": "MARKET_SHARE"}
 SF_YOUTUBE = {**SF, "database": "SERVING_LAYER", "schema": "YOUTUBE"}
+SF_ASSET   = {**SF, "database": os.environ.get("SNOWFLAKE_DB_ASSET","REFINED_ASSET"),  "schema": os.environ.get("SNOWFLAKE_SCHEMA_ASSET","QUANTUM")}
 
 def run_query(sql, cfg=SF):
     conn = snowflake.connector.connect(**cfg)
@@ -98,6 +99,106 @@ def fetch_anbima_cap():
     print("💰 ANBIMA Captação...")
     rows = run_query("SELECT TO_CHAR(DT_REFERENCIA,'YYYY-MM-DD') AS DT_REFERENCIA, TIPO_INSTITUICAO, GESTOR, JANELA, TIPO_VISAO, COLUNA_ORIGEM, VALOR FROM RAW_MARKETING.MARKET_SHARE.TB_ANBIMA_CAPTACAO_RAW ORDER BY DT_REFERENCIA DESC, VALOR DESC")
     save("anbima_cap.json", rows); update_meta("anbima_cap")
+
+# ── Quantum Finance — Fundos Asset ────────────────────────────────────────
+@dataset("quantum_liquidez_cotacao")
+def fetch_quantum_liquidez_cotacao():
+    print("📊 Quantum — Liquidez e Cotação (snapshot D-1)...")
+    rows = run_query("""
+        SELECT
+            f.CODIGO,
+            f.CNPJ,
+            f.NOME_DO_ATIVO,
+            TO_CHAR(f.DATA, 'YYYY-MM-DD') AS DATA,
+            f.COTA,
+            f.PATRIMONIO_LIQUIDO          AS PL,
+            'LIQUIDO'                     AS TIPO_FUNDO
+        FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS f
+        WHERE f.DATA = (SELECT MAX(DATA) FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS)
+        UNION ALL
+        SELECT
+            f.CODIGO,
+            f.CNPJ,
+            f.NOME_DO_ATIVO,
+            TO_CHAR(f.DATA, 'YYYY-MM-DD') AS DATA,
+            f.COTA,
+            f.PATRIMONIO_LIQUIDO          AS PL,
+            'ESTRUTURADO'                 AS TIPO_FUNDO
+        FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS f
+        WHERE f.DATA = (SELECT MAX(DATA) FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS)
+        ORDER BY PL DESC
+    """, cfg=SF_ASSET)
+    save("quantum_liquidez_cotacao.json", rows); update_meta("quantum_liquidez_cotacao")
+
+@dataset("quantum_historico")
+def fetch_quantum_historico():
+    print("📈 Quantum — Histórico de Preço e Liquidez (13 meses)...")
+    rows = run_query("""
+        SELECT
+            CODIGO,
+            NOME_DO_ATIVO,
+            TO_CHAR(DATA, 'YYYY-MM-DD') AS DATA,
+            COTA,
+            PATRIMONIO_LIQUIDO           AS PL,
+            'LIQUIDO'                    AS TIPO_FUNDO
+        FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS
+        WHERE DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
+        UNION ALL
+        SELECT
+            CODIGO,
+            NOME_DO_ATIVO,
+            TO_CHAR(DATA, 'YYYY-MM-DD') AS DATA,
+            COTA,
+            PATRIMONIO_LIQUIDO           AS PL,
+            'ESTRUTURADO'                AS TIPO_FUNDO
+        FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS
+        WHERE DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
+        ORDER BY CODIGO, DATA
+    """, cfg=SF_ASSET)
+    save("quantum_historico.json", rows); update_meta("quantum_historico")
+
+@dataset("quantum_marketshare")
+def fetch_quantum_marketshare():
+    print("🏆 Quantum — Market Share Liquidez (D-1)...")
+    rows = run_query("""
+        WITH latest AS (
+            SELECT MAX(DATA) AS MAX_DATA
+            FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS
+        ),
+        base AS (
+            SELECT
+                f.CODIGO,
+                f.NOME_DO_ATIVO,
+                TO_CHAR(f.DATA, 'YYYY-MM-DD')  AS DATA,
+                f.PATRIMONIO_LIQUIDO            AS PL,
+                'LIQUIDO'                       AS TIPO_FUNDO
+            FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS f
+            JOIN latest ON f.DATA = latest.MAX_DATA
+            UNION ALL
+            SELECT
+                f.CODIGO,
+                f.NOME_DO_ATIVO,
+                TO_CHAR(f.DATA, 'YYYY-MM-DD')  AS DATA,
+                f.PATRIMONIO_LIQUIDO            AS PL,
+                'ESTRUTURADO'                   AS TIPO_FUNDO
+            FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS f
+            WHERE f.DATA = (SELECT MAX(DATA) FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS)
+        ),
+        totals AS (
+            SELECT SUM(PL) AS TOTAL_PL FROM base
+        )
+        SELECT
+            b.CODIGO,
+            b.NOME_DO_ATIVO,
+            b.DATA,
+            b.PL,
+            b.PL / t.TOTAL_PL AS MARKETSHARE,
+            b.TIPO_FUNDO
+        FROM base b, totals t
+        ORDER BY b.PL DESC
+        LIMIT 50
+    """, cfg=SF_ASSET)
+    save("quantum_marketshare.json", rows); update_meta("quantum_marketshare")
 
 # ── Google Trends ──────────────────────────────────────────────────────────
 @dataset("google_trends")
