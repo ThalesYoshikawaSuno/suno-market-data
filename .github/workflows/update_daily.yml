@@ -43,7 +43,7 @@ jobs:
           SNOWFLAKE_DB_ASSET:       ${{ secrets.SNOWFLAKE_DB_ASSET }}
           SNOWFLAKE_SCHEMA_ASSET:   ${{ secrets.SNOWFLAKE_SCHEMA_ASSET }}
         run: |
-          python scripts/fetch_snowflake.py --datasets youtube_canais,youtube_mensal,youtube_videos,youtube_top,youtube_trending,youtube_interno_historico,youtube_interno_mensal,youtube_interno_videos,midia_asset,vendas_comercial,vendas_diario,midia_orcamento,midia_realizado_fonte,quantum_liquidez_cotacao,quantum_historico,quantum_marketshare
+          python scripts/fetch_snowflake.py --datasets youtube_canais,youtube_mensal,youtube_videos,youtube_top,youtube_trending,youtube_interno_historico,youtube_interno_mensal,youtube_interno_videos,midia_asset,vendas_comercial,vendas_diario,midia_orcamento,midia_realizado_fonte,quantum_liquidez_cotacao,quantum_historico,quantum_marketshare,asset_liquidez_ms,asset_pvp_ms,asset_cotistas,asset_mercado
 
       - name: Commit e push dos dados
         run: |

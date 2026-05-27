@@ -249,6 +249,42 @@
       "status": "ok",
       "obs": "PL relativo ao total do mercado — top 50 fundos",
       "ultima_atualizacao_br": "26/05/2026 15:13"
+    },
+    "asset_liquidez_ms": {
+      "label": "Asset — Market Share Liquidez (FIIs)",
+      "frequencia": "diario",
+      "tabela": "REFINED_ASSET.QUANTUM.MARKETSHARE_LIQUIDEZ_FUNDOS_ESTRUTURADOS",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente",
+      "obs": "Marketshare de liquidez por peer group — 7 FIIs Suno"
+    },
+    "asset_pvp_ms": {
+      "label": "Asset — P/VP (Prêmio & Desconto)",
+      "frequencia": "diario",
+      "tabela": "REFINED_ASSET.QUANTUM.MARKETSHARE_PVP_FUNDOS_ESTRUTURADOS",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente",
+      "obs": "P/VP relativo vs peer group — FECHAMENTO_MES=1"
+    },
+    "asset_cotistas": {
+      "label": "Asset — KPIs Cotistas (FIIs)",
+      "frequencia": "diario",
+      "tabela": "REFINED_ASSET.COTISTAS.DT_KPIS_COTISTAS_FUNDOS",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente",
+      "obs": "Entradas, saídas, sell-in/sell-out parceiros — 7 FIIs"
+    },
+    "asset_mercado": {
+      "label": "Asset — Cotação & Proventos (FIIs)",
+      "frequencia": "diario",
+      "tabela": "REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS",
+      "ultima_atualizacao": null,
+      "proximo_update": null,
+      "status": "pendente",
+      "obs": "Preço, dividendos, PL, volume — 7 FIIs Suno"
     }
   }
 }

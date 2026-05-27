@@ -105,48 +105,47 @@ def fetch_anbima_cap():
 def fetch_quantum_liquidez_cotacao():
     print("📊 Quantum — Liquidez e Cotação (snapshot D-1)...")
     rows = run_query("""
-        -- Snapshot D-1: todos os fundos Suno + top 40 competidores por PL médio (13m)
+        -- Snapshot: Suno + top 40 competidores. Para ESTRUTURADO usa último PL > 0 (mensal).
         WITH top_competidores AS (
             SELECT CODIGO FROM (
                 SELECT CODIGO, AVG(PATRIMONIO_LIQUIDO) AS PL_MEDIO
                 FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS
                 WHERE DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
-                  AND UPPER(NOME_DO_ATIVO) NOT LIKE '%SUNO%'
-                  AND PATRIMONIO_LIQUIDO > 0
+                  AND UPPER(NOME_DO_ATIVO) NOT LIKE '%SUNO%' AND PATRIMONIO_LIQUIDO > 0
                 GROUP BY CODIGO
                 UNION ALL
                 SELECT CODIGO, AVG(PATRIMONIO_LIQUIDO) AS PL_MEDIO
                 FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS
                 WHERE DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
-                  AND UPPER(NOME_DO_ATIVO) NOT LIKE '%SUNO%'
-                  AND PATRIMONIO_LIQUIDO > 0
+                  AND UPPER(NOME_DO_ATIVO) NOT LIKE '%SUNO%' AND PATRIMONIO_LIQUIDO > 0
                 GROUP BY CODIGO
             ) ORDER BY PL_MEDIO DESC LIMIT 40
+        ),
+        -- LIQUIDO: último dia disponível, deduplicado por CODIGO (maior PL)
+        liquido_raw AS (
+            SELECT f.CODIGO, f.CNPJ, f.NOME_DO_ATIVO,
+                   TO_CHAR(f.DATA, 'YYYY-MM-DD') AS DATA,
+                   f.COTA_NAO_AJUSTADOS AS COTA, f.PATRIMONIO_LIQUIDO AS PL, 'LIQUIDO' AS TIPO_FUNDO,
+                   ROW_NUMBER() OVER (PARTITION BY f.CODIGO ORDER BY f.DATA DESC, f.PATRIMONIO_LIQUIDO DESC) AS rn
+            FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS f
+            WHERE UPPER(f.NOME_DO_ATIVO) LIKE '%SUNO%' OR f.CODIGO IN (SELECT CODIGO FROM top_competidores)
+        ),
+        -- ESTRUTURADO: último registro com PL > 0 por fundo (reportam mensalmente)
+        estruturado_raw AS (
+            SELECT f.CODIGO, f.CNPJ, f.NOME_DO_ATIVO,
+                   TO_CHAR(f.DATA, 'YYYY-MM-DD') AS DATA,
+                   f.COTA_NAO_AJUSTADOS AS COTA, f.PATRIMONIO_LIQUIDO AS PL, 'ESTRUTURADO' AS TIPO_FUNDO,
+                   ROW_NUMBER() OVER (PARTITION BY f.CODIGO
+                       ORDER BY CASE WHEN f.PATRIMONIO_LIQUIDO > 0 THEN 0 ELSE 1 END, f.DATA DESC) AS rn
+            FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS f
+            WHERE UPPER(f.NOME_DO_ATIVO) LIKE '%SUNO%' OR f.CODIGO IN (SELECT CODIGO FROM top_competidores)
         )
-        SELECT
-            f.CODIGO,
-            f.CNPJ,
-            f.NOME_DO_ATIVO,
-            TO_CHAR(f.DATA, 'YYYY-MM-DD')   AS DATA,
-            f.COTA_NAO_AJUSTADOS            AS COTA,
-            f.PATRIMONIO_LIQUIDO            AS PL,
-            'LIQUIDO'                       AS TIPO_FUNDO
-        FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS f
-        WHERE f.DATA = (SELECT MAX(DATA) FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS)
-          AND (UPPER(f.NOME_DO_ATIVO) LIKE '%SUNO%' OR f.CODIGO IN (SELECT CODIGO FROM top_competidores))
+        SELECT CODIGO, CNPJ, NOME_DO_ATIVO, DATA, COTA, PL, TIPO_FUNDO
+        FROM liquido_raw WHERE rn = 1
         UNION ALL
-        SELECT
-            f.CODIGO,
-            f.CNPJ,
-            f.NOME_DO_ATIVO,
-            TO_CHAR(f.DATA, 'YYYY-MM-DD')   AS DATA,
-            f.COTA_NAO_AJUSTADOS            AS COTA,
-            f.PATRIMONIO_LIQUIDO            AS PL,
-            'ESTRUTURADO'                   AS TIPO_FUNDO
-        FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS f
-        WHERE f.DATA = (SELECT MAX(DATA) FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS)
-          AND (UPPER(f.NOME_DO_ATIVO) LIKE '%SUNO%' OR f.CODIGO IN (SELECT CODIGO FROM top_competidores))
-        ORDER BY PL DESC
+        SELECT CODIGO, CNPJ, NOME_DO_ATIVO, DATA, COTA, PL, TIPO_FUNDO
+        FROM estruturado_raw WHERE rn = 1
+        ORDER BY PL DESC NULLS LAST
     """, cfg=SF_ASSET)
     save("quantum_liquidez_cotacao.json", rows); update_meta("quantum_liquidez_cotacao")
 
@@ -154,7 +153,7 @@ def fetch_quantum_liquidez_cotacao():
 def fetch_quantum_historico():
     print("📈 Quantum — Histórico de Preço e Liquidez (13 meses)...")
     rows = run_query("""
-        -- Série histórica: todos os fundos Suno + top 20 competidores por PL médio
+        -- Série histórica: Suno + top 20 competidores, deduplicado por CODIGO+DATA
         WITH suno_fundos AS (
             SELECT DISTINCT CODIGO FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS
             WHERE DATA >= DATEADD(MONTH, -13, CURRENT_DATE()) AND UPPER(NOME_DO_ATIVO) LIKE '%SUNO%'
@@ -167,44 +166,41 @@ def fetch_quantum_historico():
                 SELECT CODIGO, AVG(PATRIMONIO_LIQUIDO) AS PL_MEDIO
                 FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS
                 WHERE DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
-                  AND UPPER(NOME_DO_ATIVO) NOT LIKE '%SUNO%'
-                  AND PATRIMONIO_LIQUIDO > 0
+                  AND UPPER(NOME_DO_ATIVO) NOT LIKE '%SUNO%' AND PATRIMONIO_LIQUIDO > 0
                 GROUP BY CODIGO
                 UNION ALL
                 SELECT CODIGO, AVG(PATRIMONIO_LIQUIDO) AS PL_MEDIO
                 FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS
                 WHERE DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
-                  AND UPPER(NOME_DO_ATIVO) NOT LIKE '%SUNO%'
-                  AND PATRIMONIO_LIQUIDO > 0
+                  AND UPPER(NOME_DO_ATIVO) NOT LIKE '%SUNO%' AND PATRIMONIO_LIQUIDO > 0
                 GROUP BY CODIGO
             ) ORDER BY PL_MEDIO DESC LIMIT 20
         ),
         fundos_selecionados AS (
-            SELECT CODIGO FROM suno_fundos
-            UNION
-            SELECT CODIGO FROM top_competidores
+            SELECT CODIGO FROM suno_fundos UNION SELECT CODIGO FROM top_competidores
+        ),
+        -- Deduplica LIQUIDO por CODIGO+DATA (mantém maior PL para evitar duplicatas do FIDC)
+        liquido_dedup AS (
+            SELECT CODIGO, NOME_DO_ATIVO, TO_CHAR(DATA, 'YYYY-MM-DD') AS DATA,
+                   COTA_NAO_AJUSTADOS AS COTA, PATRIMONIO_LIQUIDO AS PL, 'LIQUIDO' AS TIPO_FUNDO,
+                   ROW_NUMBER() OVER (PARTITION BY CODIGO, DATA ORDER BY PATRIMONIO_LIQUIDO DESC) AS rn
+            FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS
+            WHERE DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
+              AND CODIGO IN (SELECT CODIGO FROM fundos_selecionados)
+        ),
+        estruturado_dedup AS (
+            SELECT CODIGO, NOME_DO_ATIVO, TO_CHAR(DATA, 'YYYY-MM-DD') AS DATA,
+                   COTA_NAO_AJUSTADOS AS COTA, PATRIMONIO_LIQUIDO AS PL, 'ESTRUTURADO' AS TIPO_FUNDO,
+                   ROW_NUMBER() OVER (PARTITION BY CODIGO, DATA ORDER BY PATRIMONIO_LIQUIDO DESC) AS rn
+            FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS
+            WHERE DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
+              AND CODIGO IN (SELECT CODIGO FROM fundos_selecionados)
         )
-        SELECT
-            l.CODIGO,
-            l.NOME_DO_ATIVO,
-            TO_CHAR(l.DATA, 'YYYY-MM-DD') AS DATA,
-            l.COTA_NAO_AJUSTADOS           AS COTA,
-            l.PATRIMONIO_LIQUIDO           AS PL,
-            'LIQUIDO'                      AS TIPO_FUNDO
-        FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS l
-        JOIN fundos_selecionados fs ON l.CODIGO = fs.CODIGO
-        WHERE l.DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
+        SELECT CODIGO, NOME_DO_ATIVO, DATA, COTA, PL, TIPO_FUNDO
+        FROM liquido_dedup WHERE rn = 1
         UNION ALL
-        SELECT
-            e.CODIGO,
-            e.NOME_DO_ATIVO,
-            TO_CHAR(e.DATA, 'YYYY-MM-DD') AS DATA,
-            e.COTA_NAO_AJUSTADOS           AS COTA,
-            e.PATRIMONIO_LIQUIDO           AS PL,
-            'ESTRUTURADO'                  AS TIPO_FUNDO
-        FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS e
-        JOIN fundos_selecionados fs ON e.CODIGO = fs.CODIGO
-        WHERE e.DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
+        SELECT CODIGO, NOME_DO_ATIVO, DATA, COTA, PL, TIPO_FUNDO
+        FROM estruturado_dedup WHERE rn = 1
         ORDER BY CODIGO, DATA
     """, cfg=SF_ASSET)
     save("quantum_historico.json", rows); update_meta("quantum_historico")
@@ -213,37 +209,36 @@ def fetch_quantum_historico():
 def fetch_quantum_marketshare():
     print("🏆 Quantum — Market Share Liquidez (D-1)...")
     rows = run_query("""
-        -- Top 50 por PL + todos os fundos Suno (mesmo fora do top 50)
-        WITH latest_liq AS (
-            SELECT MAX(DATA) AS MAX_DATA FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS
+        -- Market share com PL real: LIQUIDO usa snapshot diário, ESTRUTURADO usa último PL > 0 (mensal)
+        -- Deduplica por CODIGO, calcula total real do mercado, retorna top 50 + todos Suno
+        WITH liquido_base AS (
+            SELECT CODIGO, NOME_DO_ATIVO, TO_CHAR(DATA, 'YYYY-MM-DD') AS DATA,
+                   PATRIMONIO_LIQUIDO AS PL, 'LIQUIDO' AS TIPO_FUNDO,
+                   ROW_NUMBER() OVER (PARTITION BY CODIGO ORDER BY DATA DESC, PATRIMONIO_LIQUIDO DESC) AS rn
+            FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS
         ),
-        latest_est AS (
-            SELECT MAX(DATA) AS MAX_DATA FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS
+        estruturado_base AS (
+            SELECT CODIGO, NOME_DO_ATIVO, TO_CHAR(DATA, 'YYYY-MM-DD') AS DATA,
+                   PATRIMONIO_LIQUIDO AS PL, 'ESTRUTURADO' AS TIPO_FUNDO,
+                   ROW_NUMBER() OVER (PARTITION BY CODIGO
+                       ORDER BY CASE WHEN PATRIMONIO_LIQUIDO > 0 THEN 0 ELSE 1 END, DATA DESC) AS rn
+            FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS
         ),
+        -- Apenas fundos com PL > 0 para base de cálculo
         base AS (
-            SELECT f.CODIGO, f.NOME_DO_ATIVO,
-                   TO_CHAR(f.DATA, 'YYYY-MM-DD') AS DATA,
-                   f.PATRIMONIO_LIQUIDO           AS PL,
-                   'LIQUIDO'                      AS TIPO_FUNDO
-            FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS f
-            JOIN latest_liq ON f.DATA = latest_liq.MAX_DATA
+            SELECT CODIGO, NOME_DO_ATIVO, DATA, PL, TIPO_FUNDO
+            FROM liquido_base WHERE rn = 1 AND PL > 0
             UNION ALL
-            SELECT f.CODIGO, f.NOME_DO_ATIVO,
-                   TO_CHAR(f.DATA, 'YYYY-MM-DD') AS DATA,
-                   f.PATRIMONIO_LIQUIDO           AS PL,
-                   'ESTRUTURADO'                  AS TIPO_FUNDO
-            FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS f
-            JOIN latest_est ON f.DATA = latest_est.MAX_DATA
+            SELECT CODIGO, NOME_DO_ATIVO, DATA, PL, TIPO_FUNDO
+            FROM estruturado_base WHERE rn = 1 AND PL > 0
         ),
-        totals AS (
-            SELECT SUM(PL) AS TOTAL_PL FROM base
-        ),
+        totals AS (SELECT SUM(PL) AS TOTAL_PL FROM base),
         ranked AS (
             SELECT b.CODIGO, b.NOME_DO_ATIVO, b.DATA, b.PL,
                    CASE WHEN t.TOTAL_PL > 0 THEN b.PL / t.TOTAL_PL ELSE 0 END AS MARKETSHARE,
                    b.TIPO_FUNDO,
-                   UPPER(b.NOME_DO_ATIVO) LIKE '%SUNO%'          AS IS_SUNO,
-                   ROW_NUMBER() OVER (ORDER BY b.PL DESC)         AS RNK
+                   UPPER(b.NOME_DO_ATIVO) LIKE '%SUNO%' AS IS_SUNO,
+                   ROW_NUMBER() OVER (ORDER BY b.PL DESC) AS RNK
             FROM base b, totals t
         )
         SELECT CODIGO, NOME_DO_ATIVO, DATA, PL, MARKETSHARE, TIPO_FUNDO
@@ -252,6 +247,96 @@ def fetch_quantum_marketshare():
         ORDER BY PL DESC
     """, cfg=SF_ASSET)
     save("quantum_marketshare.json", rows); update_meta("quantum_marketshare")
+
+# ── Asset — Datasets Analíticos FIIs ──────────────────────────────────────
+@dataset("asset_liquidez_ms")
+def fetch_asset_liquidez_ms():
+    print("💧 Asset — Market Share Liquidez (FIIs Suno)...")
+    rows = run_query("""
+        SELECT
+            TO_CHAR(DATE_TRUNC('MONTH', DATA), 'YYYY-MM')  AS MES,
+            FUNDO_SUNO,
+            CODIGO,
+            NOME_DO_ATIVO,
+            CAST(IS_FUNDO_SUNO AS BOOLEAN)                  AS IS_FUNDO_SUNO,
+            ROUND(AVG(MARKET_SHARE), 6)                     AS MARKET_SHARE_MEDIO,
+            ROUND(SUM(LIQUIDEZ_DIARIA), 2)                  AS LIQUIDEZ_MES,
+            ROUND(AVG(LIQUIDEZ_DIARIA_TOTAL_GRUPO), 2)      AS LIQUIDEZ_GRUPO_MEDIO
+        FROM REFINED_ASSET.QUANTUM.MARKETSHARE_LIQUIDEZ_FUNDOS_ESTRUTURADOS
+        WHERE DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
+        GROUP BY 1, 2, 3, 4, 5
+        ORDER BY FUNDO_SUNO, MES, IS_FUNDO_SUNO DESC
+    """, cfg=SF_ASSET)
+    save("asset_liquidez_ms.json", rows); update_meta("asset_liquidez_ms")
+
+@dataset("asset_pvp_ms")
+def fetch_asset_pvp_ms():
+    print("⚖️  Asset — P/VP (Prêmio & Desconto)...")
+    rows = run_query("""
+        SELECT
+            TO_CHAR(DATA, 'YYYY-MM-DD')             AS DATA,
+            FUNDO_SUNO,
+            CODIGO,
+            NOME_DO_ATIVO,
+            CAST(IS_FUNDO_SUNO AS BOOLEAN)           AS IS_FUNDO_SUNO,
+            ROUND(P_VP, 4)                           AS P_VP,
+            ROUND(P_VP_TOTAL_GRUPO, 4)               AS P_VP_TOTAL_GRUPO,
+            ROUND(MARKET_SHARE_PVP, 6)               AS MARKET_SHARE_PVP,
+            ROUND(MARKET_SHARE_PVP_FUNDO_SUNO, 6)   AS MARKET_SHARE_PVP_FUNDO_SUNO,
+            ROUND(PRECO_FECHAMENTO, 4)               AS PRECO_FECHAMENTO,
+            ROUND(VPA, 4)                            AS VPA
+        FROM REFINED_ASSET.QUANTUM.MARKETSHARE_PVP_FUNDOS_ESTRUTURADOS
+        WHERE DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
+          AND FECHAMENTO_MES = 1
+        ORDER BY FUNDO_SUNO, DATA, IS_FUNDO_SUNO DESC
+    """, cfg=SF_ASSET)
+    save("asset_pvp_ms.json", rows); update_meta("asset_pvp_ms")
+
+@dataset("asset_cotistas")
+def fetch_asset_cotistas():
+    print("👥 Asset — KPIs Cotistas (FIIs Suno)...")
+    rows = run_query("""
+        SELECT
+            TO_CHAR(DATE_TRUNC('MONTH', DATA), 'YYYY-MM') AS MES,
+            FUNDO,
+            MAX(QTD_COTISTAS)                              AS COTISTAS_FIM_MES,
+            SUM(COALESCE(QTD_COTISTAS_NEW, 0))             AS ENTRADAS,
+            SUM(COALESCE(QTD_COTISTAS_EXIT, 0))            AS SAIDAS,
+            SUM(COALESCE(DIFF_QTD_COTISTAS, 0))            AS SALDO_LIQUIDO,
+            MAX(COALESCE(TOTAL_ESTOQUE, 0))                AS ESTOQUE_FIM_MES,
+            ROUND(SUM(COALESCE(TOTAL_SELL_IN, 0)), 2)      AS SELL_IN_MES,
+            ROUND(SUM(ABS(COALESCE(TOTAL_SELL_OUT, 0))), 2) AS SELL_OUT_MES,
+            ROUND(AVG(COALESCE(PRECO_FECHAMENTO, 0)), 4)   AS PRECO_MEDIO_MES,
+            TO_CHAR(MAX(DATA), 'YYYY-MM-DD')               AS ULTIMA_DATA
+        FROM REFINED_ASSET.COTISTAS.DT_KPIS_COTISTAS_FUNDOS
+        WHERE DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
+          AND FUNDO IN ('SNAG11','SNCI11','SNEL11','SNFF11','SNFZ11','SNID11','SNME11')
+        GROUP BY 1, 2
+        ORDER BY FUNDO, MES
+    """, cfg=SF_ASSET)
+    save("asset_cotistas.json", rows); update_meta("asset_cotistas")
+
+@dataset("asset_mercado")
+def fetch_asset_mercado():
+    print("📈 Asset — Cotação & Proventos (FIIs Suno)...")
+    rows = run_query("""
+        SELECT
+            CODIGO,
+            NOME_DO_ATIVO,
+            TO_CHAR(DATA, 'YYYY-MM-DD')                             AS DATA,
+            ROUND(COTA_POR_PRECO_DE_FECHAMENTO_NAO_AJUSTADOS, 4)    AS PRECO_FECHAMENTO,
+            ROUND(COTA_NAO_AJUSTADOS, 4)                            AS VPA,
+            PROVENTO_DIVIDENDO_NAO_AJUSTADOS                         AS DIVIDENDO,
+            ROUND(PATRIMONIO_LIQUIDO, 2)                             AS PL,
+            ROUND(VOLUME_FINANCEIRO, 2)                              AS VOLUME,
+            NUMERO_DE_COTISTAS                                       AS COTISTAS,
+            FATOR_DESDOBRAMENTO
+        FROM REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS
+        WHERE CODIGO IN ('SNAG11','SNCI11','SNEL11','SNFF11','SNFZ11','SNID11','SNME11')
+          AND DATA >= DATEADD(MONTH, -13, CURRENT_DATE())
+        ORDER BY CODIGO, DATA
+    """, cfg=SF_ASSET)
+    save("asset_mercado.json", rows); update_meta("asset_mercado")
 
 # ── Google Trends ──────────────────────────────────────────────────────────
 @dataset("google_trends")
