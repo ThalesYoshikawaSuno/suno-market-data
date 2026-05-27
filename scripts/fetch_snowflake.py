@@ -545,23 +545,23 @@ def fetch_vendas_diario():
     print("📅 Vendas SunoCode — Diário (V2)...")
     rows = run_query("""
         SELECT
-            TO_CHAR(PEDIDO_DATA, 'YYYY-MM-DD') AS PEDIDO_DATA,
-            PRODUTO_AREA_V2,
+            TO_CHAR(PEDIDO_DATA, 'YYYY-MM-DD')  AS PEDIDO_DATA,
+            PRODUTO_AREA,
             CANAL,
             CAMPANHA,
             FORMATO,
             ORIGEM,
-            VARIACAO,
+            "VARIAÇÃO"                           AS VARIACAO,
             PUBLICO,
             CRIATIVO,
-            DEPARTAMENTO,
-            STATUS_PEDIDO,
-            RECEITA,
+            "DEPARTAMENTO "                      AS DEPARTAMENTO,
+            PEDIDO_STATUS_PAGAMENTO_DESC         AS STATUS_PEDIDO,
+            PRECO_FINAL                          AS RECEITA,
             PEDIDO_ID,
             AUDITORIA_PRODUTO_TITULO,
             CAMPAIGN_ID,
-            UTM_CAMPANHA,
-            UTM_TERMO
+            PEDIDO_UTM_CAMPANHA                  AS UTM_CAMPANHA,
+            PEDIDO_UTM_TERMO                     AS UTM_TERMO
         FROM AI_WORKSPACE.SANDBOX.VW_VENDAS_POR_HORA_SUNOCODE_V2
         WHERE PEDIDO_DATA >= DATEADD('day', -90, CURRENT_DATE())
         ORDER BY PEDIDO_DATA DESC
