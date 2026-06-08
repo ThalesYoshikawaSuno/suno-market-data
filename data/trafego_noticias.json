@@ -4910,7 +4910,7 @@
     "SEMANA": 9,
     "ANO_SEMANA": "2026-09",
     "EMPRESA": "ClubeFII",
-    "VISITAS": "75126.73",
+    "VISITAS": "84951.48",
     "SHARE": null
   },
   {
@@ -4919,7 +4919,7 @@
     "SEMANA": 9,
     "ANO_SEMANA": "2026-09",
     "EMPRESA": "FIIs",
-    "VISITAS": "51392.48",
+    "VISITAS": "59867.43",
     "SHARE": null
   },
   {
@@ -4928,7 +4928,7 @@
     "SEMANA": 9,
     "ANO_SEMANA": "2026-09",
     "EMPRESA": "Funds Explorer",
-    "VISITAS": "42233.19",
+    "VISITAS": "47255.96",
     "SHARE": null
   },
   {
@@ -4937,7 +4937,7 @@
     "SEMANA": 9,
     "ANO_SEMANA": "2026-09",
     "EMPRESA": "Investidor10",
-    "VISITAS": "1918348.52",
+    "VISITAS": "2119343.21",
     "SHARE": null
   },
   {
@@ -4946,7 +4946,457 @@
     "SEMANA": 9,
     "ANO_SEMANA": "2026-09",
     "EMPRESA": "Status Invest",
-    "VISITAS": "652449.58",
+    "VISITAS": "719267.41",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-02",
+    "ANO": 2026,
+    "SEMANA": 10,
+    "ANO_SEMANA": "2026-10",
+    "EMPRESA": "ClubeFII",
+    "VISITAS": "80149.56",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-02",
+    "ANO": 2026,
+    "SEMANA": 10,
+    "ANO_SEMANA": "2026-10",
+    "EMPRESA": "FIIs",
+    "VISITAS": "57631.17",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-02",
+    "ANO": 2026,
+    "SEMANA": 10,
+    "ANO_SEMANA": "2026-10",
+    "EMPRESA": "Funds Explorer",
+    "VISITAS": "35698.35",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-02",
+    "ANO": 2026,
+    "SEMANA": 10,
+    "ANO_SEMANA": "2026-10",
+    "EMPRESA": "Investidor10",
+    "VISITAS": "2191181.92",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-02",
+    "ANO": 2026,
+    "SEMANA": 10,
+    "ANO_SEMANA": "2026-10",
+    "EMPRESA": "Status Invest",
+    "VISITAS": "794478.02",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-09",
+    "ANO": 2026,
+    "SEMANA": 11,
+    "ANO_SEMANA": "2026-11",
+    "EMPRESA": "ClubeFII",
+    "VISITAS": "87745.16",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-09",
+    "ANO": 2026,
+    "SEMANA": 11,
+    "ANO_SEMANA": "2026-11",
+    "EMPRESA": "FIIs",
+    "VISITAS": "58641.04",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-09",
+    "ANO": 2026,
+    "SEMANA": 11,
+    "ANO_SEMANA": "2026-11",
+    "EMPRESA": "Funds Explorer",
+    "VISITAS": "39738.26",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-09",
+    "ANO": 2026,
+    "SEMANA": 11,
+    "ANO_SEMANA": "2026-11",
+    "EMPRESA": "Investidor10",
+    "VISITAS": "1896610.67",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-09",
+    "ANO": 2026,
+    "SEMANA": 11,
+    "ANO_SEMANA": "2026-11",
+    "EMPRESA": "Status Invest",
+    "VISITAS": "723941.80",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-16",
+    "ANO": 2026,
+    "SEMANA": 12,
+    "ANO_SEMANA": "2026-12",
+    "EMPRESA": "ClubeFII",
+    "VISITAS": "67708.49",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-16",
+    "ANO": 2026,
+    "SEMANA": 12,
+    "ANO_SEMANA": "2026-12",
+    "EMPRESA": "FIIs",
+    "VISITAS": "39788.63",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-16",
+    "ANO": 2026,
+    "SEMANA": 12,
+    "ANO_SEMANA": "2026-12",
+    "EMPRESA": "Funds Explorer",
+    "VISITAS": "36941.91",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-16",
+    "ANO": 2026,
+    "SEMANA": 12,
+    "ANO_SEMANA": "2026-12",
+    "EMPRESA": "Investidor10",
+    "VISITAS": "1934401.95",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-16",
+    "ANO": 2026,
+    "SEMANA": 12,
+    "ANO_SEMANA": "2026-12",
+    "EMPRESA": "Status Invest",
+    "VISITAS": "637023.04",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-23",
+    "ANO": 2026,
+    "SEMANA": 13,
+    "ANO_SEMANA": "2026-13",
+    "EMPRESA": "ClubeFII",
+    "VISITAS": "63689.37",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-23",
+    "ANO": 2026,
+    "SEMANA": 13,
+    "ANO_SEMANA": "2026-13",
+    "EMPRESA": "FIIs",
+    "VISITAS": "42797.36",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-23",
+    "ANO": 2026,
+    "SEMANA": 13,
+    "ANO_SEMANA": "2026-13",
+    "EMPRESA": "Funds Explorer",
+    "VISITAS": "35295.16",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-23",
+    "ANO": 2026,
+    "SEMANA": 13,
+    "ANO_SEMANA": "2026-13",
+    "EMPRESA": "Investidor10",
+    "VISITAS": "1984204.34",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-23",
+    "ANO": 2026,
+    "SEMANA": 13,
+    "ANO_SEMANA": "2026-13",
+    "EMPRESA": "Status Invest",
+    "VISITAS": "634475.64",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-30",
+    "ANO": 2026,
+    "SEMANA": 14,
+    "ANO_SEMANA": "2026-14",
+    "EMPRESA": "ClubeFII",
+    "VISITAS": "73658.82",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-30",
+    "ANO": 2026,
+    "SEMANA": 14,
+    "ANO_SEMANA": "2026-14",
+    "EMPRESA": "FIIs",
+    "VISITAS": "47036.54",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-30",
+    "ANO": 2026,
+    "SEMANA": 14,
+    "ANO_SEMANA": "2026-14",
+    "EMPRESA": "Funds Explorer",
+    "VISITAS": "39530.66",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-30",
+    "ANO": 2026,
+    "SEMANA": 14,
+    "ANO_SEMANA": "2026-14",
+    "EMPRESA": "Investidor10",
+    "VISITAS": "1900072.72",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-03-30",
+    "ANO": 2026,
+    "SEMANA": 14,
+    "ANO_SEMANA": "2026-14",
+    "EMPRESA": "Status Invest",
+    "VISITAS": "621783.32",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-06",
+    "ANO": 2026,
+    "SEMANA": 15,
+    "ANO_SEMANA": "2026-15",
+    "EMPRESA": "ClubeFII",
+    "VISITAS": "78229.65",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-06",
+    "ANO": 2026,
+    "SEMANA": 15,
+    "ANO_SEMANA": "2026-15",
+    "EMPRESA": "FIIs",
+    "VISITAS": "27617.86",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-06",
+    "ANO": 2026,
+    "SEMANA": 15,
+    "ANO_SEMANA": "2026-15",
+    "EMPRESA": "Funds Explorer",
+    "VISITAS": "30457.86",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-06",
+    "ANO": 2026,
+    "SEMANA": 15,
+    "ANO_SEMANA": "2026-15",
+    "EMPRESA": "Investidor10",
+    "VISITAS": "1894611.49",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-06",
+    "ANO": 2026,
+    "SEMANA": 15,
+    "ANO_SEMANA": "2026-15",
+    "EMPRESA": "Status Invest",
+    "VISITAS": "656257.77",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-13",
+    "ANO": 2026,
+    "SEMANA": 16,
+    "ANO_SEMANA": "2026-16",
+    "EMPRESA": "ClubeFII",
+    "VISITAS": "91514.62",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-13",
+    "ANO": 2026,
+    "SEMANA": 16,
+    "ANO_SEMANA": "2026-16",
+    "EMPRESA": "FIIs",
+    "VISITAS": "26718.43",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-13",
+    "ANO": 2026,
+    "SEMANA": 16,
+    "ANO_SEMANA": "2026-16",
+    "EMPRESA": "Funds Explorer",
+    "VISITAS": "37964.11",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-13",
+    "ANO": 2026,
+    "SEMANA": 16,
+    "ANO_SEMANA": "2026-16",
+    "EMPRESA": "Investidor10",
+    "VISITAS": "1964152.55",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-13",
+    "ANO": 2026,
+    "SEMANA": 16,
+    "ANO_SEMANA": "2026-16",
+    "EMPRESA": "Status Invest",
+    "VISITAS": "652911.23",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "ANO": 2026,
+    "SEMANA": 17,
+    "ANO_SEMANA": "2026-17",
+    "EMPRESA": "ClubeFII",
+    "VISITAS": "65382.33",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "ANO": 2026,
+    "SEMANA": 17,
+    "ANO_SEMANA": "2026-17",
+    "EMPRESA": "FIIs",
+    "VISITAS": "26154.87",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "ANO": 2026,
+    "SEMANA": 17,
+    "ANO_SEMANA": "2026-17",
+    "EMPRESA": "Funds Explorer",
+    "VISITAS": "37850.74",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "ANO": 2026,
+    "SEMANA": 17,
+    "ANO_SEMANA": "2026-17",
+    "EMPRESA": "Investidor10",
+    "VISITAS": "1723392.40",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-20",
+    "ANO": 2026,
+    "SEMANA": 17,
+    "ANO_SEMANA": "2026-17",
+    "EMPRESA": "Status Invest",
+    "VISITAS": "538115.21",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-27",
+    "ANO": 2026,
+    "SEMANA": 18,
+    "ANO_SEMANA": "2026-18",
+    "EMPRESA": "ClubeFII",
+    "VISITAS": "74367.46",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-27",
+    "ANO": 2026,
+    "SEMANA": 18,
+    "ANO_SEMANA": "2026-18",
+    "EMPRESA": "FIIs",
+    "VISITAS": "39767.21",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-27",
+    "ANO": 2026,
+    "SEMANA": 18,
+    "ANO_SEMANA": "2026-18",
+    "EMPRESA": "Funds Explorer",
+    "VISITAS": "35587.32",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-27",
+    "ANO": 2026,
+    "SEMANA": 18,
+    "ANO_SEMANA": "2026-18",
+    "EMPRESA": "Investidor10",
+    "VISITAS": "1625089.24",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-04-27",
+    "ANO": 2026,
+    "SEMANA": 18,
+    "ANO_SEMANA": "2026-18",
+    "EMPRESA": "Status Invest",
+    "VISITAS": "568422.29",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-05-04",
+    "ANO": 2026,
+    "SEMANA": 19,
+    "ANO_SEMANA": "2026-19",
+    "EMPRESA": "ClubeFII",
+    "VISITAS": "103345.87",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-05-04",
+    "ANO": 2026,
+    "SEMANA": 19,
+    "ANO_SEMANA": "2026-19",
+    "EMPRESA": "FIIs",
+    "VISITAS": "46830.42",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-05-04",
+    "ANO": 2026,
+    "SEMANA": 19,
+    "ANO_SEMANA": "2026-19",
+    "EMPRESA": "Funds Explorer",
+    "VISITAS": "41841.44",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-05-04",
+    "ANO": 2026,
+    "SEMANA": 19,
+    "ANO_SEMANA": "2026-19",
+    "EMPRESA": "Investidor10",
+    "VISITAS": "1852007.22",
+    "SHARE": null
+  },
+  {
+    "DT_REFERENCIA": "2026-05-04",
+    "ANO": 2026,
+    "SEMANA": 19,
+    "ANO_SEMANA": "2026-19",
+    "EMPRESA": "Status Invest",
+    "VISITAS": "690760.88",
     "SHARE": null
   }
 ]
