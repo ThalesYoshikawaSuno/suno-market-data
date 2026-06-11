@@ -118,47 +118,65 @@ def merge_into_snowflake(all_rows: list[tuple]) -> int:
     conn = snowflake.connector.connect(**SF)
     cur = conn.cursor()
 
-    merge_sql = f"""
-    MERGE INTO {TABLE} AS tgt
-    USING (SELECT %s AS ID, %s::DATE AS DT_REFERENCIA, %s AS PERIODO_GRANULARIDADE,
-                  %s AS GEO, %s AS BU, %s AS TERMO, %s AS GRUPO_QUERY, %s AS ANCORA,
-                  %s AS VALOR_RELATIVO, %s AS VALOR_ANCORA_NO_GRUPO, %s AS VALOR_NORMALIZADO
-           FROM dual) AS src
-    ON tgt.ID = src.ID
-    WHEN NOT MATCHED THEN INSERT (
-        ID, DT_REFERENCIA, PERIODO_GRANULARIDADE, GEO, BU,
-        TERMO, GRUPO_QUERY, ANCORA, VALOR_RELATIVO,
-        VALOR_ANCORA_NO_GRUPO, VALOR_NORMALIZADO,
-        DT_EXTRACAO, DT_CARGA, VERSAO_SCRIPT
-    ) VALUES (
-        src.ID, src.DT_REFERENCIA, src.PERIODO_GRANULARIDADE, src.GEO, src.BU,
-        src.TERMO, src.GRUPO_QUERY, src.ANCORA, src.VALOR_RELATIVO,
-        src.VALOR_ANCORA_NO_GRUPO, src.VALOR_NORMALIZADO,
-        CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP(), 'github_actions_v2'
-    )
-    WHEN MATCHED THEN UPDATE SET
-        VALOR_RELATIVO          = src.VALOR_RELATIVO,
-        VALOR_ANCORA_NO_GRUPO   = src.VALOR_ANCORA_NO_GRUPO,
-        VALOR_NORMALIZADO       = src.VALOR_NORMALIZADO,
-        DT_CARGA                = CURRENT_TIMESTAMP(),
-        VERSAO_SCRIPT           = 'github_actions_v2'
-    """
-
-    inserted = 0
     try:
-        # Lote de 500 para não estourar o tamanho da query
-        BATCH = 500
+        # 1. Tabela temporária para staging (uma sessão, descartada ao fechar)
+        cur.execute(f"""
+            CREATE TEMPORARY TABLE gtrends_staging (
+                ID                    VARCHAR,
+                DT_REFERENCIA         DATE,
+                PERIODO_GRANULARIDADE VARCHAR,
+                GEO                   VARCHAR,
+                BU                    VARCHAR,
+                TERMO                 VARCHAR,
+                GRUPO_QUERY           VARCHAR,
+                ANCORA                VARCHAR,
+                VALOR_RELATIVO        NUMBER,
+                VALOR_ANCORA_NO_GRUPO FLOAT,
+                VALOR_NORMALIZADO     FLOAT
+            )
+        """)
+
+        # 2. INSERT em lotes na staging (muito mais rápido que MERGE por linha)
+        insert_sql = """
+            INSERT INTO gtrends_staging VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+        """
+        BATCH = 1000
         for i in range(0, len(all_rows), BATCH):
-            batch = all_rows[i:i + BATCH]
-            cur.executemany(merge_sql, batch)
-            inserted += len(batch)
-            print(f"  ✅ Lote {i // BATCH + 1}: {len(batch)} linhas processadas")
+            cur.executemany(insert_sql, all_rows[i:i + BATCH])
+            print(f"  → Staging lote {i // BATCH + 1}: {len(all_rows[i:i + BATCH])} linhas")
+
+        # 3. MERGE único da staging para a tabela destino
+        cur.execute(f"""
+            MERGE INTO {TABLE} AS tgt
+            USING gtrends_staging AS src
+            ON tgt.ID = src.ID
+            WHEN NOT MATCHED THEN INSERT (
+                ID, DT_REFERENCIA, PERIODO_GRANULARIDADE, GEO, BU,
+                TERMO, GRUPO_QUERY, ANCORA, VALOR_RELATIVO,
+                VALOR_ANCORA_NO_GRUPO, VALOR_NORMALIZADO,
+                DT_EXTRACAO, DT_CARGA, VERSAO_SCRIPT
+            ) VALUES (
+                src.ID, src.DT_REFERENCIA, src.PERIODO_GRANULARIDADE, src.GEO, src.BU,
+                src.TERMO, src.GRUPO_QUERY, src.ANCORA, src.VALOR_RELATIVO,
+                src.VALOR_ANCORA_NO_GRUPO, src.VALOR_NORMALIZADO,
+                CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP(), 'github_actions_v2'
+            )
+            WHEN MATCHED THEN UPDATE SET
+                VALOR_RELATIVO        = src.VALOR_RELATIVO,
+                VALOR_ANCORA_NO_GRUPO = src.VALOR_ANCORA_NO_GRUPO,
+                VALOR_NORMALIZADO     = src.VALOR_NORMALIZADO,
+                DT_CARGA              = CURRENT_TIMESTAMP(),
+                VERSAO_SCRIPT         = 'github_actions_v2'
+        """)
+
+        result = cur.fetchone()
+        inserted = result[0] + result[1] if result else len(all_rows)
         conn.commit()
+        return inserted
+
     finally:
         cur.close()
         conn.close()
-
-    return inserted
 
 
 def main():
