@@ -84,14 +84,17 @@ def parse_rows(timeline: list[dict], grupo: str, termos: list[str]) -> list[tupl
     rows = []
     ancora = termos[0]
 
-    for point in timeline:
+    # Remove o último ponto — Google Trends retorna a semana atual incompleta com valores 0
+    safe_timeline = timeline[:-1] if len(timeline) > 1 else timeline
+
+    for point in safe_timeline:
         dt = datetime.fromtimestamp(int(point["timestamp"])).strftime("%Y-%m-%d")
         valores = {v["query"]: v["extracted_value"] for v in point["values"]}
         valor_ancora = valores.get(ancora, 0)
 
         for termo, valor in valores.items():
             valor_norm = round(valor / valor_ancora * 100, 4) if valor_ancora > 0 else None
-            id_hash = hashlib.md5(f"Asset|{termo}|{dt}|semanal".encode()).hexdigest()
+            id_hash = hashlib.md5(f"Asset|{grupo}|{termo}|{dt}|semanal".encode()).hexdigest()
 
             rows.append((
                 id_hash,           # ID
@@ -149,7 +152,9 @@ def merge_into_snowflake(all_rows: list[tuple]) -> int:
         cur.execute(f"""
             MERGE INTO {TABLE} AS tgt
             USING gtrends_staging AS src
-            ON tgt.ID = src.ID
+            ON  tgt.GRUPO_QUERY   = src.GRUPO_QUERY
+            AND tgt.TERMO         = src.TERMO
+            AND tgt.DT_REFERENCIA = src.DT_REFERENCIA
             WHEN NOT MATCHED THEN INSERT (
                 ID, DT_REFERENCIA, PERIODO_GRANULARIDADE, GEO, BU,
                 TERMO, GRUPO_QUERY, ANCORA, VALOR_RELATIVO,
@@ -161,7 +166,7 @@ def merge_into_snowflake(all_rows: list[tuple]) -> int:
                 src.VALOR_ANCORA_NO_GRUPO, src.VALOR_NORMALIZADO,
                 CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP(), 'github_actions_v2'
             )
-            WHEN MATCHED THEN UPDATE SET
+            WHEN MATCHED AND src.VALOR_RELATIVO > 0 THEN UPDATE SET
                 VALOR_RELATIVO        = src.VALOR_RELATIVO,
                 VALOR_ANCORA_NO_GRUPO = src.VALOR_ANCORA_NO_GRUPO,
                 VALOR_NORMALIZADO     = src.VALOR_NORMALIZADO,
