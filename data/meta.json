@@ -4,19 +4,19 @@
       "label": "Portais Financeiros",
       "frequencia": "semanal",
       "tabela": "TB_TRAFEGO_SITES_NOTICIAS (portais)",
-      "ultima_atualizacao": "2026-06-08T18:40:16Z",
-      "proximo_update": "2026-06-15T18:40:16Z",
+      "ultima_atualizacao": "2026-06-11T19:56:09Z",
+      "proximo_update": "2026-06-18T19:56:09Z",
       "status": "ok",
-      "ultima_atualizacao_br": "08/06/2026 15:40"
+      "ultima_atualizacao_br": "11/06/2026 16:56"
     },
     "trafego_noticias": {
       "label": "Suno Portais (FII)",
       "frequencia": "semanal",
       "tabela": "TB_TRAFEGO_SITES_NOTICIAS (noticias)",
-      "ultima_atualizacao": "2026-06-08T18:40:16Z",
-      "proximo_update": "2026-06-15T18:40:16Z",
+      "ultima_atualizacao": "2026-06-11T19:56:09Z",
+      "proximo_update": "2026-06-18T19:56:09Z",
       "status": "ok",
-      "ultima_atualizacao_br": "08/06/2026 15:40"
+      "ultima_atualizacao_br": "11/06/2026 16:56"
     },
     "anbima_pl": {
       "label": "ANBIMA — PL",
@@ -42,10 +42,10 @@
       "label": "Google Trends",
       "frequencia": "semanal",
       "tabela": "AI_WORKSPACE.SANDBOX.TB_MS_GOOGLE_TRENDS",
-      "ultima_atualizacao": "2026-06-08T18:40:16Z",
-      "proximo_update": "2026-06-15T18:40:16Z",
+      "ultima_atualizacao": "2026-06-11T19:56:09Z",
+      "proximo_update": "2026-06-18T19:56:09Z",
       "status": "ok",
-      "ultima_atualizacao_br": "08/06/2026 15:40"
+      "ultima_atualizacao_br": "11/06/2026 16:56"
     },
     "youtube_canais": {
       "label": "YouTube — Market Share Diário (24 canais)",
