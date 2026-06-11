@@ -84,15 +84,14 @@ def parse_rows(timeline: list[dict], grupo: str, termos: list[str]) -> list[tupl
     rows = []
     ancora = termos[0]
 
-    # Remove o último ponto — Google Trends retorna a semana atual incompleta com valores 0
-    safe_timeline = timeline[:-1] if len(timeline) > 1 else timeline
-
-    for point in safe_timeline:
+    for point in timeline:
         dt = datetime.fromtimestamp(int(point["timestamp"])).strftime("%Y-%m-%d")
         valores = {v["query"]: v["extracted_value"] for v in point["values"]}
         valor_ancora = valores.get(ancora, 0)
 
         for termo, valor in valores.items():
+            if valor == 0:
+                continue  # semana incompleta ou sem dado — não inserir linha zerada
             valor_norm = round(valor / valor_ancora * 100, 4) if valor_ancora > 0 else None
             id_hash = hashlib.md5(f"Asset|{grupo}|{termo}|{dt}|semanal".encode()).hexdigest()
 
