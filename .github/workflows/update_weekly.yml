@@ -26,7 +26,21 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependências
-        run: pip install snowflake-connector-python
+        run: pip install snowflake-connector-python requests
+
+      - name: Atualizar Google Trends no Snowflake
+        continue-on-error: true
+        env:
+          SERPAPI_KEY:              ${{ secrets.SERPAPI_KEY }}
+          SNOWFLAKE_ACCOUNT:        ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USERNAME:       ${{ secrets.SNOWFLAKE_USERNAME }}
+          SNOWFLAKE_PASSWORD:       ${{ secrets.SNOWFLAKE_PASSWORD }}
+          SNOWFLAKE_WAREHOUSE:      ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+          SNOWFLAKE_ROLE:           ${{ secrets.SNOWFLAKE_ROLE }}
+          SNOWFLAKE_DB_TRENDS:      ${{ secrets.SNOWFLAKE_DB_TRENDS }}
+          SNOWFLAKE_SCHEMA_TRENDS:  ${{ secrets.SNOWFLAKE_SCHEMA_TRENDS }}
+        run: |
+          python scripts/update_gtrends_snowflake.py
 
       - name: Buscar dados do Snowflake
         continue-on-error: true
