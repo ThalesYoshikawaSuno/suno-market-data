@@ -1,27 +1,5 @@
 [
   {
-    "DATA": "2025-06-12",
-    "BU": "ASSET",
-    "CAMPANHA": "ASSET",
-    "ORCADO": null,
-    "VALOR_PLANEJADO": null,
-    "ORCADO_BU": null,
-    "CUSTO_REALIZADO": 979.9391330000001,
-    "DESVIO": 979.94,
-    "PCT_REALIZADO": null
-  },
-  {
-    "DATA": "2025-06-12",
-    "BU": "ASSET",
-    "CAMPANHA": "SNFZ11",
-    "ORCADO": null,
-    "VALOR_PLANEJADO": null,
-    "ORCADO_BU": null,
-    "CUSTO_REALIZADO": 410.55,
-    "DESVIO": 410.55,
-    "PCT_REALIZADO": null
-  },
-  {
     "DATA": "2025-06-13",
     "BU": "ASSET",
     "CAMPANHA": "ASSET",
@@ -1689,7 +1667,7 @@
     "ORCADO": null,
     "VALOR_PLANEJADO": null,
     "ORCADO_BU": null,
-    "CUSTO_REALIZADO": 1669.3760799999998,
+    "CUSTO_REALIZADO": 1669.37608,
     "DESVIO": 1669.38,
     "PCT_REALIZADO": null
   },
@@ -1755,7 +1733,7 @@
     "ORCADO": null,
     "VALOR_PLANEJADO": null,
     "ORCADO_BU": null,
-    "CUSTO_REALIZADO": 1729.6299999999999,
+    "CUSTO_REALIZADO": 1729.63,
     "DESVIO": 1729.63,
     "PCT_REALIZADO": null
   },
@@ -5902,7 +5880,7 @@
     "ORCADO": 1290.32,
     "VALOR_PLANEJADO": 1290.32,
     "ORCADO_BU": null,
-    "CUSTO_REALIZADO": 3876.9666540000003,
+    "CUSTO_REALIZADO": 3876.966654,
     "DESVIO": 2586.65,
     "PCT_REALIZADO": 300.47
   },
@@ -6166,7 +6144,7 @@
     "ORCADO": 1290.32,
     "VALOR_PLANEJADO": 1290.32,
     "ORCADO_BU": null,
-    "CUSTO_REALIZADO": 5216.172613,
+    "CUSTO_REALIZADO": 5216.172613000001,
     "DESVIO": 3925.85,
     "PCT_REALIZADO": 404.25
   },
@@ -6532,5 +6510,27 @@
     "CUSTO_REALIZADO": 49.637467,
     "DESVIO": -1283.69,
     "PCT_REALIZADO": 3.72
+  },
+  {
+    "DATA": "2026-06-12",
+    "BU": "ASSET",
+    "CAMPANHA": "ASSET",
+    "ORCADO": 1333.33,
+    "VALOR_PLANEJADO": 1333.33,
+    "ORCADO_BU": null,
+    "CUSTO_REALIZADO": null,
+    "DESVIO": -1333.33,
+    "PCT_REALIZADO": 0.0
+  },
+  {
+    "DATA": "2026-06-12",
+    "BU": "ASSET",
+    "CAMPANHA": "SNFZ11",
+    "ORCADO": 1333.33,
+    "VALOR_PLANEJADO": 1333.33,
+    "ORCADO_BU": null,
+    "CUSTO_REALIZADO": null,
+    "DESVIO": -1333.33,
+    "PCT_REALIZADO": 0.0
   }
 ]
