@@ -2,18 +2,6 @@
   {
     "CODIGO": "SNAG11",
     "NOME_DO_ATIVO": "SUNO RESP LIMITADA FIAGRO FII - SNAG11",
-    "DATA": "2025-05-21",
-    "PRECO_FECHAMENTO": 9.62,
-    "VPA": null,
-    "DIVIDENDO": null,
-    "PL": null,
-    "VOLUME": 1006233.76,
-    "COTISTAS": null,
-    "FATOR_DESDOBRAMENTO": 1.0
-  },
-  {
-    "CODIGO": "SNAG11",
-    "NOME_DO_ATIVO": "SUNO RESP LIMITADA FIAGRO FII - SNAG11",
     "DATA": "2025-05-22",
     "PRECO_FECHAMENTO": 9.65,
     "VPA": null,
@@ -3264,14 +3252,14 @@
     "FATOR_DESDOBRAMENTO": 1.0
   },
   {
-    "CODIGO": "SNCI11",
-    "NOME_DO_ATIVO": "SUNO RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - SNCI11",
-    "DATA": "2025-05-21",
-    "PRECO_FECHAMENTO": 89.9,
+    "CODIGO": "SNAG11",
+    "NOME_DO_ATIVO": "SUNO RESP LIMITADA FIAGRO FII - SNAG11",
+    "DATA": "2026-06-19",
+    "PRECO_FECHAMENTO": null,
     "VPA": null,
     "DIVIDENDO": null,
     "PL": null,
-    "VOLUME": 569985.99,
+    "VOLUME": null,
     "COTISTAS": null,
     "FATOR_DESDOBRAMENTO": 1.0
   },
@@ -6528,14 +6516,14 @@
     "FATOR_DESDOBRAMENTO": 1.0
   },
   {
-    "CODIGO": "SNEL11",
-    "NOME_DO_ATIVO": "SUNO ENERGIAS LIMPAS IS RESP LIMITADA FII - SNEL11",
-    "DATA": "2025-05-21",
-    "PRECO_FECHAMENTO": 8.57,
+    "CODIGO": "SNCI11",
+    "NOME_DO_ATIVO": "SUNO RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - SNCI11",
+    "DATA": "2026-06-19",
+    "PRECO_FECHAMENTO": null,
     "VPA": null,
     "DIVIDENDO": null,
     "PL": null,
-    "VOLUME": 701846.69,
+    "VOLUME": null,
     "COTISTAS": null,
     "FATOR_DESDOBRAMENTO": 1.0
   },
@@ -9792,14 +9780,14 @@
     "FATOR_DESDOBRAMENTO": 1.0
   },
   {
-    "CODIGO": "SNFF11",
-    "NOME_DO_ATIVO": "SUNO FUNDO DE FUNDOS RESP FII - SNFF11",
-    "DATA": "2025-05-21",
-    "PRECO_FECHAMENTO": 73.85,
+    "CODIGO": "SNEL11",
+    "NOME_DO_ATIVO": "SUNO ENERGIAS LIMPAS IS RESP LIMITADA FII - SNEL11",
+    "DATA": "2026-06-19",
+    "PRECO_FECHAMENTO": null,
     "VPA": null,
     "DIVIDENDO": null,
     "PL": null,
-    "VOLUME": 403222.35,
+    "VOLUME": null,
     "COTISTAS": null,
     "FATOR_DESDOBRAMENTO": 1.0
   },
@@ -13056,14 +13044,14 @@
     "FATOR_DESDOBRAMENTO": 1.0
   },
   {
-    "CODIGO": "SNFZ11",
-    "NOME_DO_ATIVO": "SUNO FAZENDAS FIAGRO FII - SNFZ11",
-    "DATA": "2025-05-21",
-    "PRECO_FECHAMENTO": 9.7,
+    "CODIGO": "SNFF11",
+    "NOME_DO_ATIVO": "SUNO FUNDO DE FUNDOS RESP FII - SNFF11",
+    "DATA": "2026-06-19",
+    "PRECO_FECHAMENTO": null,
     "VPA": null,
     "DIVIDENDO": null,
     "PL": null,
-    "VOLUME": 31529.72,
+    "VOLUME": null,
     "COTISTAS": null,
     "FATOR_DESDOBRAMENTO": 1.0
   },
@@ -16320,14 +16308,14 @@
     "FATOR_DESDOBRAMENTO": 1.0
   },
   {
-    "CODIGO": "SNID11",
-    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
-    "DATA": "2025-05-21",
-    "PRECO_FECHAMENTO": 9.97,
+    "CODIGO": "SNFZ11",
+    "NOME_DO_ATIVO": "SUNO FAZENDAS FIAGRO FII - SNFZ11",
+    "DATA": "2026-06-19",
+    "PRECO_FECHAMENTO": null,
     "VPA": null,
     "DIVIDENDO": null,
     "PL": null,
-    "VOLUME": 86853.14,
+    "VOLUME": null,
     "COTISTAS": null,
     "FATOR_DESDOBRAMENTO": 1.0
   },
@@ -19584,14 +19572,14 @@
     "FATOR_DESDOBRAMENTO": 1.0
   },
   {
-    "CODIGO": "SNME11",
-    "NOME_DO_ATIVO": "SUNO MULTIESTRATÉGIA RESP LIMITADA FII - SNME11",
-    "DATA": "2025-05-21",
-    "PRECO_FECHAMENTO": 9.6,
+    "CODIGO": "SNID11",
+    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
+    "DATA": "2026-06-19",
+    "PRECO_FECHAMENTO": null,
     "VPA": null,
     "DIVIDENDO": null,
     "PL": null,
-    "VOLUME": 18389.36,
+    "VOLUME": null,
     "COTISTAS": null,
     "FATOR_DESDOBRAMENTO": 1.0
   },
@@ -22844,6 +22832,18 @@
     "DIVIDENDO": null,
     "PL": null,
     "VOLUME": 1283007.8,
+    "COTISTAS": null,
+    "FATOR_DESDOBRAMENTO": 1.0
+  },
+  {
+    "CODIGO": "SNME11",
+    "NOME_DO_ATIVO": "SUNO MULTIESTRATÉGIA RESP LIMITADA FII - SNME11",
+    "DATA": "2026-06-19",
+    "PRECO_FECHAMENTO": null,
+    "VPA": null,
+    "DIVIDENDO": null,
+    "PL": null,
+    "VOLUME": null,
     "COTISTAS": null,
     "FATOR_DESDOBRAMENTO": 1.0
   }
