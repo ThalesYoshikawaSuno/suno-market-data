@@ -51,73 +51,73 @@
       "label": "YouTube — Market Share Diário (24 canais)",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_MARKET_SHARE_DAILY",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "youtube_mensal": {
       "label": "YouTube — Market Share Mensal",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_MARKET_SHARE_MONTHLY",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "youtube_videos": {
       "label": "YouTube — Vídeos Recentes",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_VIDEO_RECENT",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "youtube_top": {
       "label": "YouTube — Top Viewed (30d)",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_VIDEO_TOP_VIEWED",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "youtube_trending": {
       "label": "YouTube — Trending BR (finanças)",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.MARKET_SHARE.VW_YT_TRENDING_FINANCE_BR",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "youtube_interno_historico": {
       "label": "YouTube Interno — Histórico Diário",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_HISTORICO",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "youtube_interno_mensal": {
       "label": "YouTube Interno — Mensal",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.YOUTUBE.INSCRITOS_CANAL_POR_MES",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "youtube_interno_videos": {
       "label": "YouTube Interno — Métricas Vídeos",
       "frequencia": "diario",
       "tabela": "SERVING_LAYER.YOUTUBE.VIDEOS_METRICS_INFO",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "reputacao_apps": {
       "label": "App Stores",
@@ -150,11 +150,11 @@
       "label": "Mídia Paga Asset (Meta + Google Ads)",
       "frequencia": "diario",
       "tabela": "AI_WORKSPACE.SANDBOX.MS_VW_MIDIA_ASSET",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
       "obs": "Aguardando script 123",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "vendas_comercial": {
       "label": "Vendas Líquidas Comercial",
@@ -206,11 +206,11 @@
       "label": "Vendas SunoCode — Diário",
       "frequencia": "diario",
       "tabela": "AI_WORKSPACE.SANDBOX.VW_VENDAS_POR_HORA_SUNOCODE_V2",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
       "obs": "Aguardando primeira carga",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "midia_orcamento": {
       "label": "Mídia — Planejado vs Realizado",
@@ -225,51 +225,51 @@
       "label": "Quantum — Liquidez e Cotação (D-1)",
       "frequencia": "diario",
       "tabela": "REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS + MERCADO_FUNDOS_ESTRUTURADOS",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
       "obs": "Aguardando primeira carga — requer SNOWFLAKE_DB_ASSET=REFINED_ASSET",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "quantum_historico": {
       "label": "Quantum — Histórico de Preço e Liquidez",
       "frequencia": "diario",
       "tabela": "REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS + MERCADO_FUNDOS_ESTRUTURADOS",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
       "obs": "Últimos 13 meses — série histórica diária",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "quantum_marketshare": {
       "label": "Quantum — Market Share Liquidez (D-1)",
       "frequencia": "diario",
       "tabela": "REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_LIQUIDOS + MERCADO_FUNDOS_ESTRUTURADOS",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
       "obs": "PL relativo ao total do mercado — top 50 fundos",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "asset_liquidez_ms": {
       "label": "Asset — Market Share Liquidez (FIIs)",
       "frequencia": "diario",
       "tabela": "REFINED_ASSET.QUANTUM.MARKETSHARE_LIQUIDEZ_FUNDOS_ESTRUTURADOS",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
       "obs": "Marketshare de liquidez por peer group — 7 FIIs Suno",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "asset_pvp_ms": {
       "label": "Asset — P/VP (Prêmio & Desconto)",
       "frequencia": "diario",
       "tabela": "REFINED_ASSET.QUANTUM.MARKETSHARE_PVP_FUNDOS_ESTRUTURADOS",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
       "obs": "P/VP relativo vs peer group — FECHAMENTO_MES=1",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     },
     "asset_cotistas": {
       "label": "Asset — KPIs Cotistas (FIIs)",
@@ -285,11 +285,11 @@
       "label": "Asset — Cotação & Proventos (FIIs)",
       "frequencia": "diario",
       "tabela": "REFINED_ASSET.QUANTUM.MERCADO_FUNDOS_ESTRUTURADOS",
-      "ultima_atualizacao": "2026-06-24T11:44:12Z",
-      "proximo_update": "2026-06-25T11:44:12Z",
+      "ultima_atualizacao": "2026-06-25T11:40:11Z",
+      "proximo_update": "2026-06-26T11:40:11Z",
       "status": "ok",
       "obs": "Preço, dividendos, PL, volume — 7 FIIs Suno",
-      "ultima_atualizacao_br": "24/06/2026 08:44"
+      "ultima_atualizacao_br": "25/06/2026 08:40"
     }
   }
 }
