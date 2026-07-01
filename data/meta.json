@@ -123,28 +123,28 @@
       "label": "App Stores",
       "frequencia": "quinzenal",
       "tabela": "TB_APPS_EMPRESAS",
-      "ultima_atualizacao": "2026-06-15T20:41:31Z",
-      "proximo_update": "2026-06-30T20:41:31Z",
+      "ultima_atualizacao": "2026-07-01T12:26:18Z",
+      "proximo_update": "2026-07-16T12:26:18Z",
       "status": "ok",
-      "ultima_atualizacao_br": "15/06/2026 17:41"
+      "ultima_atualizacao_br": "01/07/2026 09:26"
     },
     "reputacao_reclame": {
       "label": "Reclame Aqui",
       "frequencia": "quinzenal",
       "tabela": "TB_RA_EMPRESAS",
-      "ultima_atualizacao": "2026-06-15T20:41:31Z",
-      "proximo_update": "2026-06-30T20:41:31Z",
+      "ultima_atualizacao": "2026-07-01T12:26:18Z",
+      "proximo_update": "2026-07-16T12:26:18Z",
       "status": "ok",
-      "ultima_atualizacao_br": "15/06/2026 17:41"
+      "ultima_atualizacao_br": "01/07/2026 09:26"
     },
     "reputacao_glassdoor": {
       "label": "Glassdoor",
       "frequencia": "quinzenal",
       "tabela": "TB_GLASSDOOR_EMPRESAS",
-      "ultima_atualizacao": "2026-06-15T20:41:31Z",
-      "proximo_update": "2026-06-30T20:41:31Z",
+      "ultima_atualizacao": "2026-07-01T12:26:18Z",
+      "proximo_update": "2026-07-16T12:26:18Z",
       "status": "ok",
-      "ultima_atualizacao_br": "15/06/2026 17:41"
+      "ultima_atualizacao_br": "01/07/2026 09:26"
     },
     "midia_asset": {
       "label": "Mídia Paga Asset (Meta + Google Ads)",
