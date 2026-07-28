@@ -61,7 +61,7 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 # ── Constantes ────────────────────────────────────────────────────────────────
-PAGE_URL   = "https://data-strapi.prd.anbima.com.br/uploads/Ranking_de_Gestao_202606_valor_e390ec9656.xlsx"
+PAGE_URL   = "https://data.anbima.com.br/publicacoes/ranking-de-gestores-de-fundos-de-investimento"
 STRAPI_URL = "https://data-strapi.prd.anbima.com.br"
 
 PL_TABLE   = "TB_ANBIMA_PL_RAW"
