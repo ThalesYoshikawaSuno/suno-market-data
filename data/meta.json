@@ -22,20 +22,20 @@
       "label": "ANBIMA — PL",
       "frequencia": "mensal",
       "tabela": "TB_ANBIMA_PL_RAW",
-      "ultima_atualizacao": "2026-07-28T12:49:19Z",
-      "proximo_update": "2026-08-27T12:49:19Z",
+      "ultima_atualizacao": "2026-08-05T11:59:49Z",
+      "proximo_update": "2026-09-04T11:59:49Z",
       "status": "ok",
-      "ultima_atualizacao_br": "28/07/2026 09:49",
+      "ultima_atualizacao_br": "05/08/2026 08:59",
       "obs": "Referência: Mar/2026 · 10.441 registros"
     },
     "anbima_cap": {
       "label": "ANBIMA — Captação",
       "frequencia": "mensal",
       "tabela": "TB_ANBIMA_CAPTACAO_RAW",
-      "ultima_atualizacao": "2026-07-28T12:49:19Z",
-      "proximo_update": "2026-08-27T12:49:19Z",
+      "ultima_atualizacao": "2026-08-05T11:59:49Z",
+      "proximo_update": "2026-09-04T11:59:49Z",
       "status": "ok",
-      "ultima_atualizacao_br": "28/07/2026 09:49",
+      "ultima_atualizacao_br": "05/08/2026 08:59",
       "obs": "Referência: Mar/2026 · 11.227 registros"
     },
     "google_trends": {
