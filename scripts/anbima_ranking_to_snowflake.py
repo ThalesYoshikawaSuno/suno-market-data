@@ -149,27 +149,48 @@ def _try_upload_files_api() -> str | None:
     return None
 
 
-def _try_page_html_scrape() -> str | None:
+def _try_playwright_scrape() -> str | None:
     """
-    Faz scraping do HTML da página pública da ANBIMA procurando URL de Excel
-    via regex. Funciona mesmo quando a API Strapi muda estrutura.
+    Renderiza a página com Playwright (headless Chromium) e extrai o link de download.
+    O site da ANBIMA é um SPA — o HTML estático não contém o link; é necessário
+    executar o JavaScript para que o React renderize o botão de download.
     """
-    log.debug(f"  HTML scrape: {PAGE_URL}")
-    resp = _safe_get(PAGE_URL)
-    if not resp or resp.status_code != 200:
+    try:
+        from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+    except ImportError:
+        log.debug("  Playwright não instalado — pulando esta etapa")
         return None
-    matches = _EXCEL_RE.findall(resp.text)
-    if matches:
-        return matches[0]
 
-    # Tenta também o endpoint de next-data se for Next.js
-    next_url = PAGE_URL.rstrip("/").rsplit("/", 1)
-    for suffix in ["/_next/data", "/__next_data__"]:
-        nd_resp = _safe_get(f"{STRAPI_URL}{suffix}")
-        if nd_resp and nd_resp.status_code == 200:
-            m = _EXCEL_RE.search(nd_resp.text)
+    log.info("  Usando Playwright para renderizar a página da ANBIMA...")
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        try:
+            page = browser.new_page()
+            page.goto(PAGE_URL, wait_until="networkidle", timeout=45_000)
+
+            # Aguarda o botão de download aparecer (até 15s extras)
+            try:
+                page.wait_for_selector("a[download]", timeout=15_000)
+            except PWTimeout:
+                pass
+
+            # Coleta todos os hrefs da página renderizada
+            links = page.eval_on_selector_all("a[href]", "els => els.map(e => e.href)")
+            for link in links:
+                if _is_excel_url(link) and (
+                    "ranking" in link.lower() or "gestao" in link.lower() or "gestão" in link.lower()
+                ):
+                    return link
+
+            # Fallback: regex no HTML renderizado
+            html = page.content()
+            m = _EXCEL_RE.search(html)
             if m:
                 return m.group(0)
+        except Exception as exc:
+            log.warning(f"  Playwright falhou: {exc}")
+        finally:
+            browser.close()
 
     return None
 
@@ -179,11 +200,11 @@ def discover_download_url() -> str:
     Tenta descobrir a URL do Excel mais recente via:
       1. API de uploads do Strapi (mais direta)
       2. Endpoints de conteúdo Strapi (fallback)
-      3. Scraping HTML da página pública (último recurso)
+      3. Playwright — renderiza a página SPA com Chromium (mais confiável)
     """
     log.info("Buscando URL de download via API Strapi da ANBIMA...")
 
-    # ── 1. API de uploads (mais confiável) ───────────────────────────────────
+    # ── 1. API de uploads (mais confiável sem browser) ────────────────────────
     url = _try_upload_files_api()
     if url:
         log.info(f"  URL encontrada via upload API: {url}")
@@ -212,11 +233,11 @@ def discover_download_url() -> str:
             log.info(f"  URL encontrada via conteúdo Strapi: {url}")
             return url
 
-    # ── 3. Scraping HTML ──────────────────────────────────────────────────────
-    log.info("  Endpoints Strapi falharam — tentando scraping HTML da página pública...")
-    url = _try_page_html_scrape()
+    # ── 3. Playwright (renderiza o SPA, extrai link do DOM) ───────────────────
+    log.info("  Endpoints Strapi falharam — usando Playwright para renderizar a página...")
+    url = _try_playwright_scrape()
     if url:
-        log.info(f"  URL encontrada via HTML scrape: {url}")
+        log.info(f"  URL encontrada via Playwright: {url}")
         return url
 
     raise RuntimeError(
