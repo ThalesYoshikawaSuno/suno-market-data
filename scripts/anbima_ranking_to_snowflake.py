@@ -93,14 +93,103 @@ def get_sf_conn():
 
 
 # ── Descoberta de URL ─────────────────────────────────────────────────────────
+_EXCEL_RE = re.compile(
+    r"https?://[^\s\"'<>]+[Rr]anking[^\s\"'<>]*[Gg]esta[oa][^\s\"'<>]*\.xlsx?",
+    re.IGNORECASE,
+)
+
+
+def _safe_get(url: str) -> requests.Response | None:
+    """GET com fallback SSL e absorção de erros de conexão."""
+    try:
+        return requests.get(url, headers=HTTP_HEADERS, timeout=30, verify=True)
+    except requests.exceptions.SSLError:
+        requests.packages.urllib3.disable_warnings()
+        try:
+            return requests.get(url, headers=HTTP_HEADERS, timeout=30, verify=False)
+        except Exception:
+            return None
+    except Exception:
+        return None
+
+
+def _try_upload_files_api() -> str | None:
+    """
+    Busca o arquivo diretamente na API de mídia do Strapi (/api/upload/files).
+    Mais confiável que APIs de conteúdo pois aponta para onde o arquivo realmente está.
+    Retorna a URL completa ou None.
+    """
+    for term in ["gestao", "ranking"]:
+        endpoint = (
+            f"{STRAPI_URL}/api/upload/files"
+            f"?filters[name][$containsi]={term}"
+            "&sort[0]=createdAt:desc"
+            "&pagination[pageSize]=10"
+        )
+        log.debug(f"  Upload API: {endpoint}")
+        resp = _safe_get(endpoint)
+        if not resp or resp.status_code != 200:
+            continue
+        try:
+            payload = resp.json()
+        except Exception:
+            continue
+
+        # Strapi v4 upload pode retornar lista direta ou { results: [...] }
+        files = payload if isinstance(payload, list) else payload.get("results", payload.get("data", []))
+        for f in (files if isinstance(files, list) else []):
+            file_url = f.get("url", "")
+            if not file_url:
+                continue
+            if not file_url.startswith("http"):
+                file_url = f"{STRAPI_URL}{file_url}"
+            if _is_excel_url(file_url):
+                return file_url
+
+    return None
+
+
+def _try_page_html_scrape() -> str | None:
+    """
+    Faz scraping do HTML da página pública da ANBIMA procurando URL de Excel
+    via regex. Funciona mesmo quando a API Strapi muda estrutura.
+    """
+    log.debug(f"  HTML scrape: {PAGE_URL}")
+    resp = _safe_get(PAGE_URL)
+    if not resp or resp.status_code != 200:
+        return None
+    matches = _EXCEL_RE.findall(resp.text)
+    if matches:
+        return matches[0]
+
+    # Tenta também o endpoint de next-data se for Next.js
+    next_url = PAGE_URL.rstrip("/").rsplit("/", 1)
+    for suffix in ["/_next/data", "/__next_data__"]:
+        nd_resp = _safe_get(f"{STRAPI_URL}{suffix}")
+        if nd_resp and nd_resp.status_code == 200:
+            m = _EXCEL_RE.search(nd_resp.text)
+            if m:
+                return m.group(0)
+
+    return None
+
+
 def discover_download_url() -> str:
     """
-    Tenta descobrir a URL do Excel mais recente via API Strapi do SPA da ANBIMA.
-    O site usa hash aleatório na URL, então não é possível montar o link sem scraping.
+    Tenta descobrir a URL do Excel mais recente via:
+      1. API de uploads do Strapi (mais direta)
+      2. Endpoints de conteúdo Strapi (fallback)
+      3. Scraping HTML da página pública (último recurso)
     """
     log.info("Buscando URL de download via API Strapi da ANBIMA...")
 
-    # Candidatos de endpoint Strapi (a ANBIMA pode mudar a estrutura sem aviso)
+    # ── 1. API de uploads (mais confiável) ───────────────────────────────────
+    url = _try_upload_files_api()
+    if url:
+        log.info(f"  URL encontrada via upload API: {url}")
+        return url
+
+    # ── 2. Endpoints de conteúdo Strapi ──────────────────────────────────────
     candidates = [
         f"{STRAPI_URL}/api/publicacoes?filters[slug][$eq]=ranking-de-gestores-de-fundos-de-investimento&populate=*",
         f"{STRAPI_URL}/api/publicacoes?filters[titulo][$containsi]=ranking+gestores&populate=*&sort=publishedAt:desc&pagination[pageSize]=3",
@@ -110,22 +199,25 @@ def discover_download_url() -> str:
     ]
 
     for endpoint in candidates:
+        log.debug(f"  Tentando: {endpoint}")
+        resp = _safe_get(endpoint)
+        if not resp or resp.status_code != 200:
+            continue
         try:
-            log.debug(f"  Tentando: {endpoint}")
-            try:
-                resp = requests.get(endpoint, headers=HTTP_HEADERS, timeout=30, verify=True)
-            except requests.exceptions.SSLError:
-                requests.packages.urllib3.disable_warnings()
-                resp = requests.get(endpoint, headers=HTTP_HEADERS, timeout=30, verify=False)
-            if resp.status_code != 200:
-                continue
             data = resp.json()
-            url = _extract_file_url_from_strapi(data)
-            if url:
-                log.info(f"  URL encontrada: {url}")
-                return url
-        except Exception as exc:
-            log.debug(f"  Falhou: {exc}")
+        except Exception:
+            continue
+        url = _extract_file_url_from_strapi(data)
+        if url:
+            log.info(f"  URL encontrada via conteúdo Strapi: {url}")
+            return url
+
+    # ── 3. Scraping HTML ──────────────────────────────────────────────────────
+    log.info("  Endpoints Strapi falharam — tentando scraping HTML da página pública...")
+    url = _try_page_html_scrape()
+    if url:
+        log.info(f"  URL encontrada via HTML scrape: {url}")
+        return url
 
     raise RuntimeError(
         "\n"
@@ -135,7 +227,7 @@ def discover_download_url() -> str:
         f"  {PAGE_URL}\n\n"
         "Depois passe via --url:\n"
         "  python scripts/anbima_ranking_to_snowflake.py \\\n"
-        "    --url 'https://www.anbima.com.br/data/files/<hash>/Ranking de Gestao - AAAAMM_valor.xls'\n"
+        "    --url 'https://data-strapi.prd.anbima.com.br/uploads/Ranking_de_Gestao_AAAAMM_valor_<hash>.xlsx'\n"
     )
 
 
