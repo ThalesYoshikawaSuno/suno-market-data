@@ -323,20 +323,6 @@
   },
   {
     "DT_SNAPSHOT": "2026-08-13",
-    "CANAL_ID": "UC8mDF5mWNGE-Kpfcvnn0bUg",
-    "CANAL_NOME": "Me Poupe!",
-    "CANAL_HANDLE": "@mepoupe",
-    "TIPO": "concorrente",
-    "BU": "Redes Sociais",
-    "SUBSCRIBERS": 7730000,
-    "VIEW_COUNT": 613426263,
-    "VIDEO_COUNT": 2543,
-    "SHARE_SUBSCRIBERS_PCT": "22.63",
-    "SHARE_VIEWS_PCT": "14.50",
-    "DELTA_SUBSCRIBERS_DOD": 0
-  },
-  {
-    "DT_SNAPSHOT": "2026-08-13",
     "CANAL_ID": "UCT4nDeU5pv1XIGySbSK-GgA",
     "CANAL_NOME": "O Primo Rico",
     "CANAL_HANDLE": "@primorico",
@@ -347,6 +333,20 @@
     "VIDEO_COUNT": 1740,
     "SHARE_SUBSCRIBERS_PCT": "22.63",
     "SHARE_VIEWS_PCT": "14.29",
+    "DELTA_SUBSCRIBERS_DOD": 0
+  },
+  {
+    "DT_SNAPSHOT": "2026-08-13",
+    "CANAL_ID": "UC8mDF5mWNGE-Kpfcvnn0bUg",
+    "CANAL_NOME": "Me Poupe!",
+    "CANAL_HANDLE": "@mepoupe",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 7730000,
+    "VIEW_COUNT": 613426263,
+    "VIDEO_COUNT": 2543,
+    "SHARE_SUBSCRIBERS_PCT": "22.63",
+    "SHARE_VIEWS_PCT": "14.50",
     "DELTA_SUBSCRIBERS_DOD": 0
   },
   {
@@ -645,20 +645,6 @@
   },
   {
     "DT_SNAPSHOT": "2026-08-12",
-    "CANAL_ID": "UCT4nDeU5pv1XIGySbSK-GgA",
-    "CANAL_NOME": "O Primo Rico",
-    "CANAL_HANDLE": "@primorico",
-    "TIPO": "concorrente",
-    "BU": "Redes Sociais",
-    "SUBSCRIBERS": 7730000,
-    "VIEW_COUNT": 603558962,
-    "VIDEO_COUNT": 1738,
-    "SHARE_SUBSCRIBERS_PCT": "22.63",
-    "SHARE_VIEWS_PCT": "14.28",
-    "DELTA_SUBSCRIBERS_DOD": 10000
-  },
-  {
-    "DT_SNAPSHOT": "2026-08-12",
     "CANAL_ID": "UC8mDF5mWNGE-Kpfcvnn0bUg",
     "CANAL_NOME": "Me Poupe!",
     "CANAL_HANDLE": "@mepoupe",
@@ -670,6 +656,20 @@
     "SHARE_SUBSCRIBERS_PCT": "22.63",
     "SHARE_VIEWS_PCT": "14.51",
     "DELTA_SUBSCRIBERS_DOD": 0
+  },
+  {
+    "DT_SNAPSHOT": "2026-08-12",
+    "CANAL_ID": "UCT4nDeU5pv1XIGySbSK-GgA",
+    "CANAL_NOME": "O Primo Rico",
+    "CANAL_HANDLE": "@primorico",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 7730000,
+    "VIEW_COUNT": 603558962,
+    "VIDEO_COUNT": 1738,
+    "SHARE_SUBSCRIBERS_PCT": "22.63",
+    "SHARE_VIEWS_PCT": "14.28",
+    "DELTA_SUBSCRIBERS_DOD": 10000
   },
   {
     "DT_SNAPSHOT": "2026-08-12",
@@ -27119,20 +27119,6 @@
   },
   {
     "DT_SNAPSHOT": "2026-05-22",
-    "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
-    "CANAL_NOME": "BTG Pactual",
-    "CANAL_HANDLE": "@btgpactual",
-    "TIPO": "concorrente",
-    "BU": "Redes Sociais",
-    "SUBSCRIBERS": 1270000,
-    "VIEW_COUNT": 224626531,
-    "VIDEO_COUNT": 2859,
-    "SHARE_SUBSCRIBERS_PCT": "3.82",
-    "SHARE_VIEWS_PCT": "5.68",
-    "DELTA_SUBSCRIBERS_DOD": 0
-  },
-  {
-    "DT_SNAPSHOT": "2026-05-22",
     "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
     "CANAL_NOME": "Economista Sincero",
     "CANAL_HANDLE": "@economistasincero",
@@ -27143,6 +27129,20 @@
     "VIDEO_COUNT": 4265,
     "SHARE_SUBSCRIBERS_PCT": "3.82",
     "SHARE_VIEWS_PCT": "6.98",
+    "DELTA_SUBSCRIBERS_DOD": 0
+  },
+  {
+    "DT_SNAPSHOT": "2026-05-22",
+    "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
+    "CANAL_NOME": "BTG Pactual",
+    "CANAL_HANDLE": "@btgpactual",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 224626531,
+    "VIDEO_COUNT": 2859,
+    "SHARE_SUBSCRIBERS_PCT": "3.82",
+    "SHARE_VIEWS_PCT": "5.68",
     "DELTA_SUBSCRIBERS_DOD": 0
   },
   {
@@ -27763,20 +27763,6 @@
   },
   {
     "DT_SNAPSHOT": "2026-05-20",
-    "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
-    "CANAL_NOME": "BTG Pactual",
-    "CANAL_HANDLE": "@btgpactual",
-    "TIPO": "concorrente",
-    "BU": "Redes Sociais",
-    "SUBSCRIBERS": 1270000,
-    "VIEW_COUNT": 222598442,
-    "VIDEO_COUNT": 2855,
-    "SHARE_SUBSCRIBERS_PCT": "3.82",
-    "SHARE_VIEWS_PCT": "5.64",
-    "DELTA_SUBSCRIBERS_DOD": 0
-  },
-  {
-    "DT_SNAPSHOT": "2026-05-20",
     "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
     "CANAL_NOME": "Economista Sincero",
     "CANAL_HANDLE": "@economistasincero",
@@ -27787,6 +27773,20 @@
     "VIDEO_COUNT": 4258,
     "SHARE_SUBSCRIBERS_PCT": "3.82",
     "SHARE_VIEWS_PCT": "6.98",
+    "DELTA_SUBSCRIBERS_DOD": 0
+  },
+  {
+    "DT_SNAPSHOT": "2026-05-20",
+    "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
+    "CANAL_NOME": "BTG Pactual",
+    "CANAL_HANDLE": "@btgpactual",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 222598442,
+    "VIDEO_COUNT": 2855,
+    "SHARE_SUBSCRIBERS_PCT": "3.82",
+    "SHARE_VIEWS_PCT": "5.64",
     "DELTA_SUBSCRIBERS_DOD": 0
   },
   {
@@ -28085,20 +28085,6 @@
   },
   {
     "DT_SNAPSHOT": "2026-05-19",
-    "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
-    "CANAL_NOME": "Economista Sincero",
-    "CANAL_HANDLE": "@economistasincero",
-    "TIPO": "concorrente",
-    "BU": "Redes Sociais",
-    "SUBSCRIBERS": 1270000,
-    "VIEW_COUNT": 275363329,
-    "VIDEO_COUNT": 4254,
-    "SHARE_SUBSCRIBERS_PCT": "3.82",
-    "SHARE_VIEWS_PCT": "6.98",
-    "DELTA_SUBSCRIBERS_DOD": 0
-  },
-  {
-    "DT_SNAPSHOT": "2026-05-19",
     "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
     "CANAL_NOME": "BTG Pactual",
     "CANAL_HANDLE": "@btgpactual",
@@ -28109,6 +28095,20 @@
     "VIDEO_COUNT": 2853,
     "SHARE_SUBSCRIBERS_PCT": "3.82",
     "SHARE_VIEWS_PCT": "5.63",
+    "DELTA_SUBSCRIBERS_DOD": 0
+  },
+  {
+    "DT_SNAPSHOT": "2026-05-19",
+    "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
+    "CANAL_NOME": "Economista Sincero",
+    "CANAL_HANDLE": "@economistasincero",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 275363329,
+    "VIDEO_COUNT": 4254,
+    "SHARE_SUBSCRIBERS_PCT": "3.82",
+    "SHARE_VIEWS_PCT": "6.98",
     "DELTA_SUBSCRIBERS_DOD": 0
   },
   {
@@ -28407,20 +28407,6 @@
   },
   {
     "DT_SNAPSHOT": "2026-05-18",
-    "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
-    "CANAL_NOME": "Economista Sincero",
-    "CANAL_HANDLE": "@economistasincero",
-    "TIPO": "concorrente",
-    "BU": "Redes Sociais",
-    "SUBSCRIBERS": 1270000,
-    "VIEW_COUNT": 275241748,
-    "VIDEO_COUNT": 4251,
-    "SHARE_SUBSCRIBERS_PCT": "3.82",
-    "SHARE_VIEWS_PCT": "6.98",
-    "DELTA_SUBSCRIBERS_DOD": 0
-  },
-  {
-    "DT_SNAPSHOT": "2026-05-18",
     "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
     "CANAL_NOME": "BTG Pactual",
     "CANAL_HANDLE": "@btgpactual",
@@ -28431,6 +28417,20 @@
     "VIDEO_COUNT": 2849,
     "SHARE_SUBSCRIBERS_PCT": "3.82",
     "SHARE_VIEWS_PCT": "5.61",
+    "DELTA_SUBSCRIBERS_DOD": 0
+  },
+  {
+    "DT_SNAPSHOT": "2026-05-18",
+    "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
+    "CANAL_NOME": "Economista Sincero",
+    "CANAL_HANDLE": "@economistasincero",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 275241748,
+    "VIDEO_COUNT": 4251,
+    "SHARE_SUBSCRIBERS_PCT": "3.82",
+    "SHARE_VIEWS_PCT": "6.98",
     "DELTA_SUBSCRIBERS_DOD": 0
   },
   {
@@ -28729,20 +28729,6 @@
   },
   {
     "DT_SNAPSHOT": "2026-05-17",
-    "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
-    "CANAL_NOME": "BTG Pactual",
-    "CANAL_HANDLE": "@btgpactual",
-    "TIPO": "concorrente",
-    "BU": "Redes Sociais",
-    "SUBSCRIBERS": 1270000,
-    "VIEW_COUNT": 220940963,
-    "VIDEO_COUNT": 2849,
-    "SHARE_SUBSCRIBERS_PCT": "3.82",
-    "SHARE_VIEWS_PCT": "5.61",
-    "DELTA_SUBSCRIBERS_DOD": 0
-  },
-  {
-    "DT_SNAPSHOT": "2026-05-17",
     "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
     "CANAL_NOME": "Economista Sincero",
     "CANAL_HANDLE": "@economistasincero",
@@ -28753,6 +28739,20 @@
     "VIDEO_COUNT": 4250,
     "SHARE_SUBSCRIBERS_PCT": "3.82",
     "SHARE_VIEWS_PCT": "6.98",
+    "DELTA_SUBSCRIBERS_DOD": 0
+  },
+  {
+    "DT_SNAPSHOT": "2026-05-17",
+    "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
+    "CANAL_NOME": "BTG Pactual",
+    "CANAL_HANDLE": "@btgpactual",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 220940963,
+    "VIDEO_COUNT": 2849,
+    "SHARE_SUBSCRIBERS_PCT": "3.82",
+    "SHARE_VIEWS_PCT": "5.61",
     "DELTA_SUBSCRIBERS_DOD": 0
   },
   {
@@ -29051,20 +29051,6 @@
   },
   {
     "DT_SNAPSHOT": "2026-05-16",
-    "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
-    "CANAL_NOME": "Economista Sincero",
-    "CANAL_HANDLE": "@economistasincero",
-    "TIPO": "concorrente",
-    "BU": "Redes Sociais",
-    "SUBSCRIBERS": 1270000,
-    "VIEW_COUNT": 275036732,
-    "VIDEO_COUNT": 4247,
-    "SHARE_SUBSCRIBERS_PCT": "3.82",
-    "SHARE_VIEWS_PCT": "6.98",
-    "DELTA_SUBSCRIBERS_DOD": 0
-  },
-  {
-    "DT_SNAPSHOT": "2026-05-16",
     "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
     "CANAL_NOME": "BTG Pactual",
     "CANAL_HANDLE": "@btgpactual",
@@ -29075,6 +29061,20 @@
     "VIDEO_COUNT": 2848,
     "SHARE_SUBSCRIBERS_PCT": "3.82",
     "SHARE_VIEWS_PCT": "5.61",
+    "DELTA_SUBSCRIBERS_DOD": 0
+  },
+  {
+    "DT_SNAPSHOT": "2026-05-16",
+    "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
+    "CANAL_NOME": "Economista Sincero",
+    "CANAL_HANDLE": "@economistasincero",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 275036732,
+    "VIDEO_COUNT": 4247,
+    "SHARE_SUBSCRIBERS_PCT": "3.82",
+    "SHARE_VIEWS_PCT": "6.98",
     "DELTA_SUBSCRIBERS_DOD": 0
   },
   {
@@ -29373,20 +29373,6 @@
   },
   {
     "DT_SNAPSHOT": "2026-05-15",
-    "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
-    "CANAL_NOME": "BTG Pactual",
-    "CANAL_HANDLE": "@btgpactual",
-    "TIPO": "concorrente",
-    "BU": "Redes Sociais",
-    "SUBSCRIBERS": 1270000,
-    "VIEW_COUNT": 220645669,
-    "VIDEO_COUNT": 2847,
-    "SHARE_SUBSCRIBERS_PCT": "3.83",
-    "SHARE_VIEWS_PCT": "5.61",
-    "DELTA_SUBSCRIBERS_DOD": 0
-  },
-  {
-    "DT_SNAPSHOT": "2026-05-15",
     "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
     "CANAL_NOME": "Economista Sincero",
     "CANAL_HANDLE": "@economistasincero",
@@ -29397,6 +29383,20 @@
     "VIDEO_COUNT": 4244,
     "SHARE_SUBSCRIBERS_PCT": "3.83",
     "SHARE_VIEWS_PCT": "6.99",
+    "DELTA_SUBSCRIBERS_DOD": 0
+  },
+  {
+    "DT_SNAPSHOT": "2026-05-15",
+    "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
+    "CANAL_NOME": "BTG Pactual",
+    "CANAL_HANDLE": "@btgpactual",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 220645669,
+    "VIDEO_COUNT": 2847,
+    "SHARE_SUBSCRIBERS_PCT": "3.83",
+    "SHARE_VIEWS_PCT": "5.61",
     "DELTA_SUBSCRIBERS_DOD": 0
   },
   {
@@ -29695,20 +29695,6 @@
   },
   {
     "DT_SNAPSHOT": "2026-05-14",
-    "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
-    "CANAL_NOME": "Economista Sincero",
-    "CANAL_HANDLE": "@economistasincero",
-    "TIPO": "concorrente",
-    "BU": "Redes Sociais",
-    "SUBSCRIBERS": 1270000,
-    "VIEW_COUNT": 274862476,
-    "VIDEO_COUNT": 4241,
-    "SHARE_SUBSCRIBERS_PCT": "3.83",
-    "SHARE_VIEWS_PCT": "6.99",
-    "DELTA_SUBSCRIBERS_DOD": 0
-  },
-  {
-    "DT_SNAPSHOT": "2026-05-14",
     "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
     "CANAL_NOME": "BTG Pactual",
     "CANAL_HANDLE": "@btgpactual",
@@ -29719,6 +29705,20 @@
     "VIDEO_COUNT": 2844,
     "SHARE_SUBSCRIBERS_PCT": "3.83",
     "SHARE_VIEWS_PCT": "5.60",
+    "DELTA_SUBSCRIBERS_DOD": 0
+  },
+  {
+    "DT_SNAPSHOT": "2026-05-14",
+    "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
+    "CANAL_NOME": "Economista Sincero",
+    "CANAL_HANDLE": "@economistasincero",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 274862476,
+    "VIDEO_COUNT": 4241,
+    "SHARE_SUBSCRIBERS_PCT": "3.83",
+    "SHARE_VIEWS_PCT": "6.99",
     "DELTA_SUBSCRIBERS_DOD": 0
   },
   {
@@ -30017,20 +30017,6 @@
   },
   {
     "DT_SNAPSHOT": "2026-05-13",
-    "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
-    "CANAL_NOME": "BTG Pactual",
-    "CANAL_HANDLE": "@btgpactual",
-    "TIPO": "concorrente",
-    "BU": "Redes Sociais",
-    "SUBSCRIBERS": 1270000,
-    "VIEW_COUNT": 220329148,
-    "VIDEO_COUNT": 2842,
-    "SHARE_SUBSCRIBERS_PCT": "3.83",
-    "SHARE_VIEWS_PCT": "5.60",
-    "DELTA_SUBSCRIBERS_DOD": 0
-  },
-  {
-    "DT_SNAPSHOT": "2026-05-13",
     "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
     "CANAL_NOME": "Economista Sincero",
     "CANAL_HANDLE": "@economistasincero",
@@ -30041,6 +30027,20 @@
     "VIDEO_COUNT": 4238,
     "SHARE_SUBSCRIBERS_PCT": "3.83",
     "SHARE_VIEWS_PCT": "6.99",
+    "DELTA_SUBSCRIBERS_DOD": 0
+  },
+  {
+    "DT_SNAPSHOT": "2026-05-13",
+    "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
+    "CANAL_NOME": "BTG Pactual",
+    "CANAL_HANDLE": "@btgpactual",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 220329148,
+    "VIDEO_COUNT": 2842,
+    "SHARE_SUBSCRIBERS_PCT": "3.83",
+    "SHARE_VIEWS_PCT": "5.60",
     "DELTA_SUBSCRIBERS_DOD": 0
   },
   {
@@ -30339,20 +30339,6 @@
   },
   {
     "DT_SNAPSHOT": "2026-05-12",
-    "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
-    "CANAL_NOME": "Economista Sincero",
-    "CANAL_HANDLE": "@economistasincero",
-    "TIPO": "concorrente",
-    "BU": "Redes Sociais",
-    "SUBSCRIBERS": 1270000,
-    "VIEW_COUNT": 274628178,
-    "VIDEO_COUNT": 4234,
-    "SHARE_SUBSCRIBERS_PCT": "3.85",
-    "SHARE_VIEWS_PCT": "7.06",
-    "DELTA_SUBSCRIBERS_DOD": 0
-  },
-  {
-    "DT_SNAPSHOT": "2026-05-12",
     "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
     "CANAL_NOME": "BTG Pactual",
     "CANAL_HANDLE": "@btgpactual",
@@ -30363,6 +30349,20 @@
     "VIDEO_COUNT": 2839,
     "SHARE_SUBSCRIBERS_PCT": "3.85",
     "SHARE_VIEWS_PCT": "5.66",
+    "DELTA_SUBSCRIBERS_DOD": 0
+  },
+  {
+    "DT_SNAPSHOT": "2026-05-12",
+    "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
+    "CANAL_NOME": "Economista Sincero",
+    "CANAL_HANDLE": "@economistasincero",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 274628178,
+    "VIDEO_COUNT": 4234,
+    "SHARE_SUBSCRIBERS_PCT": "3.85",
+    "SHARE_VIEWS_PCT": "7.06",
     "DELTA_SUBSCRIBERS_DOD": 0
   },
   {
@@ -30843,20 +30843,6 @@
   },
   {
     "DT_SNAPSHOT": "2026-05-10",
-    "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
-    "CANAL_NOME": "Economista Sincero",
-    "CANAL_HANDLE": "@economistasincero",
-    "TIPO": "concorrente",
-    "BU": "Redes Sociais",
-    "SUBSCRIBERS": 1270000,
-    "VIEW_COUNT": 274441364,
-    "VIDEO_COUNT": 4230,
-    "SHARE_SUBSCRIBERS_PCT": "3.85",
-    "SHARE_VIEWS_PCT": "7.06",
-    "DELTA_SUBSCRIBERS_DOD": 0
-  },
-  {
-    "DT_SNAPSHOT": "2026-05-10",
     "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
     "CANAL_NOME": "BTG Pactual",
     "CANAL_HANDLE": "@btgpactual",
@@ -30868,6 +30854,20 @@
     "SHARE_SUBSCRIBERS_PCT": "3.85",
     "SHARE_VIEWS_PCT": "5.66",
     "DELTA_SUBSCRIBERS_DOD": 10000
+  },
+  {
+    "DT_SNAPSHOT": "2026-05-10",
+    "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
+    "CANAL_NOME": "Economista Sincero",
+    "CANAL_HANDLE": "@economistasincero",
+    "TIPO": "concorrente",
+    "BU": "Redes Sociais",
+    "SUBSCRIBERS": 1270000,
+    "VIEW_COUNT": 274441364,
+    "VIDEO_COUNT": 4230,
+    "SHARE_SUBSCRIBERS_PCT": "3.85",
+    "SHARE_VIEWS_PCT": "7.06",
+    "DELTA_SUBSCRIBERS_DOD": 0
   },
   {
     "DT_SNAPSHOT": "2026-05-10",
