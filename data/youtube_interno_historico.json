@@ -2,6 +2,55 @@
   {
     "NOME": "Tiago Reis",
     "INSCRITOS": "823000",
+    "VISUALIZACOES_TOTAIS": "122593051",
+    "DIA_DESEMPENHO": "2026-08-27",
+    "SALDO_INSCRITOS": 0.0
+  },
+  {
+    "NOME": "Suno Notícias",
+    "INSCRITOS": "73500",
+    "VISUALIZACOES_TOTAIS": "8721897",
+    "DIA_DESEMPENHO": "2026-08-27",
+    "SALDO_INSCRITOS": 0.0
+  },
+  {
+    "NOME": "Funds Explorer - Fundos Imobiliários na Prática",
+    "INSCRITOS": "67800",
+    "VISUALIZACOES_TOTAIS": "3599100",
+    "DIA_DESEMPENHO": "2026-08-27",
+    "SALDO_INSCRITOS": 0.0
+  },
+  {
+    "NOME": "Status Invest",
+    "INSCRITOS": "61500",
+    "VISUALIZACOES_TOTAIS": "3309667",
+    "DIA_DESEMPENHO": "2026-08-27",
+    "SALDO_INSCRITOS": 0.0
+  },
+  {
+    "NOME": "Suno",
+    "INSCRITOS": "519000",
+    "VISUALIZACOES_TOTAIS": "109705700",
+    "DIA_DESEMPENHO": "2026-08-27",
+    "SALDO_INSCRITOS": 0.0
+  },
+  {
+    "NOME": "Professor Baroni | Fundos Imobiliários",
+    "INSCRITOS": "369000",
+    "VISUALIZACOES_TOTAIS": "45627489",
+    "DIA_DESEMPENHO": "2026-08-27",
+    "SALDO_INSCRITOS": 0.0
+  },
+  {
+    "NOME": "Suno Asset",
+    "INSCRITOS": "10300",
+    "VISUALIZACOES_TOTAIS": "6751826",
+    "DIA_DESEMPENHO": "2026-08-27",
+    "SALDO_INSCRITOS": 100.0
+  },
+  {
+    "NOME": "Tiago Reis",
+    "INSCRITOS": "823000",
     "VISUALIZACOES_TOTAIS": "122572260",
     "DIA_DESEMPENHO": "2026-08-26",
     "SALDO_INSCRITOS": 0.0
@@ -10119,14 +10168,14 @@
     "INSCRITOS": "7820",
     "VISUALIZACOES_TOTAIS": "3288702",
     "DIA_DESEMPENHO": "2026-01-23",
-    "SALDO_INSCRITOS": 0.0
+    "SALDO_INSCRITOS": 10.0
   },
   {
     "NOME": "Suno Asset",
     "INSCRITOS": "7820",
     "VISUALIZACOES_TOTAIS": "3288702",
     "DIA_DESEMPENHO": "2026-01-23",
-    "SALDO_INSCRITOS": 10.0
+    "SALDO_INSCRITOS": 0.0
   },
   {
     "NOME": "Suno Asset",
@@ -10266,14 +10315,14 @@
     "INSCRITOS": "45800",
     "VISUALIZACOES_TOTAIS": "2200633",
     "DIA_DESEMPENHO": "2026-01-23",
-    "SALDO_INSCRITOS": 100.0
+    "SALDO_INSCRITOS": 0.0
   },
   {
     "NOME": "Status Invest",
     "INSCRITOS": "45800",
     "VISUALIZACOES_TOTAIS": "2200633",
     "DIA_DESEMPENHO": "2026-01-23",
-    "SALDO_INSCRITOS": 0.0
+    "SALDO_INSCRITOS": 100.0
   },
   {
     "NOME": "Status Invest",
@@ -10285,37 +10334,37 @@
   {
     "NOME": "Professor Baroni | Fundos Imobiliários (FIIs)",
     "INSCRITOS": "331000",
-    "VISUALIZACOES_TOTAIS": "40911909",
-    "DIA_DESEMPENHO": "2026-01-23",
-    "SALDO_INSCRITOS": 0.0
-  },
-  {
-    "NOME": "Professor Baroni | Fundos Imobiliários (FIIs)",
-    "INSCRITOS": "331000",
-    "VISUALIZACOES_TOTAIS": "40911909",
-    "DIA_DESEMPENHO": "2026-01-23",
-    "SALDO_INSCRITOS": 0.0
-  },
-  {
-    "NOME": "Professor Baroni | Fundos Imobiliários (FIIs)",
-    "INSCRITOS": "331000",
-    "VISUALIZACOES_TOTAIS": "40911909",
-    "DIA_DESEMPENHO": "2026-01-23",
-    "SALDO_INSCRITOS": 0.0
-  },
-  {
-    "NOME": "Professor Baroni | Fundos Imobiliários (FIIs)",
-    "INSCRITOS": "331000",
-    "VISUALIZACOES_TOTAIS": "40911909",
-    "DIA_DESEMPENHO": "2026-01-23",
-    "SALDO_INSCRITOS": 0.0
-  },
-  {
-    "NOME": "Professor Baroni | Fundos Imobiliários (FIIs)",
-    "INSCRITOS": "331000",
     "VISUALIZACOES_TOTAIS": "40892220",
     "DIA_DESEMPENHO": "2026-01-23",
     "SALDO_INSCRITOS": 1000.0
+  },
+  {
+    "NOME": "Professor Baroni | Fundos Imobiliários (FIIs)",
+    "INSCRITOS": "331000",
+    "VISUALIZACOES_TOTAIS": "40911909",
+    "DIA_DESEMPENHO": "2026-01-23",
+    "SALDO_INSCRITOS": 0.0
+  },
+  {
+    "NOME": "Professor Baroni | Fundos Imobiliários (FIIs)",
+    "INSCRITOS": "331000",
+    "VISUALIZACOES_TOTAIS": "40911909",
+    "DIA_DESEMPENHO": "2026-01-23",
+    "SALDO_INSCRITOS": 0.0
+  },
+  {
+    "NOME": "Professor Baroni | Fundos Imobiliários (FIIs)",
+    "INSCRITOS": "331000",
+    "VISUALIZACOES_TOTAIS": "40911909",
+    "DIA_DESEMPENHO": "2026-01-23",
+    "SALDO_INSCRITOS": 0.0
+  },
+  {
+    "NOME": "Professor Baroni | Fundos Imobiliários (FIIs)",
+    "INSCRITOS": "331000",
+    "VISUALIZACOES_TOTAIS": "40911909",
+    "DIA_DESEMPENHO": "2026-01-23",
+    "SALDO_INSCRITOS": 0.0
   },
   {
     "NOME": "Tiago Reis",
@@ -16468,55 +16517,6 @@
     "INSCRITOS": "298000",
     "VISUALIZACOES_TOTAIS": "30585508",
     "DIA_DESEMPENHO": "2025-08-27",
-    "SALDO_INSCRITOS": 0.0
-  },
-  {
-    "NOME": "Suno Notícias",
-    "INSCRITOS": "74400",
-    "VISUALIZACOES_TOTAIS": "8551492",
-    "DIA_DESEMPENHO": "2025-08-26",
-    "SALDO_INSCRITOS": 0.0
-  },
-  {
-    "NOME": "Tiago Reis",
-    "INSCRITOS": "741000",
-    "VISUALIZACOES_TOTAIS": "98961109",
-    "DIA_DESEMPENHO": "2025-08-26",
-    "SALDO_INSCRITOS": 0.0
-  },
-  {
-    "NOME": "Funds Explorer - Fundos Imobiliários na Prática",
-    "INSCRITOS": "65900",
-    "VISUALIZACOES_TOTAIS": "1918392",
-    "DIA_DESEMPENHO": "2025-08-26",
-    "SALDO_INSCRITOS": 0.0
-  },
-  {
-    "NOME": "Suno Asset",
-    "INSCRITOS": "5860",
-    "VISUALIZACOES_TOTAIS": "2196503",
-    "DIA_DESEMPENHO": "2025-08-26",
-    "SALDO_INSCRITOS": 20.0
-  },
-  {
-    "NOME": "Suno",
-    "INSCRITOS": "468000",
-    "VISUALIZACOES_TOTAIS": "93892728",
-    "DIA_DESEMPENHO": "2025-08-26",
-    "SALDO_INSCRITOS": 0.0
-  },
-  {
-    "NOME": "Status Invest",
-    "INSCRITOS": "41400",
-    "VISUALIZACOES_TOTAIS": "1344455",
-    "DIA_DESEMPENHO": "2025-08-26",
-    "SALDO_INSCRITOS": 0.0
-  },
-  {
-    "NOME": "Professor Baroni | Fundos Imobiliários (FIIs)",
-    "INSCRITOS": "298000",
-    "VISUALIZACOES_TOTAIS": "30568909",
-    "DIA_DESEMPENHO": "2025-08-26",
     "SALDO_INSCRITOS": 0.0
   }
 ]
