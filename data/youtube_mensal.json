@@ -1,21 +1,21 @@
 [
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCT4nDeU5pv1XIGySbSK-GgA",
     "CANAL_NOME": "O Primo Rico",
     "CANAL_HANDLE": "@primorico",
     "TIPO": "concorrente",
     "BU": "Redes Sociais",
-    "SUBSCRIBERS": 7760000,
+    "SUBSCRIBERS": 7770000,
     "VIEW_COUNT": 619685941,
-    "VIDEO_COUNT": 1779,
-    "DELTA_SUBSCRIBERS_MOM": 0,
-    "SHARE_SUBSCRIBERS_PCT": "22.55"
+    "VIDEO_COUNT": 1783,
+    "DELTA_SUBSCRIBERS_MOM": 10000,
+    "SHARE_SUBSCRIBERS_PCT": "22.57"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UC8mDF5mWNGE-Kpfcvnn0bUg",
     "CANAL_NOME": "Me Poupe!",
     "CANAL_HANDLE": "@mepoupe",
@@ -23,27 +23,27 @@
     "BU": "Redes Sociais",
     "SUBSCRIBERS": 7730000,
     "VIEW_COUNT": 615352563,
-    "VIDEO_COUNT": 2584,
+    "VIDEO_COUNT": 2586,
     "DELTA_SUBSCRIBERS_MOM": 0,
-    "SHARE_SUBSCRIBERS_PCT": "22.47"
+    "SHARE_SUBSCRIBERS_PCT": "22.45"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCjt5Mt-yVu_R8LfuiLcd5KA",
     "CANAL_NOME": "Cafe com Ferri",
     "CANAL_HANDLE": "@podcastcafecomferri",
     "TIPO": "concorrente",
     "BU": "Redes Sociais",
-    "SUBSCRIBERS": 7510000,
+    "SUBSCRIBERS": 7520000,
     "VIEW_COUNT": 199719313,
-    "VIDEO_COUNT": 1393,
-    "DELTA_SUBSCRIBERS_MOM": 10000,
-    "SHARE_SUBSCRIBERS_PCT": "21.83"
+    "VIDEO_COUNT": 1396,
+    "DELTA_SUBSCRIBERS_MOM": 20000,
+    "SHARE_SUBSCRIBERS_PCT": "21.84"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCCE-jo1GvBJqyj1b287h7jA",
     "CANAL_NOME": "Bruno Perini",
     "CANAL_HANDLE": "@brunoperini",
@@ -51,13 +51,13 @@
     "BU": "Redes Sociais",
     "SUBSCRIBERS": 2100000,
     "VIEW_COUNT": 484951538,
-    "VIDEO_COUNT": 2436,
+    "VIDEO_COUNT": 2438,
     "DELTA_SUBSCRIBERS_MOM": 0,
     "SHARE_SUBSCRIBERS_PCT": "6.10"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCM3vJxmuJJkk1r0yzFI9eZg",
     "CANAL_NOME": "Investidor Sardinha",
     "CANAL_HANDLE": "@investidorsardinha",
@@ -65,13 +65,13 @@
     "BU": "Asset,Redes Sociais",
     "SUBSCRIBERS": 1750000,
     "VIEW_COUNT": 342361767,
-    "VIDEO_COUNT": 3214,
+    "VIDEO_COUNT": 3215,
     "DELTA_SUBSCRIBERS_MOM": 10000,
-    "SHARE_SUBSCRIBERS_PCT": "5.09"
+    "SHARE_SUBSCRIBERS_PCT": "5.08"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCE5Uu3nZlVbTur6xwhdoKhg",
     "CANAL_NOME": "BTG Pactual",
     "CANAL_HANDLE": "@btgpactual",
@@ -79,13 +79,13 @@
     "BU": "Redes Sociais",
     "SUBSCRIBERS": 1320000,
     "VIEW_COUNT": 286872141,
-    "VIDEO_COUNT": 3034,
+    "VIDEO_COUNT": 3036,
     "DELTA_SUBSCRIBERS_MOM": 0,
-    "SHARE_SUBSCRIBERS_PCT": "3.84"
+    "SHARE_SUBSCRIBERS_PCT": "3.83"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCrp0zmecZ3TNV8FSR-tjv7A",
     "CANAL_NOME": "Economista Sincero",
     "CANAL_HANDLE": "@economistasincero",
@@ -93,13 +93,13 @@
     "BU": "Redes Sociais",
     "SUBSCRIBERS": 1290000,
     "VIEW_COUNT": 288256691,
-    "VIDEO_COUNT": 4567,
+    "VIDEO_COUNT": 4570,
     "DELTA_SUBSCRIBERS_MOM": 0,
     "SHARE_SUBSCRIBERS_PCT": "3.75"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCu79AeVqrq42vmSIp1OHyfA",
     "CANAL_NOME": "Empiricus",
     "CANAL_HANDLE": "@empiricus",
@@ -107,13 +107,13 @@
     "BU": "Research",
     "SUBSCRIBERS": 1140000,
     "VIEW_COUNT": 100619262,
-    "VIDEO_COUNT": 2658,
+    "VIDEO_COUNT": 2660,
     "DELTA_SUBSCRIBERS_MOM": 0,
     "SHARE_SUBSCRIBERS_PCT": "3.31"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCwONybZQdULFV_ts2911Rqg",
     "CANAL_NOME": "Tiago Reis (Suno)",
     "CANAL_HANDLE": "@tiagoreis",
@@ -127,21 +127,21 @@
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCxm0tptjIc76-i26EKQ9NpA",
     "CANAL_NOME": "InfoMoney",
     "CANAL_HANDLE": "@infomoney",
     "TIPO": "concorrente",
     "BU": "Redes Sociais",
-    "SUBSCRIBERS": 766000,
+    "SUBSCRIBERS": 767000,
     "VIEW_COUNT": 181778672,
-    "VIDEO_COUNT": 22191,
-    "DELTA_SUBSCRIBERS_MOM": 0,
+    "VIDEO_COUNT": 22220,
+    "DELTA_SUBSCRIBERS_MOM": 1000,
     "SHARE_SUBSCRIBERS_PCT": "2.23"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCWDeEIDAIi_oYKDiqwfGyRg",
     "CANAL_NOME": "Suno Research",
     "CANAL_HANDLE": "@gruposuno",
@@ -149,13 +149,13 @@
     "BU": "Research,Asset,Redes Sociais",
     "SUBSCRIBERS": 519000,
     "VIEW_COUNT": 109966826,
-    "VIDEO_COUNT": 5155,
+    "VIDEO_COUNT": 5169,
     "DELTA_SUBSCRIBERS_MOM": 0,
     "SHARE_SUBSCRIBERS_PCT": "1.51"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCf15n72n6pV0RK6-GOi1s1Q",
     "CANAL_NOME": "XP Investimentos",
     "CANAL_HANDLE": "@xp_oficial",
@@ -163,13 +163,13 @@
     "BU": "Redes Sociais",
     "SUBSCRIBERS": 489000,
     "VIEW_COUNT": 790964497,
-    "VIDEO_COUNT": 4149,
+    "VIDEO_COUNT": 4150,
     "DELTA_SUBSCRIBERS_MOM": 1000,
     "SHARE_SUBSCRIBERS_PCT": "1.42"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCSXdP8V4jRaw-8YMTpa6glw",
     "CANAL_NOME": "Suno Baroni",
     "CANAL_HANDLE": "@professorbaroni",
@@ -177,13 +177,13 @@
     "BU": "Asset,Redes Sociais",
     "SUBSCRIBERS": 370000,
     "VIEW_COUNT": 45907813,
-    "VIDEO_COUNT": 3887,
+    "VIDEO_COUNT": 3893,
     "DELTA_SUBSCRIBERS_MOM": 0,
-    "SHARE_SUBSCRIBERS_PCT": "1.08"
+    "SHARE_SUBSCRIBERS_PCT": "1.07"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCsU0E4F3RxVOSjWlIMieReA",
     "CANAL_NOME": "Nord Investimentos",
     "CANAL_HANDLE": "@nordinvestimentos",
@@ -197,7 +197,7 @@
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCjZsV-DSJVU2i8M9Bl56ZQg",
     "CANAL_NOME": "TRX Investimentos",
     "CANAL_HANDLE": "@trxinvestimentos2945",
@@ -211,7 +211,7 @@
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCuP3yzTmY6AWjIljW0GPuPg",
     "CANAL_NOME": "Kinea Investimentos",
     "CANAL_HANDLE": "@kineainvestimentos",
@@ -219,13 +219,13 @@
     "BU": "Asset",
     "SUBSCRIBERS": 109000,
     "VIEW_COUNT": 36705730,
-    "VIDEO_COUNT": 1459,
+    "VIDEO_COUNT": 1465,
     "DELTA_SUBSCRIBERS_MOM": 1000,
     "SHARE_SUBSCRIBERS_PCT": "0.32"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UC74FvQ6GtdwRmENGymLjqNA",
     "CANAL_NOME": "Suno Noticias",
     "CANAL_HANDLE": "@sunonoticias",
@@ -239,7 +239,7 @@
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCAbPPg9IVIjzPBAE7uGgd-g",
     "CANAL_NOME": "Funds Explorer",
     "CANAL_HANDLE": "@fundsexplorer",
@@ -253,7 +253,7 @@
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UC7k3dDEfclcB07Deoy41D6g",
     "CANAL_NOME": "Status Invest",
     "CANAL_HANDLE": "@statusinvest",
@@ -267,7 +267,7 @@
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UC3F7xGujyP59SsrzhdO9aAA",
     "CANAL_NOME": "BTG Asset Management",
     "CANAL_HANDLE": "@btgpactualassetmanagement",
@@ -275,13 +275,13 @@
     "BU": "Asset",
     "SUBSCRIBERS": 13300,
     "VIEW_COUNT": 11598987,
-    "VIDEO_COUNT": 631,
+    "VIDEO_COUNT": 633,
     "DELTA_SUBSCRIBERS_MOM": 0,
     "SHARE_SUBSCRIBERS_PCT": "0.04"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCMP3ETiqEPs0RMjxH57O5DQ",
     "CANAL_NOME": "Suno Asset",
     "CANAL_HANDLE": "@sunoasset",
@@ -289,13 +289,13 @@
     "BU": "Asset",
     "SUBSCRIBERS": 10300,
     "VIEW_COUNT": 6819290,
-    "VIDEO_COUNT": 709,
+    "VIDEO_COUNT": 710,
     "DELTA_SUBSCRIBERS_MOM": 0,
     "SHARE_SUBSCRIBERS_PCT": "0.03"
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UC-jNfX6MhcLLfMATynctQBQ",
     "CANAL_NOME": "XP Asset Management",
     "CANAL_HANDLE": "@xpassetmanagement",
@@ -309,7 +309,7 @@
   },
   {
     "MES_REFERENCIA": "2026-09-01",
-    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-03",
+    "DT_ULTIMO_SNAPSHOT_MES": "2026-09-04",
     "CANAL_ID": "UCfeFPKDC7gEP_BOaIdY46jw",
     "CANAL_NOME": "RBR Asset Management",
     "CANAL_HANDLE": "@rbrassetmanagement",
