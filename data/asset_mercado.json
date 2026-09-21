@@ -2,18 +2,6 @@
   {
     "CODIGO": "SNAG11",
     "NOME_DO_ATIVO": "SUNO RESP LIMITADA FIAGRO FII - SNAG11",
-    "DATA": "2025-08-20",
-    "PRECO_FECHAMENTO": 9.5,
-    "VPA": null,
-    "DIVIDENDO": null,
-    "PL": null,
-    "VOLUME": 650724.93,
-    "COTISTAS": null,
-    "FATOR_DESDOBRAMENTO": 1.0
-  },
-  {
-    "CODIGO": "SNAG11",
-    "NOME_DO_ATIVO": "SUNO RESP LIMITADA FIAGRO FII - SNAG11",
     "DATA": "2025-08-21",
     "PRECO_FECHAMENTO": 9.52,
     "VPA": null,
@@ -3272,18 +3260,6 @@
     "DIVIDENDO": null,
     "PL": null,
     "VOLUME": 1464041.22,
-    "COTISTAS": null,
-    "FATOR_DESDOBRAMENTO": 1.0
-  },
-  {
-    "CODIGO": "SNCI11",
-    "NOME_DO_ATIVO": "SUNO RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - SNCI11",
-    "DATA": "2025-08-20",
-    "PRECO_FECHAMENTO": 82.24,
-    "VPA": null,
-    "DIVIDENDO": null,
-    "PL": null,
-    "VOLUME": 821003.09,
     "COTISTAS": null,
     "FATOR_DESDOBRAMENTO": 1.0
   },
@@ -6554,18 +6530,6 @@
   {
     "CODIGO": "SNEL11",
     "NOME_DO_ATIVO": "SUNO ENERGIAS LIMPAS IS RESP LIMITADA FII - SNEL11",
-    "DATA": "2025-08-20",
-    "PRECO_FECHAMENTO": 8.38,
-    "VPA": null,
-    "DIVIDENDO": null,
-    "PL": null,
-    "VOLUME": 729750.34,
-    "COTISTAS": null,
-    "FATOR_DESDOBRAMENTO": 1.0
-  },
-  {
-    "CODIGO": "SNEL11",
-    "NOME_DO_ATIVO": "SUNO ENERGIAS LIMPAS IS RESP LIMITADA FII - SNEL11",
     "DATA": "2025-08-21",
     "PRECO_FECHAMENTO": 8.38,
     "VPA": null,
@@ -9824,18 +9788,6 @@
     "DIVIDENDO": null,
     "PL": null,
     "VOLUME": 5600691.84,
-    "COTISTAS": null,
-    "FATOR_DESDOBRAMENTO": 1.0
-  },
-  {
-    "CODIGO": "SNFF11",
-    "NOME_DO_ATIVO": "SUNO FUNDO DE FUNDOS RESP FII - SNFF11",
-    "DATA": "2025-08-20",
-    "PRECO_FECHAMENTO": 68.53,
-    "VPA": null,
-    "DIVIDENDO": null,
-    "PL": null,
-    "VOLUME": 163620.13,
     "COTISTAS": null,
     "FATOR_DESDOBRAMENTO": 1.0
   },
@@ -13106,18 +13058,6 @@
   {
     "CODIGO": "SNFZ11",
     "NOME_DO_ATIVO": "SUNO FAZENDAS FIAGRO FII - SNFZ11",
-    "DATA": "2025-08-20",
-    "PRECO_FECHAMENTO": 9.66,
-    "VPA": null,
-    "DIVIDENDO": null,
-    "PL": null,
-    "VOLUME": 37218.19,
-    "COTISTAS": null,
-    "FATOR_DESDOBRAMENTO": 1.0
-  },
-  {
-    "CODIGO": "SNFZ11",
-    "NOME_DO_ATIVO": "SUNO FAZENDAS FIAGRO FII - SNFZ11",
     "DATA": "2025-08-21",
     "PRECO_FECHAMENTO": 9.75,
     "VPA": null,
@@ -16382,18 +16322,6 @@
   {
     "CODIGO": "SNID11",
     "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
-    "DATA": "2025-08-20",
-    "PRECO_FECHAMENTO": 10.02,
-    "VPA": null,
-    "DIVIDENDO": null,
-    "PL": null,
-    "VOLUME": 157433.89,
-    "COTISTAS": null,
-    "FATOR_DESDOBRAMENTO": 1.0
-  },
-  {
-    "CODIGO": "SNID11",
-    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
     "DATA": "2025-08-21",
     "PRECO_FECHAMENTO": 10.06,
     "VPA": null,
@@ -19652,18 +19580,6 @@
     "DIVIDENDO": null,
     "PL": null,
     "VOLUME": 65078.63,
-    "COTISTAS": null,
-    "FATOR_DESDOBRAMENTO": 1.0
-  },
-  {
-    "CODIGO": "SNME11",
-    "NOME_DO_ATIVO": "SUNO MULTIESTRATÉGIA RESP LIMITADA FII - SNME11",
-    "DATA": "2025-08-20",
-    "PRECO_FECHAMENTO": 9.49,
-    "VPA": null,
-    "DIVIDENDO": null,
-    "PL": null,
-    "VOLUME": 45502.47,
     "COTISTAS": null,
     "FATOR_DESDOBRAMENTO": 1.0
   },
