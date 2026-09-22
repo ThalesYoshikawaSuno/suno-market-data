@@ -156,18 +156,18 @@
     "CODIGO": "633003",
     "CNPJ": "26324298000189",
     "NOME_DO_ATIVO": "KINEA RESP LIMITADA FIF CIC FI INFRA RENDA FIXA CRÉDITO PRIVADO - KDIF11",
-    "DATA": "2026-09-17",
-    "COTA": 119.0926766,
-    "PL": 2796864039.37,
+    "DATA": "2026-09-18",
+    "COTA": 118.7422643,
+    "PL": 2788634688.06,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
     "CODIGO": "692395",
     "CNPJ": "48973783000116",
     "NOME_DO_ATIVO": "SPARTA INFRA CDI FIF CIC FI INFRA RENDA FIXA - CDII11",
-    "DATA": "2026-09-17",
-    "COTA": 101.1704016,
-    "PL": 2780277766.8,
+    "DATA": "2026-09-18",
+    "COTA": 101.1534033,
+    "PL": 2779810635.88,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -264,9 +264,9 @@
     "CODIGO": "627127",
     "CNPJ": "42730834000100",
     "NOME_DO_ATIVO": "SPARTA INFRA FIC INFRA RENDA FIXA - JURO11",
-    "DATA": "2026-09-17",
-    "COTA": 101.7408464,
-    "PL": 2092979829.02,
+    "DATA": "2026-09-18",
+    "COTA": 101.6549614,
+    "PL": 2091213031.65,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -408,9 +408,9 @@
     "CODIGO": "686867",
     "CNPJ": "48969881000180",
     "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIF CIC FI INFRA RENDA FIXA - SNID11",
-    "DATA": "2026-09-17",
-    "COTA": 9.6885898,
-    "PL": 69795050.59,
+    "DATA": "2026-09-18",
+    "COTA": 9.6809054,
+    "PL": 69739693.31,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -426,70 +426,16 @@
     "CODIGO": "218748804",
     "CNPJ": "51764889000114",
     "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SUBORDINADA MEZANINO 1 - CAFE11",
-    "DATA": "2026-09-18",
-    "COTA": 26.0200157,
-    "PL": 2602001.57,
+    "DATA": "2026-09-21",
+    "COTA": 26.040703,
+    "PL": 2604070.3,
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
-    "CODIGO": "683566",
-    "CNPJ": "45274729000194",
-    "NOME_DO_ATIVO": "SUNO GLOBAL EQUITIES FIF CIC AÇÕES",
-    "DATA": "2026-09-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "358327221",
+    "CODIGO": "924571502",
     "CNPJ": "51764889000114",
-    "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SUBORDINADA JÚNIOR 1",
-    "DATA": "2026-09-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "682756",
-    "CNPJ": "45027536000139",
-    "NOME_DO_ATIVO": "SUNO GLOBAL EQUITIES MASTER FIF AÇÕES",
-    "DATA": "2026-09-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "10431",
-    "CNPJ": "73232530000139",
-    "NOME_DO_ATIVO": "DYNAMO COUGAR FIF",
-    "DATA": "2026-09-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "600490",
-    "CNPJ": "41744690000170",
-    "NOME_DO_ATIVO": "SUNO ZERO FIF CIC AÇÕES",
-    "DATA": "2026-09-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "SNID11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
-    "DATA": "2026-09-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "681946",
-    "CNPJ": "44814968000127",
-    "NOME_DO_ATIVO": "SUNO AÇÕES XP SEG PREV RESP LIMITADA FIC MULTIMERCADO",
-    "DATA": "2026-09-18",
+    "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SÊNIOR 1",
+    "DATA": "2026-01-30",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "LIQUIDO"
@@ -504,28 +450,19 @@
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
+    "CODIGO": "682756",
+    "CNPJ": "45027536000139",
+    "NOME_DO_ATIVO": "SUNO GLOBAL EQUITIES MASTER FIF AÇÕES",
+    "DATA": "2026-09-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "LIQUIDO"
+  },
+  {
     "CODIGO": "682063",
     "CNPJ": "47062606000115",
     "NOME_DO_ATIVO": "SUNO XP FIE PREVIDÊNCIA RESP LIMITADA FIC MULTIMERCADO LP",
-    "DATA": "2026-09-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "924571502",
-    "CNPJ": "51764889000114",
-    "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SÊNIOR 1",
-    "DATA": "2026-01-30",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "657344",
-    "CNPJ": "46331231000189",
-    "NOME_DO_ATIVO": "SUNO FIF CIC AÇÕES",
-    "DATA": "2026-09-18",
+    "DATA": "2026-09-21",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "LIQUIDO"
@@ -534,16 +471,79 @@
     "CODIGO": "681830",
     "CNPJ": "47640635000117",
     "NOME_DO_ATIVO": "SUNO MASTER FIFE PREVIDÊNCIA FIF MULTIMERCADO",
-    "DATA": "2026-09-18",
+    "DATA": "2026-09-21",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
+    "CODIGO": "10431",
+    "CNPJ": "73232530000139",
+    "NOME_DO_ATIVO": "DYNAMO COUGAR FIF",
+    "DATA": "2026-09-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "LIQUIDO"
+  },
+  {
+    "CODIGO": "358327221",
+    "CNPJ": "51764889000114",
+    "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SUBORDINADA JÚNIOR 1",
+    "DATA": "2026-09-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "LIQUIDO"
+  },
+  {
+    "CODIGO": "600490",
+    "CNPJ": "41744690000170",
+    "NOME_DO_ATIVO": "SUNO ZERO FIF CIC AÇÕES",
+    "DATA": "2026-09-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "LIQUIDO"
+  },
+  {
+    "CODIGO": "657344",
+    "CNPJ": "46331231000189",
+    "NOME_DO_ATIVO": "SUNO FIF CIC AÇÕES",
+    "DATA": "2026-09-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "LIQUIDO"
+  },
+  {
+    "CODIGO": "681946",
+    "CNPJ": "44814968000127",
+    "NOME_DO_ATIVO": "SUNO AÇÕES XP SEG PREV RESP LIMITADA FIC MULTIMERCADO",
+    "DATA": "2026-09-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "LIQUIDO"
+  },
+  {
+    "CODIGO": "683566",
+    "CNPJ": "45274729000194",
+    "NOME_DO_ATIVO": "SUNO GLOBAL EQUITIES FIF CIC AÇÕES",
+    "DATA": "2026-09-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "LIQUIDO"
+  },
+  {
+    "CODIGO": "SNID11",
+    "CNPJ": "",
+    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
+    "DATA": "2026-09-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
     "CODIGO": "298761",
     "CNPJ": "10500884000105",
     "NOME_DO_ATIVO": "REAL INVESTOR RESP LIMITADA FIF CIC AÇÕES",
-    "DATA": "2026-09-18",
+    "DATA": "2026-09-21",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "LIQUIDO"
