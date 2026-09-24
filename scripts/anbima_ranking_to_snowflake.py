@@ -82,8 +82,9 @@ HTTP_HEADERS = {
 # ── Snowflake ─────────────────────────────────────────────────────────────────
 def _sf_auth() -> dict:
     """Retorna kwargs de autenticação: key-pair se SNOWFLAKE_PRIVATE_KEY estiver definida, senha caso contrário."""
-    pem = os.environ.get("SNOWFLAKE_PRIVATE_KEY", "").strip()
+    pem = os.environ.get("SNOWFLAKE_PRIVATE_KEY", "").strip().replace("\\n", "\n")
     if pem:
+        log.info("  Autenticação: key-pair RSA")
         from cryptography.hazmat.primitives.serialization import (
             load_pem_private_key, Encoding, PrivateFormat, NoEncryption,
         )
@@ -92,6 +93,7 @@ def _sf_auth() -> dict:
         passphrase = raw_passphrase.encode() if raw_passphrase else None
         key = load_pem_private_key(pem.encode(), password=passphrase, backend=default_backend())
         return {"private_key": key.private_bytes(Encoding.DER, PrivateFormat.PKCS8, NoEncryption())}
+    log.info("  Autenticação: senha (SNOWFLAKE_PRIVATE_KEY não definida)")
     return {"password": os.environ["SNOWFLAKE_PASSWORD"]}
 
 def get_sf_conn():
