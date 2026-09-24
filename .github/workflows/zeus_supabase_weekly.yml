@@ -1,24 +1,20 @@
-name: 🔄 Atualização Mensal — ANBIMA
+name: 🌐 Zeus Supabase — Semanal (Portais & Notícias)
 
 on:
   schedule:
-    - cron: '0 10 5 * *'
+    - cron: '0 12 * * 1'   # 09:00 BRT toda segunda-feira
   workflow_dispatch:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
-  update:
+  ingest:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
-        with:
-          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5.6.0
@@ -26,10 +22,9 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependências
-        run: pip install snowflake-connector-python
+        run: pip install snowflake-connector-python supabase
 
-      - name: Buscar dados do Snowflake
-        continue-on-error: true
+      - name: Ingestão Snowflake → Supabase
         env:
           SNOWFLAKE_ACCOUNT:        ${{ secrets.SNOWFLAKE_ACCOUNT }}
           SNOWFLAKE_USERNAME:       ${{ secrets.SNOWFLAKE_USERNAME }}
@@ -39,21 +34,8 @@ jobs:
           SNOWFLAKE_SCHEMA:         ${{ secrets.SNOWFLAKE_SCHEMA }}
           SNOWFLAKE_WAREHOUSE:      ${{ secrets.SNOWFLAKE_WAREHOUSE }}
           SNOWFLAKE_ROLE:           ${{ secrets.SNOWFLAKE_ROLE }}
-        run: |
-          python scripts/fetch_snowflake.py --datasets anbima_pl,anbima_cap
-
-      - name: Commit e push dos dados
-        run: |
-          git config user.email "data-bot@suno.com.br"
-          git config user.name "Suno Data Bot"
-          git add data/
-          if git diff --staged --quiet; then
-            echo "Sem mudanças, nada a commitar."
-          else
-            git stash
-            git pull --rebase origin main
-            git stash pop
-            git add data/
-            git commit -m "💰 ANBIMA — $(date +'%d/%m/%Y %H:%M') BRT"
-            git push
-          fi
+          SNOWFLAKE_DB_ASSET:       ${{ secrets.SNOWFLAKE_DB_ASSET }}
+          SNOWFLAKE_SCHEMA_ASSET:   ${{ secrets.SNOWFLAKE_SCHEMA_ASSET }}
+          SUPABASE_URL:             ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python scripts/zeus_supabase_ingest.py --datasets portais,noticias
