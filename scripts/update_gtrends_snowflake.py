@@ -27,14 +27,28 @@ from datetime import datetime, timezone, timedelta
 
 SERPAPI_KEY = os.environ["SERPAPI_KEY"]
 
+def _sf_auth() -> dict:
+    """Key-pair se SNOWFLAKE_PRIVATE_KEY estiver definida, senha caso contrário."""
+    pem = os.environ.get("SNOWFLAKE_PRIVATE_KEY", "").strip()
+    if pem:
+        from cryptography.hazmat.primitives.serialization import (
+            load_pem_private_key, Encoding, PrivateFormat, NoEncryption,
+        )
+        from cryptography.hazmat.backends import default_backend
+        raw_passphrase = os.environ.get("SNOWFLAKE_PRIVATE_KEY_PASSPHRASE", "")
+        passphrase = raw_passphrase.encode() if raw_passphrase else None
+        key = load_pem_private_key(pem.encode(), password=passphrase, backend=default_backend())
+        return {"private_key": key.private_bytes(Encoding.DER, PrivateFormat.PKCS8, NoEncryption())}
+    return {"password": os.environ["SNOWFLAKE_PASSWORD"]}
+
 SF = dict(
     account   = os.environ["SNOWFLAKE_ACCOUNT"],
     user      = os.environ["SNOWFLAKE_USERNAME"],
-    password  = os.environ["SNOWFLAKE_PASSWORD"],
     database  = os.environ.get("SNOWFLAKE_DB_TRENDS", "AI_WORKSPACE"),
     schema    = os.environ.get("SNOWFLAKE_SCHEMA_TRENDS", "SANDBOX"),
     warehouse = os.environ.get("SNOWFLAKE_WAREHOUSE", "WH_AI_AGENTS"),
     role      = os.environ.get("SNOWFLAKE_ROLE", "AI_AGENTS"),
+    **_sf_auth(),
 )
 
 TABLE = f"{SF['database']}.{SF['schema']}.TB_MS_GOOGLE_TRENDS"
