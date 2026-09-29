@@ -1,16 +1,5 @@
 [
   {
-    "DATA": "2025-09-28",
-    "BU": "ASSET",
-    "CAMPANHA": "ASSET",
-    "ORCADO": null,
-    "VALOR_PLANEJADO": null,
-    "ORCADO_BU": null,
-    "CUSTO_REALIZADO": 4971.880173,
-    "DESVIO": 4971.88,
-    "PCT_REALIZADO": null
-  },
-  {
     "DATA": "2025-09-29",
     "BU": "ASSET",
     "CAMPANHA": "ASSET",
@@ -72,7 +61,7 @@
     "ORCADO": null,
     "VALOR_PLANEJADO": null,
     "ORCADO_BU": null,
-    "CUSTO_REALIZADO": 1222.784497,
+    "CUSTO_REALIZADO": 1222.7844969999999,
     "DESVIO": 1222.78,
     "PCT_REALIZADO": null
   },
@@ -171,7 +160,7 @@
     "ORCADO": null,
     "VALOR_PLANEJADO": null,
     "ORCADO_BU": null,
-    "CUSTO_REALIZADO": 4096.124411999999,
+    "CUSTO_REALIZADO": 4096.124412,
     "DESVIO": 4096.12,
     "PCT_REALIZADO": null
   },
@@ -1986,7 +1975,7 @@
     "ORCADO": 1290.32,
     "VALOR_PLANEJADO": 1290.32,
     "ORCADO_BU": 1612.9,
-    "CUSTO_REALIZADO": 2938.4252380000003,
+    "CUSTO_REALIZADO": 2938.425238,
     "DESVIO": 1648.11,
     "PCT_REALIZADO": 227.73
   },
@@ -4395,7 +4384,7 @@
     "ORCADO": 1290.32,
     "VALOR_PLANEJADO": 1290.32,
     "ORCADO_BU": null,
-    "CUSTO_REALIZADO": 3297.508956,
+    "CUSTO_REALIZADO": 3297.5089559999997,
     "DESVIO": 2007.19,
     "PCT_REALIZADO": 255.56
   },
@@ -4516,7 +4505,7 @@
     "ORCADO": 1290.32,
     "VALOR_PLANEJADO": 1290.32,
     "ORCADO_BU": null,
-    "CUSTO_REALIZADO": 920.574819,
+    "CUSTO_REALIZADO": 920.5748189999999,
     "DESVIO": -369.75,
     "PCT_REALIZADO": 71.34
   },
@@ -4626,7 +4615,7 @@
     "ORCADO": 1290.32,
     "VALOR_PLANEJADO": 1290.32,
     "ORCADO_BU": null,
-    "CUSTO_REALIZADO": 1118.5256570000001,
+    "CUSTO_REALIZADO": 1118.525657,
     "DESVIO": -171.79,
     "PCT_REALIZADO": 86.69
   },
@@ -5473,7 +5462,7 @@
     "ORCADO": 1333.43,
     "VALOR_PLANEJADO": 1333.43,
     "ORCADO_BU": null,
-    "CUSTO_REALIZADO": 7203.998531,
+    "CUSTO_REALIZADO": 7203.998530999999,
     "DESVIO": 5870.57,
     "PCT_REALIZADO": 540.26
   },
@@ -7437,6 +7426,28 @@
   },
   {
     "DATA": "2026-09-27",
+    "BU": "ASSET",
+    "CAMPANHA": "SNFZ11",
+    "ORCADO": 1333.33,
+    "VALOR_PLANEJADO": 1333.33,
+    "ORCADO_BU": null,
+    "CUSTO_REALIZADO": null,
+    "DESVIO": -1333.33,
+    "PCT_REALIZADO": 0.0
+  },
+  {
+    "DATA": "2026-09-28",
+    "BU": "ASSET",
+    "CAMPANHA": "ASSET",
+    "ORCADO": 1333.33,
+    "VALOR_PLANEJADO": 1333.33,
+    "ORCADO_BU": null,
+    "CUSTO_REALIZADO": null,
+    "DESVIO": -1333.33,
+    "PCT_REALIZADO": 0.0
+  },
+  {
+    "DATA": "2026-09-28",
     "BU": "ASSET",
     "CAMPANHA": "SNFZ11",
     "ORCADO": 1333.33,
