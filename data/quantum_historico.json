@@ -2,14 +2,6 @@
   {
     "CODIGO": "10431",
     "NOME_DO_ATIVO": "DYNAMO COUGAR FIF",
-    "DATA": "2025-09-10",
-    "COTA": 1594.449582,
-    "PL": 5407625305.63,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "10431",
-    "NOME_DO_ATIVO": "DYNAMO COUGAR FIF",
     "DATA": "2025-09-11",
     "COTA": 1606.378167,
     "PL": 5448081474.0,
@@ -2173,14 +2165,6 @@
     "DATA": "2026-10-08",
     "COTA": 2251.2371849,
     "PL": 6509966421.04,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "218748804",
-    "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SUBORDINADA MEZANINO 1 - CAFE11",
-    "DATA": "2025-09-10",
-    "COTA": 102.117469,
-    "PL": 10211746.89,
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
@@ -4354,14 +4338,6 @@
   {
     "CODIGO": "358327221",
     "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SUBORDINADA JÚNIOR 1",
-    "DATA": "2025-09-10",
-    "COTA": 94.450197,
-    "PL": 9445019.71,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "358327221",
-    "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SUBORDINADA JÚNIOR 1",
     "DATA": "2025-09-11",
     "COTA": 94.459725,
     "PL": 9445972.47,
@@ -6525,14 +6501,6 @@
     "DATA": "2026-10-08",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "600490",
-    "NOME_DO_ATIVO": "SUNO ZERO FIF CIC AÇÕES",
-    "DATA": "2025-09-10",
-    "COTA": 1.335418,
-    "PL": 13546481.93,
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
@@ -8702,14 +8670,6 @@
     "COTA": 1.5630387,
     "PL": 11093963.78,
     "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "633003",
-    "NOME_DO_ATIVO": "KINEA RESP LIMITADA FIF CIC FI INFRA RENDA FIXA CRÉDITO PRIVADO - KDIF11",
-    "DATA": "2025-09-10",
-    "COTA": 126.134124,
-    "PL": 2561281959.27,
-    "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
     "CODIGO": "633003",
@@ -10890,14 +10850,6 @@
   {
     "CODIGO": "657344",
     "NOME_DO_ATIVO": "SUNO FIF CIC AÇÕES",
-    "DATA": "2025-09-10",
-    "COTA": 1.486747,
-    "PL": 31089789.54,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "657344",
-    "NOME_DO_ATIVO": "SUNO FIF CIC AÇÕES",
     "DATA": "2025-09-11",
     "COTA": 1.499084,
     "PL": 31311204.38,
@@ -13061,14 +13013,6 @@
     "DATA": "2026-10-08",
     "COTA": 1.71423,
     "PL": 25850665.83,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "681830",
-    "NOME_DO_ATIVO": "SUNO MASTER FIFE PREVIDÊNCIA FIF MULTIMERCADO",
-    "DATA": "2025-09-10",
-    "COTA": 1.455857,
-    "PL": 17750781.43,
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
@@ -15242,14 +15186,6 @@
   {
     "CODIGO": "681946",
     "NOME_DO_ATIVO": "SUNO AÇÕES XP SEG PREV RESP LIMITADA FIC MULTIMERCADO",
-    "DATA": "2025-09-10",
-    "COTA": 1.35313,
-    "PL": 17958586.94,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "681946",
-    "NOME_DO_ATIVO": "SUNO AÇÕES XP SEG PREV RESP LIMITADA FIC MULTIMERCADO",
     "DATA": "2025-09-11",
     "COTA": 1.361478,
     "PL": 18257828.51,
@@ -17413,14 +17349,6 @@
     "DATA": "2026-10-08",
     "COTA": 1.54885759,
     "PL": 17606646.28,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "682063",
-    "NOME_DO_ATIVO": "SUNO XP FIE PREVIDÊNCIA RESP LIMITADA FIC MULTIMERCADO LP",
-    "DATA": "2025-09-10",
-    "COTA": 1.3494,
-    "PL": 17863698.04,
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
@@ -19594,14 +19522,6 @@
   {
     "CODIGO": "682195",
     "NOME_DO_ATIVO": "SUNO SMALL CAPS FIF CIC AÇÕES",
-    "DATA": "2025-09-10",
-    "COTA": 1.184357,
-    "PL": 1298238.11,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "682195",
-    "NOME_DO_ATIVO": "SUNO SMALL CAPS FIF CIC AÇÕES",
     "DATA": "2025-09-11",
     "COTA": 1.193751,
     "PL": 1308535.64,
@@ -21197,14 +21117,6 @@
     "DATA": "2026-06-30",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "682756",
-    "NOME_DO_ATIVO": "SUNO GLOBAL EQUITIES MASTER FIF AÇÕES",
-    "DATA": "2025-09-10",
-    "COTA": 1.975539,
-    "PL": 2226679.09,
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
@@ -23378,14 +23290,6 @@
   {
     "CODIGO": "683566",
     "NOME_DO_ATIVO": "SUNO GLOBAL EQUITIES FIF CIC AÇÕES",
-    "DATA": "2025-09-10",
-    "COTA": 1.93845,
-    "PL": 2261842.63,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "683566",
-    "NOME_DO_ATIVO": "SUNO GLOBAL EQUITIES FIF CIC AÇÕES",
     "DATA": "2025-09-11",
     "COTA": 1.947862,
     "PL": 2272027.73,
@@ -25550,14 +25454,6 @@
     "COTA": 1.9124054,
     "PL": 1700285.29,
     "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "686557",
-    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES MASTER I FIF FI INFRA RENDA FIXA",
-    "DATA": "2025-09-10",
-    "COTA": 148.871111,
-    "PL": 33776746.22,
-    "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
     "CODIGO": "686557",
@@ -27733,14 +27629,6 @@
     "DATA": "2026-10-09",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "686867",
-    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIF CIC FI INFRA RENDA FIXA - SNID11",
-    "DATA": "2025-09-10",
-    "COTA": 10.392709,
-    "PL": 74867414.75,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -29922,14 +29810,6 @@
   {
     "CODIGO": "924571502",
     "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SÊNIOR 1",
-    "DATA": "2025-09-10",
-    "COTA": 5.97929,
-    "PL": 597929.04,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "924571502",
-    "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SÊNIOR 1",
     "DATA": "2025-09-11",
     "COTA": 5.983518,
     "PL": 598351.81,
@@ -30718,14 +30598,6 @@
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "BTLG11",
-    "NOME_DO_ATIVO": "BTG PACTUAL LOGÍSTICA RESP LIMITADA FII - BTLG11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
     "CODIGO": "BTLG11",
@@ -32899,14 +32771,6 @@
     "CODIGO": "BTLG11",
     "NOME_DO_ATIVO": "BTG PACTUAL LOGÍSTICA RESP LIMITADA FII - BTLG11",
     "DATA": "2026-10-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "CPTS11",
-    "NOME_DO_ATIVO": "CAPITÂNIA SECURITIES II RESP LIMITADA FII - CPTS11",
-    "DATA": "2025-09-10",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
@@ -35090,14 +34954,6 @@
   {
     "CODIGO": "GARE11",
     "NOME_DO_ATIVO": "GUARDIAN REAL ESTATE RESP LIMITADA FII - GARE11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "GARE11",
-    "NOME_DO_ATIVO": "GUARDIAN REAL ESTATE RESP LIMITADA FII - GARE11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -37267,14 +37123,6 @@
     "CODIGO": "GARE11",
     "NOME_DO_ATIVO": "GUARDIAN REAL ESTATE RESP LIMITADA FII - GARE11",
     "DATA": "2026-10-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HGBS11",
-    "NOME_DO_ATIVO": "HEDGE BRASIL SHOPPING RESP LIMITADA FII - HGBS11",
-    "DATA": "2025-09-10",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
@@ -39458,14 +39306,6 @@
   {
     "CODIGO": "HGLG11",
     "NOME_DO_ATIVO": "PÁTRIA LOG RESP LIMITADA FII - HGLG11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HGLG11",
-    "NOME_DO_ATIVO": "PÁTRIA LOG RESP LIMITADA FII - HGLG11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -41635,14 +41475,6 @@
     "CODIGO": "HGLG11",
     "NOME_DO_ATIVO": "PÁTRIA LOG RESP LIMITADA FII - HGLG11",
     "DATA": "2026-10-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HGRU11",
-    "NOME_DO_ATIVO": "PÁTRIA RENDA URBANA RESP LIMITADA FII - HGRU11",
-    "DATA": "2025-09-10",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
@@ -43826,14 +43658,6 @@
   {
     "CODIGO": "IRDM11",
     "NOME_DO_ATIVO": "IRIDIUM RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - IRDM11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "IRDM11",
-    "NOME_DO_ATIVO": "IRIDIUM RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - IRDM11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -44451,14 +44275,6 @@
     "CODIGO": "IRDM11",
     "NOME_DO_ATIVO": "IRIDIUM RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - IRDM11",
     "DATA": "2025-12-31",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KISU11",
-    "NOME_DO_ATIVO": "KILIMA SUNO 30 RESP LIMITADA FIC FII - KISU11",
-    "DATA": "2025-09-10",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
@@ -46642,14 +46458,6 @@
   {
     "CODIGO": "KNCR11",
     "NOME_DO_ATIVO": "KINEA RENDIMENTOS IMOBILIÁRIOS RESP LIMITADA FII - KNCR11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KNCR11",
-    "NOME_DO_ATIVO": "KINEA RENDIMENTOS IMOBILIÁRIOS RESP LIMITADA FII - KNCR11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -48819,14 +48627,6 @@
     "CODIGO": "KNCR11",
     "NOME_DO_ATIVO": "KINEA RENDIMENTOS IMOBILIÁRIOS RESP LIMITADA FII - KNCR11",
     "DATA": "2026-10-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KNHY11",
-    "NOME_DO_ATIVO": "KINEA HIGH YIELD CRI RESP LIMITADA FII - KNHY11",
-    "DATA": "2025-09-10",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
@@ -51010,14 +50810,6 @@
   {
     "CODIGO": "KNIP11",
     "NOME_DO_ATIVO": "KINEA ÍNDICES DE PREÇOS RESP LIMITADA FII - KNIP11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KNIP11",
-    "NOME_DO_ATIVO": "KINEA ÍNDICES DE PREÇOS RESP LIMITADA FII - KNIP11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -53187,14 +52979,6 @@
     "CODIGO": "KNIP11",
     "NOME_DO_ATIVO": "KINEA ÍNDICES DE PREÇOS RESP LIMITADA FII - KNIP11",
     "DATA": "2026-10-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KNRI11",
-    "NOME_DO_ATIVO": "KINEA RENDA IMOBILIÁRIA RESP LIMITADA FII - KNRI11",
-    "DATA": "2025-09-10",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
@@ -55378,14 +55162,6 @@
   {
     "CODIGO": "MXRF11",
     "NOME_DO_ATIVO": "MAXI RENDA RESP LIMITADA FII - MXRF11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "MXRF11",
-    "NOME_DO_ATIVO": "MAXI RENDA RESP LIMITADA FII - MXRF11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -57555,14 +57331,6 @@
     "CODIGO": "MXRF11",
     "NOME_DO_ATIVO": "MAXI RENDA RESP LIMITADA FII - MXRF11",
     "DATA": "2026-10-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "PVBI11",
-    "NOME_DO_ATIVO": "VBI PRIME PROPERTIES RESP LIMITADA FII - PVBI11",
-    "DATA": "2025-09-10",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
@@ -59746,14 +59514,6 @@
   {
     "CODIGO": "SNAG11",
     "NOME_DO_ATIVO": "SUNO RESP LIMITADA FIAGRO FII - SNAG11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNAG11",
-    "NOME_DO_ATIVO": "SUNO RESP LIMITADA FIAGRO FII - SNAG11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -61923,14 +61683,6 @@
     "CODIGO": "SNAG11",
     "NOME_DO_ATIVO": "SUNO RESP LIMITADA FIAGRO FII - SNAG11",
     "DATA": "2026-10-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNCI11",
-    "NOME_DO_ATIVO": "SUNO RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - SNCI11",
-    "DATA": "2025-09-10",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
@@ -64114,14 +63866,6 @@
   {
     "CODIGO": "SNEL11",
     "NOME_DO_ATIVO": "SUNO ENERGIAS LIMPAS IS RESP LIMITADA FII - SNEL11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNEL11",
-    "NOME_DO_ATIVO": "SUNO ENERGIAS LIMPAS IS RESP LIMITADA FII - SNEL11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -66291,14 +66035,6 @@
     "CODIGO": "SNEL11",
     "NOME_DO_ATIVO": "SUNO ENERGIAS LIMPAS IS RESP LIMITADA FII - SNEL11",
     "DATA": "2026-10-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNFF11",
-    "NOME_DO_ATIVO": "SUNO FUNDO DE FUNDOS RESP FII - SNFF11",
-    "DATA": "2025-09-10",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
@@ -68482,14 +68218,6 @@
   {
     "CODIGO": "SNFZ11",
     "NOME_DO_ATIVO": "SUNO FAZENDAS FIAGRO FII - SNFZ11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNFZ11",
-    "NOME_DO_ATIVO": "SUNO FAZENDAS FIAGRO FII - SNFZ11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -70666,14 +70394,6 @@
   {
     "CODIGO": "SNID11",
     "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNID11",
-    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -72850,14 +72570,6 @@
   {
     "CODIGO": "SNLG11",
     "NOME_DO_ATIVO": "SUNO LOG RESP LIMITADA FII - SNLG11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNLG11",
-    "NOME_DO_ATIVO": "SUNO LOG RESP LIMITADA FII - SNLG11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -75019,14 +74731,6 @@
     "CODIGO": "SNLG11",
     "NOME_DO_ATIVO": "SUNO LOG RESP LIMITADA FII - SNLG11",
     "DATA": "2026-10-08",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNME11",
-    "NOME_DO_ATIVO": "SUNO MULTIESTRATÉGIA RESP LIMITADA FII - SNME11",
-    "DATA": "2025-09-10",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
@@ -77210,14 +76914,6 @@
   {
     "CODIGO": "TGAR11",
     "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -79387,14 +79083,6 @@
     "CODIGO": "TGAR11",
     "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
     "DATA": "2026-10-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TRXF11",
-    "NOME_DO_ATIVO": "TRX REAL ESTATE RESP LIMITADA FII - TRXF11",
-    "DATA": "2025-09-10",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
@@ -81578,14 +81266,6 @@
   {
     "CODIGO": "VISC11",
     "NOME_DO_ATIVO": "VINCI SHOPPING CENTERS RESP LIMITADA FII - VISC11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VISC11",
-    "NOME_DO_ATIVO": "VINCI SHOPPING CENTERS RESP LIMITADA FII - VISC11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -83762,14 +83442,6 @@
   {
     "CODIGO": "XPLG11",
     "NOME_DO_ATIVO": "XP LOG RESP LIMITADA FII - XPLG11",
-    "DATA": "2025-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "XPLG11",
-    "NOME_DO_ATIVO": "XP LOG RESP LIMITADA FII - XPLG11",
     "DATA": "2025-09-11",
     "COTA": null,
     "PL": null,
@@ -85939,14 +85611,6 @@
     "CODIGO": "XPLG11",
     "NOME_DO_ATIVO": "XP LOG RESP LIMITADA FII - XPLG11",
     "DATA": "2026-10-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "XPML11",
-    "NOME_DO_ATIVO": "XP MALLS FII - XPML11",
-    "DATA": "2025-09-10",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
