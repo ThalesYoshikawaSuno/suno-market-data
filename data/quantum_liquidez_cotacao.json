@@ -522,6 +522,24 @@
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
+    "CODIGO": "SNID11",
+    "CNPJ": "",
+    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
+    "DATA": "2026-10-23",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "682195",
+    "CNPJ": "41673174000100",
+    "NOME_DO_ATIVO": "SUNO SMALL CAPS FIF CIC AÇÕES",
+    "DATA": "2026-06-30",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "LIQUIDO"
+  },
+  {
     "CODIGO": "924571502",
     "CNPJ": "51764889000114",
     "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SÊNIOR 1",
@@ -538,23 +556,5 @@
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "682195",
-    "CNPJ": "41673174000100",
-    "NOME_DO_ATIVO": "SUNO SMALL CAPS FIF CIC AÇÕES",
-    "DATA": "2026-06-30",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "SNID11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
-    "DATA": "2026-10-23",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
   }
 ]
