@@ -2,14 +2,6 @@
   {
     "CODIGO": "10431",
     "NOME_DO_ATIVO": "DYNAMO COUGAR FIF",
-    "DATA": "2025-09-30",
-    "COTA": 1643.879016,
-    "PL": 5534801955.72,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "10431",
-    "NOME_DO_ATIVO": "DYNAMO COUGAR FIF",
     "DATA": "2025-10-01",
     "COTA": 1636.132932,
     "PL": 5505944645.89,
@@ -2173,14 +2165,6 @@
     "DATA": "2026-10-29",
     "COTA": 1830.1844334,
     "PL": 5242286876.9,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "218748804",
-    "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SUBORDINADA MEZANINO 1 - CAFE11",
-    "DATA": "2025-09-30",
-    "COTA": 101.455502,
-    "PL": 10145550.24,
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
@@ -4354,14 +4338,6 @@
   {
     "CODIGO": "358327221",
     "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SUBORDINADA JÚNIOR 1",
-    "DATA": "2025-09-30",
-    "COTA": 94.461891,
-    "PL": 9446189.1,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "358327221",
-    "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SUBORDINADA JÚNIOR 1",
     "DATA": "2025-10-01",
     "COTA": 94.411033,
     "PL": 9441103.3,
@@ -6525,14 +6501,6 @@
     "DATA": "2026-10-29",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "600490",
-    "NOME_DO_ATIVO": "SUNO ZERO FIF CIC AÇÕES",
-    "DATA": "2025-09-30",
-    "COTA": 1.303473,
-    "PL": 12949967.85,
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
@@ -8702,14 +8670,6 @@
     "COTA": 1.3211256,
     "PL": 9350000.6,
     "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "633003",
-    "NOME_DO_ATIVO": "KINEA RESP LIMITADA FIF CIC FI INFRA RENDA FIXA CRÉDITO PRIVADO - KDIF11",
-    "DATA": "2025-09-30",
-    "COTA": 126.084002,
-    "PL": 2560264190.34,
-    "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
     "CODIGO": "633003",
@@ -10890,14 +10850,6 @@
   {
     "CODIGO": "657344",
     "NOME_DO_ATIVO": "SUNO FIF CIC AÇÕES",
-    "DATA": "2025-09-30",
-    "COTA": 1.449734,
-    "PL": 29255244.07,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "657344",
-    "NOME_DO_ATIVO": "SUNO FIF CIC AÇÕES",
     "DATA": "2025-10-01",
     "COTA": 1.455498,
     "PL": 29326043.63,
@@ -13061,14 +13013,6 @@
     "DATA": "2026-10-29",
     "COTA": 1.4448437,
     "PL": 21334799.42,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "681830",
-    "NOME_DO_ATIVO": "SUNO MASTER FIFE PREVIDÊNCIA FIF MULTIMERCADO",
-    "DATA": "2025-09-30",
-    "COTA": 1.427172,
-    "PL": 17751215.25,
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
@@ -15242,14 +15186,6 @@
   {
     "CODIGO": "681946",
     "NOME_DO_ATIVO": "SUNO AÇÕES XP SEG PREV RESP LIMITADA FIC MULTIMERCADO",
-    "DATA": "2025-09-30",
-    "COTA": 1.326535,
-    "PL": 17953203.71,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "681946",
-    "NOME_DO_ATIVO": "SUNO AÇÕES XP SEG PREV RESP LIMITADA FIC MULTIMERCADO",
     "DATA": "2025-10-01",
     "COTA": 1.328914,
     "PL": 18002393.76,
@@ -17413,14 +17349,6 @@
     "DATA": "2026-10-29",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "682063",
-    "NOME_DO_ATIVO": "SUNO XP FIE PREVIDÊNCIA RESP LIMITADA FIC MULTIMERCADO LP",
-    "DATA": "2025-09-30",
-    "COTA": 1.322436,
-    "PL": 17904559.97,
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
@@ -19594,14 +19522,6 @@
   {
     "CODIGO": "682195",
     "NOME_DO_ATIVO": "SUNO SMALL CAPS FIF CIC AÇÕES",
-    "DATA": "2025-09-30",
-    "COTA": 1.17346,
-    "PL": 1242474.15,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "682195",
-    "NOME_DO_ATIVO": "SUNO SMALL CAPS FIF CIC AÇÕES",
     "DATA": "2025-10-01",
     "COTA": 1.176872,
     "PL": 1246087.39,
@@ -21085,14 +21005,6 @@
     "DATA": "2026-06-30",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "682756",
-    "NOME_DO_ATIVO": "SUNO GLOBAL EQUITIES MASTER FIF AÇÕES",
-    "DATA": "2025-09-30",
-    "COTA": 1.950406,
-    "PL": 2194393.41,
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
@@ -23266,14 +23178,6 @@
   {
     "CODIGO": "683566",
     "NOME_DO_ATIVO": "SUNO GLOBAL EQUITIES FIF CIC AÇÕES",
-    "DATA": "2025-09-30",
-    "COTA": 1.913727,
-    "PL": 2230720.28,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "683566",
-    "NOME_DO_ATIVO": "SUNO GLOBAL EQUITIES FIF CIC AÇÕES",
     "DATA": "2025-10-01",
     "COTA": 1.899656,
     "PL": 2189261.92,
@@ -25438,14 +25342,6 @@
     "COTA": 1.9878241,
     "PL": 1744339.5,
     "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "686557",
-    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES MASTER I FIF FI INFRA RENDA FIXA",
-    "DATA": "2025-09-30",
-    "COTA": 151.751656,
-    "PL": 34430301.01,
-    "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
     "CODIGO": "686557",
@@ -27621,14 +27517,6 @@
     "DATA": "2026-10-30",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "686867",
-    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIF CIC FI INFRA RENDA FIXA - SNID11",
-    "DATA": "2025-09-30",
-    "COTA": 10.431973,
-    "PL": 75150261.31,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -29810,14 +29698,6 @@
   {
     "CODIGO": "692395",
     "NOME_DO_ATIVO": "SPARTA INFRA CDI FIF CIC FI INFRA RENDA FIXA - CDII11",
-    "DATA": "2025-09-30",
-    "COTA": 105.340638,
-    "PL": 1410191230.3,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "692395",
-    "NOME_DO_ATIVO": "SPARTA INFRA CDI FIF CIC FI INFRA RENDA FIXA - CDII11",
     "DATA": "2025-10-01",
     "COTA": 105.519471,
     "PL": 1412585257.09,
@@ -31994,14 +31874,6 @@
   {
     "CODIGO": "924571502",
     "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SÊNIOR 1",
-    "DATA": "2025-09-30",
-    "COTA": 0.998306,
-    "PL": 99830.65,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "924571502",
-    "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SÊNIOR 1",
     "DATA": "2025-10-01",
     "COTA": 0.999012,
     "PL": 99901.23,
@@ -32678,14 +32550,6 @@
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
-    "CODIGO": "BTLG11",
-    "NOME_DO_ATIVO": "BTG PACTUAL LOGÍSTICA RESP LIMITADA FII - BTLG11",
-    "DATA": "2025-09-30",
-    "COTA": 103.334017,
-    "PL": 4596808986.83,
-    "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
     "CODIGO": "BTLG11",
@@ -34861,14 +34725,6 @@
     "DATA": "2026-10-30",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "CPTS11",
-    "NOME_DO_ATIVO": "CAPITÂNIA SECURITIES II RESP LIMITADA FII - CPTS11",
-    "DATA": "2025-09-30",
-    "COTA": 8.890213,
-    "PL": 2920953421.52,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -37050,14 +36906,6 @@
   {
     "CODIGO": "HGBS11",
     "NOME_DO_ATIVO": "HEDGE BRASIL SHOPPING RESP LIMITADA FII - HGBS11",
-    "DATA": "2025-09-30",
-    "COTA": 21.759069,
-    "PL": 2809814014.57,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HGBS11",
-    "NOME_DO_ATIVO": "HEDGE BRASIL SHOPPING RESP LIMITADA FII - HGBS11",
     "DATA": "2025-10-01",
     "COTA": null,
     "PL": null,
@@ -39229,14 +39077,6 @@
     "DATA": "2026-10-30",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HGLG11",
-    "NOME_DO_ATIVO": "PÁTRIA LOG RESP LIMITADA FII - HGLG11",
-    "DATA": "2025-09-30",
-    "COTA": 162.498293,
-    "PL": 5490423267.35,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -41418,14 +41258,6 @@
   {
     "CODIGO": "HGRU11",
     "NOME_DO_ATIVO": "PÁTRIA RENDA URBANA RESP LIMITADA FII - HGRU11",
-    "DATA": "2025-09-30",
-    "COTA": 128.16467,
-    "PL": 2978293688.7,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "HGRU11",
-    "NOME_DO_ATIVO": "PÁTRIA RENDA URBANA RESP LIMITADA FII - HGRU11",
     "DATA": "2025-10-01",
     "COTA": null,
     "PL": null,
@@ -43602,14 +43434,6 @@
   {
     "CODIGO": "IRDM11",
     "NOME_DO_ATIVO": "IRIDIUM RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - IRDM11",
-    "DATA": "2025-09-30",
-    "COTA": 78.962975,
-    "PL": 2972355816.63,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "IRDM11",
-    "NOME_DO_ATIVO": "IRIDIUM RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - IRDM11",
     "DATA": "2025-10-01",
     "COTA": null,
     "PL": null,
@@ -44120,11 +43944,2179 @@
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
-    "CODIGO": "KISU11",
-    "NOME_DO_ATIVO": "KILIMA SUNO 30 RESP LIMITADA FIC FII - KISU11",
-    "DATA": "2025-09-30",
-    "COTA": 8.166138,
-    "PL": 360911025.15,
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-01",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-02",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-03",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-06",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-07",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-08",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-09",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-10",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-13",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-14",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-15",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-16",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-17",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-20",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-22",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-23",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-24",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-27",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-28",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-29",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-30",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-10-31",
+    "COTA": 83.394608,
+    "PL": 160117646.5,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-03",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-04",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-05",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-06",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-07",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-10",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-11",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-12",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-13",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-14",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-17",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-18",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-19",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-24",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-25",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-26",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-27",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-11-28",
+    "COTA": 84.095282,
+    "PL": 2962321736.41,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-01",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-02",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-03",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-04",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-05",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-08",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-09",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-10",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-11",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-12",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-15",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-16",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-17",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-18",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-19",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-22",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-23",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-24",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-26",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-29",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-30",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2025-12-31",
+    "COTA": 84.136042,
+    "PL": 2963771750.16,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-02",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-05",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-06",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-07",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-08",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-09",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-12",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-13",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-14",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-15",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-16",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-19",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-20",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-22",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-23",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-26",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-27",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-28",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-29",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-01-30",
+    "COTA": 83.800606,
+    "PL": 2951955702.71,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-02",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-03",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-04",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-05",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-06",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-09",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-10",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-11",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-12",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-13",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-18",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-19",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-20",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-23",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-24",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-25",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-26",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-02-27",
+    "COTA": 84.125491,
+    "PL": 2963400089.25,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-02",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-03",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-04",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-05",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-06",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-09",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-10",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-11",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-12",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-13",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-16",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-17",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-18",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-19",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-20",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-23",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-24",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-25",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-26",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-27",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-30",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-03-31",
+    "COTA": 83.478488,
+    "PL": 2940608782.92,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-01",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-02",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-06",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-07",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-08",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-09",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-10",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-13",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-14",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-15",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-16",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-17",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-20",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-22",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-23",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-24",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-27",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-28",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-29",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-04-30",
+    "COTA": 84.382659,
+    "PL": 2972459084.02,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-04",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-05",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-06",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-07",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-08",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-11",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-12",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-13",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-14",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-15",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-18",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-19",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-20",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-22",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-25",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-26",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-27",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-28",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-05-29",
+    "COTA": 83.832307,
+    "PL": 2953072420.0,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-01",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-02",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-03",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-05",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-08",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-09",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-10",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-11",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-12",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-15",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-16",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-17",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-18",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-19",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-22",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-23",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-24",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-25",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-26",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-29",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-06-30",
+    "COTA": 82.683388,
+    "PL": 2912600651.72,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-01",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-02",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-03",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-06",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-07",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-08",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-09",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-10",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-13",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-14",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-15",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-16",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-17",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-20",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-22",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-23",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-24",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-27",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-28",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-29",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-30",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-07-31",
+    "COTA": 82.293253,
+    "PL": 2898857779.94,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-03",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-04",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-05",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-06",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-07",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-10",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-11",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-12",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-13",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-14",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-17",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-18",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-19",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-20",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-24",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-25",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-26",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-27",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-28",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-08-31",
+    "COTA": 81.911278,
+    "PL": 2885402342.71,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-01",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-02",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-03",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-04",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-08",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-09",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-10",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-11",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-14",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-15",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-16",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-17",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-18",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-22",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-23",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-24",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-25",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-28",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-29",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-09-30",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-01",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-02",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-05",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-06",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-07",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-08",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-09",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-13",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-14",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-15",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-16",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-19",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-20",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-21",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-22",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-23",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-26",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-27",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-28",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-29",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
+  },
+  {
+    "CODIGO": "IRIM11",
+    "NOME_DO_ATIVO": "IRIDIUM RESP LIMITADA FII - IRIM11",
+    "DATA": "2026-10-30",
+    "COTA": null,
+    "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -46229,14 +48221,6 @@
     "DATA": "2026-10-19",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KNCR11",
-    "NOME_DO_ATIVO": "KINEA RENDIMENTOS IMOBILIÁRIOS RESP LIMITADA FII - KNCR11",
-    "DATA": "2025-09-30",
-    "COTA": 101.970823,
-    "PL": 7801759494.62,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -48418,14 +50402,6 @@
   {
     "CODIGO": "KNHY11",
     "NOME_DO_ATIVO": "KINEA HIGH YIELD CRI RESP LIMITADA FII - KNHY11",
-    "DATA": "2025-09-30",
-    "COTA": 98.098014,
-    "PL": 3038831120.34,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KNHY11",
-    "NOME_DO_ATIVO": "KINEA HIGH YIELD CRI RESP LIMITADA FII - KNHY11",
     "DATA": "2025-10-01",
     "COTA": null,
     "PL": null,
@@ -50597,14 +52573,6 @@
     "DATA": "2026-10-30",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KNIP11",
-    "NOME_DO_ATIVO": "KINEA ÍNDICES DE PREÇOS RESP LIMITADA FII - KNIP11",
-    "DATA": "2025-09-30",
-    "COTA": 91.242445,
-    "PL": 7306529480.65,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -52786,14 +54754,6 @@
   {
     "CODIGO": "KNRI11",
     "NOME_DO_ATIVO": "KINEA RENDA IMOBILIÁRIA RESP LIMITADA FII - KNRI11",
-    "DATA": "2025-09-30",
-    "COTA": 163.312955,
-    "PL": 4606086252.04,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "KNRI11",
-    "NOME_DO_ATIVO": "KINEA RENDA IMOBILIÁRIA RESP LIMITADA FII - KNRI11",
     "DATA": "2025-10-01",
     "COTA": null,
     "PL": null,
@@ -54965,14 +56925,6 @@
     "DATA": "2026-10-30",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "MXRF11",
-    "NOME_DO_ATIVO": "MAXI RENDA RESP LIMITADA FII - MXRF11",
-    "DATA": "2025-09-30",
-    "COTA": 9.414081,
-    "PL": 4117015862.52,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -57154,14 +59106,6 @@
   {
     "CODIGO": "PVBI11",
     "NOME_DO_ATIVO": "VBI PRIME PROPERTIES RESP LIMITADA FII - PVBI11",
-    "DATA": "2025-09-30",
-    "COTA": 107.784393,
-    "PL": 2924197797.83,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "PVBI11",
-    "NOME_DO_ATIVO": "VBI PRIME PROPERTIES RESP LIMITADA FII - PVBI11",
     "DATA": "2025-10-01",
     "COTA": null,
     "PL": null,
@@ -59331,14 +61275,6 @@
     "CODIGO": "PVBI11",
     "NOME_DO_ATIVO": "VBI PRIME PROPERTIES RESP LIMITADA FII - PVBI11",
     "DATA": "2026-10-30",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNAG11",
-    "NOME_DO_ATIVO": "SUNO RESP LIMITADA FIAGRO FII - SNAG11",
-    "DATA": "2025-09-30",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
@@ -61522,14 +63458,6 @@
   {
     "CODIGO": "SNCI11",
     "NOME_DO_ATIVO": "SUNO RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - SNCI11",
-    "DATA": "2025-09-30",
-    "COTA": 97.026844,
-    "PL": 407512746.72,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNCI11",
-    "NOME_DO_ATIVO": "SUNO RECEBÍVEIS IMOBILIÁRIOS RESP LIMITADA FII - SNCI11",
     "DATA": "2025-10-01",
     "COTA": null,
     "PL": null,
@@ -63701,14 +65629,6 @@
     "DATA": "2026-10-30",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNEL11",
-    "NOME_DO_ATIVO": "SUNO ENERGIAS LIMPAS IS RESP LIMITADA FII - SNEL11",
-    "DATA": "2025-09-30",
-    "COTA": 8.125525,
-    "PL": 325779875.44,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -65890,14 +67810,6 @@
   {
     "CODIGO": "SNFF11",
     "NOME_DO_ATIVO": "SUNO FUNDO DE FUNDOS RESP FII - SNFF11",
-    "DATA": "2025-09-30",
-    "COTA": 85.328428,
-    "PL": 343074465.47,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNFF11",
-    "NOME_DO_ATIVO": "SUNO FUNDO DE FUNDOS RESP FII - SNFF11",
     "DATA": "2025-10-01",
     "COTA": null,
     "PL": null,
@@ -67995,14 +69907,6 @@
     "CODIGO": "SNFF11",
     "NOME_DO_ATIVO": "SUNO FUNDO DE FUNDOS RESP FII - SNFF11",
     "DATA": "2026-10-19",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNFZ11",
-    "NOME_DO_ATIVO": "SUNO FAZENDAS RESP LIMITADA FIAGRO - SNFZ11",
-    "DATA": "2025-09-30",
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "ESTRUTURADO"
@@ -70186,14 +72090,6 @@
   {
     "CODIGO": "SNID11",
     "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
-    "DATA": "2025-09-30",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNID11",
-    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
     "DATA": "2025-10-01",
     "COTA": null,
     "PL": null,
@@ -72370,14 +74266,6 @@
   {
     "CODIGO": "SNLG11",
     "NOME_DO_ATIVO": "SUNO LOG RESP LIMITADA FII - SNLG11",
-    "DATA": "2025-09-30",
-    "COTA": 0.469364,
-    "PL": 1187475.18,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNLG11",
-    "NOME_DO_ATIVO": "SUNO LOG RESP LIMITADA FII - SNLG11",
     "DATA": "2025-10-01",
     "COTA": null,
     "PL": null,
@@ -74493,14 +76381,6 @@
     "DATA": "2026-10-30",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "SNME11",
-    "NOME_DO_ATIVO": "SUNO MULTIESTRATÉGIA RESP LIMITADA FII - SNME11",
-    "DATA": "2025-09-30",
-    "COTA": 9.637272,
-    "PL": 71491626.41,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -76677,2198 +78557,6 @@
     "DATA": "2026-10-30",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-09-30",
-    "COTA": 108.844749,
-    "PL": 2565249593.0,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-01",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-02",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-03",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-06",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-07",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-08",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-13",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-14",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-15",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-16",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-17",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-20",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-21",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-22",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-23",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-24",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-27",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-28",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-29",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-30",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-10-31",
-    "COTA": 108.352169,
-    "PL": 2553640494.58,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-03",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-04",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-05",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-06",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-07",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-11",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-12",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-13",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-14",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-17",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-19",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-21",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-24",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-26",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-27",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-11-28",
-    "COTA": 107.50338,
-    "PL": 2533636267.24,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-01",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-02",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-03",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-04",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-05",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-08",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-11",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-12",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-15",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-16",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-17",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-19",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-22",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-23",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-24",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-26",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-29",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-30",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2025-12-31",
-    "COTA": 113.462719,
-    "PL": 2674085772.83,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-02",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-05",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-06",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-07",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-08",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-12",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-13",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-14",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-15",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-16",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-19",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-20",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-21",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-22",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-23",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-26",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-27",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-28",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-29",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-01-30",
-    "COTA": 113.054013,
-    "PL": 2664453393.19,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-02",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-03",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-04",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-05",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-06",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-11",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-12",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-13",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-19",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-20",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-23",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-24",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-26",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-02-27",
-    "COTA": 110.158153,
-    "PL": 2596203865.78,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-02",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-03",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-04",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-05",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-06",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-11",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-12",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-13",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-16",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-17",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-19",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-20",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-23",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-24",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-26",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-27",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-30",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-03-31",
-    "COTA": 110.541918,
-    "PL": 2605248432.44,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-01",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-02",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-06",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-07",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-08",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-13",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-14",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-15",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-16",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-17",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-20",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-22",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-23",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-24",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-27",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-28",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-29",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-04-30",
-    "COTA": 109.706934,
-    "PL": 2585569548.55,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-04",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-05",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-06",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-07",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-08",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-11",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-12",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-13",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-14",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-15",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-19",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-20",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-21",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-22",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-26",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-27",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-28",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-05-29",
-    "COTA": 108.79302,
-    "PL": 2564030458.11,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-01",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-02",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-03",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-05",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-08",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-11",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-12",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-15",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-16",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-17",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-19",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-22",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-23",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-24",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-26",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-29",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-06-30",
-    "COTA": 108.032985,
-    "PL": 2546117967.96,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-01",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-02",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-03",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-06",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-07",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-08",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-13",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-14",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-15",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-16",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-17",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-20",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-21",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-22",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-23",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-24",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-27",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-28",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-29",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-30",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-07-31",
-    "COTA": 107.235745,
-    "PL": 2527328643.75,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-03",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-04",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-05",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-06",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-07",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-11",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-12",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-13",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-14",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-17",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-19",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-20",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-21",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-24",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-26",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-27",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-28",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-08-31",
-    "COTA": 106.636359,
-    "PL": 2513202336.34,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-01",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-02",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-03",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-04",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-08",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-10",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-11",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-14",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-15",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-16",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-17",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-18",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-21",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-22",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-23",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-24",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-25",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-28",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-29",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-09-30",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-01",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-02",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-05",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-06",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-07",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-08",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-09",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-13",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-14",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-15",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-16",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-19",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-20",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-21",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-22",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-23",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-26",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-27",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-28",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-29",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TGAR11",
-    "NOME_DO_ATIVO": "TG ATIVO REAL RESP LIMITADA FII - TGAR11",
-    "DATA": "2026-10-30",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "TRXF11",
-    "NOME_DO_ATIVO": "TRX REAL ESTATE RESP LIMITADA FII - TRXF11",
-    "DATA": "2025-09-30",
-    "COTA": 101.554022,
-    "PL": 3299823689.429999,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -81050,14 +80738,6 @@
   {
     "CODIGO": "VISC11",
     "NOME_DO_ATIVO": "VINCI SHOPPING CENTERS RESP LIMITADA FII - VISC11",
-    "DATA": "2025-09-30",
-    "COTA": 123.227453,
-    "PL": 3552479893.32,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "VISC11",
-    "NOME_DO_ATIVO": "VINCI SHOPPING CENTERS RESP LIMITADA FII - VISC11",
     "DATA": "2025-10-01",
     "COTA": null,
     "PL": null,
@@ -83234,14 +82914,6 @@
   {
     "CODIGO": "XPLG11",
     "NOME_DO_ATIVO": "XP LOG RESP LIMITADA FII - XPLG11",
-    "DATA": "2025-09-30",
-    "COTA": 106.068176,
-    "PL": 3306774149.11,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "XPLG11",
-    "NOME_DO_ATIVO": "XP LOG RESP LIMITADA FII - XPLG11",
     "DATA": "2025-10-01",
     "COTA": null,
     "PL": null,
@@ -85413,14 +85085,6 @@
     "DATA": "2026-10-30",
     "COTA": null,
     "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "XPML11",
-    "NOME_DO_ATIVO": "XP MALLS FII - XPML11",
-    "DATA": "2025-09-30",
-    "COTA": 108.727591,
-    "PL": 6167114513.03,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
