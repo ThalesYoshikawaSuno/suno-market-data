@@ -318,9 +318,9 @@
     "CODIGO": "627127",
     "CNPJ": "42730834000100",
     "NOME_DO_ATIVO": "SPARTA INFRA FIC INFRA RENDA FIXA - JURO11",
-    "DATA": "2026-11-04",
-    "COTA": 100.2420323,
-    "PL": 2062146710.05,
+    "DATA": "2026-11-05",
+    "COTA": 99.957352,
+    "PL": 2056290366.68,
     "TIPO_FUNDO": "ESTRUTURADO"
   },
   {
@@ -513,24 +513,6 @@
     "TIPO_FUNDO": "LIQUIDO"
   },
   {
-    "CODIGO": "SNID11",
-    "CNPJ": "",
-    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
-    "DATA": "2026-11-06",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "ESTRUTURADO"
-  },
-  {
-    "CODIGO": "924571502",
-    "CNPJ": "51764889000114",
-    "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SÊNIOR 1",
-    "DATA": "2026-01-30",
-    "COTA": null,
-    "PL": null,
-    "TIPO_FUNDO": "LIQUIDO"
-  },
-  {
     "CODIGO": "358327221",
     "CNPJ": "51764889000114",
     "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SUBORDINADA JÚNIOR 1",
@@ -556,5 +538,23 @@
     "COTA": null,
     "PL": null,
     "TIPO_FUNDO": "LIQUIDO"
+  },
+  {
+    "CODIGO": "924571502",
+    "CNPJ": "51764889000114",
+    "NOME_DO_ATIVO": "BIGTRADE SUNO RESP LIMITADA FIDC SÊNIOR 1",
+    "DATA": "2026-01-30",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "LIQUIDO"
+  },
+  {
+    "CODIGO": "SNID11",
+    "CNPJ": "",
+    "NOME_DO_ATIVO": "SUNO INFRA DEBÊNTURES FIC INFRA RENDA FIXA - SNID11",
+    "DATA": "2026-11-06",
+    "COTA": null,
+    "PL": null,
+    "TIPO_FUNDO": "ESTRUTURADO"
   }
 ]
