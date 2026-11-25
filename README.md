@@ -25,6 +25,8 @@ data/
   meta.json                  ← status e última atualização de cada dataset
   trafego_portais.json
   trafego_noticias.json
+  trafego_portais_mensal.json   ← SimilarWeb mensal (DAG similarweb_portais_mensal), usado pelo v2
+  trafego_noticias_mensal.json
   anbima_pl.json
   anbima_cap.json
   google_trends.json

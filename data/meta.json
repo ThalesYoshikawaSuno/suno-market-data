@@ -290,6 +290,16 @@
       "status": "ok",
       "obs": "Preço, dividendos, PL, volume — 7 FIIs Suno",
       "ultima_atualizacao_br": "24/11/2026 16:57"
+    },
+    "trafego_portais_mensal": {
+      "label": "Portais Financeiros (mensal)",
+      "frequencia": "mensal",
+      "tabela": "TB_MS_PORTAIS_SIMILARWEB_MENSAL (portais)"
+    },
+    "trafego_noticias_mensal": {
+      "label": "Suno Portais (FII) (mensal)",
+      "frequencia": "mensal",
+      "tabela": "TB_MS_PORTAIS_SIMILARWEB_MENSAL (noticias)"
     }
   }
 }

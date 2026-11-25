@@ -103,6 +103,40 @@ def fetch_noticias():
     rows = run_query("SELECT TO_CHAR(DT_REFERENCIA,'YYYY-MM-DD') AS DT_REFERENCIA, ANO, SEMANA, ANO_SEMANA, EMPRESA, VISITAS, SHARE FROM RAW_MARKETING.MARKET_SHARE.TB_TRAFEGO_SITES_NOTICIAS WHERE CATEGORIA='noticias' ORDER BY DT_REFERENCIA, EMPRESA")
     save("trafego_noticias.json", rows); update_meta("trafego_noticias")
 
+# Tráfego mensal (SimilarWeb pela DAG similarweb_portais_mensal do Airflow, dia 1 de cada mês).
+# Substitui a visão semanal (TB_TRAFEGO_SITES_NOTICIAS, sem carga desde 09/06/2026), que continua sendo exportada para o dashboard v1.
+# Nome do site na tabela mensal -> nome usado pelos dashboards. Cada categoria lista os sites que ela mostra.
+SITES_MENSAL = {
+    "Suno": "Suno", "FIIs.com": "FIIs", "Funds Explorer": "Funds Explorer", "Status Invest": "Status Invest",
+    "InfoMoney": "Infomoney", "Investidor10": "Investidor10", "MoneyTimes": "MoneyTimes", "ClubeFII": "ClubeFII",
+    "Brazil Journal": "BrazilJournal", "E-Investidor": "E-investidor", "Valor Investe": "Valor Investe", "Investing BR": "BR Investing",
+}
+CATEGORIAS_MENSAL = {
+    "portais":  ["Suno", "FIIs", "Funds Explorer", "Status Invest", "Infomoney", "MoneyTimes", "BrazilJournal", "E-investidor", "Valor Investe", "BR Investing"],
+    "noticias": ["ClubeFII", "FIIs", "Funds Explorer", "Investidor10", "Status Invest"],
+}
+
+def _trafego_mensal(categoria):
+    rows = run_query("SELECT TO_CHAR(DT_REFERENCIA,'YYYY-MM-DD') AS DT_REFERENCIA, YEAR(DT_REFERENCIA) AS ANO, MONTH(DT_REFERENCIA) AS MES, SITE, VISITAS "
+                     "FROM RAW_MARKETING.MARKET_SHARE.TB_MS_PORTAIS_SIMILARWEB_MENSAL ORDER BY DT_REFERENCIA, SITE")
+    permitidas = set(CATEGORIAS_MENSAL[categoria])
+    out = []
+    for r in rows:
+        empresa = SITES_MENSAL.get(r["SITE"])
+        if empresa in permitidas:
+            out.append({"DT_REFERENCIA": r["DT_REFERENCIA"], "ANO": r["ANO"], "MES": r["MES"], "EMPRESA": empresa, "VISITAS": r["VISITAS"]})
+    return out
+
+@dataset("portais_mensal")
+def fetch_portais_mensal():
+    print("📡 Portais Financeiros (mensal)...")
+    save("trafego_portais_mensal.json", _trafego_mensal("portais")); update_meta("trafego_portais_mensal")
+
+@dataset("noticias_mensal")
+def fetch_noticias_mensal():
+    print("🏢 Suno Portais (mensal)...")
+    save("trafego_noticias_mensal.json", _trafego_mensal("noticias")); update_meta("trafego_noticias_mensal")
+
 # ── ANBIMA ─────────────────────────────────────────────────────────────────
 @dataset("anbima_pl")
 def fetch_anbima_pl():
